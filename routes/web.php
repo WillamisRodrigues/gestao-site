@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/home', ['uses' => 'homeController@index', 'as' => 'site']);
+Route::get('/lista_banner', ['uses' => 'ConteudoController@listaBanners', 'as' => 'banner']);
+Route::get('/editar_lead_aluno/{id}/edit', 'ConteudoController@edit_banner')->name('user-edit');
 Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
 Route::get('/banner', ['uses' => 'ConteudoController@banner', 'as' => 'banner']);
 Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia']);

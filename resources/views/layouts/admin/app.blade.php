@@ -18,6 +18,9 @@
     
     
     <script src="{{asset('admin/assets/libs/jquery/dist/jquery.min-1.js')}}"></script>
+    <script src="{{asset('admin/assets/js/main.js')}}"></script>
+    <script src="{{asset('admin/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('admin/dist/js/pages/datatable/datatable-basic.init.js')}}"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="{{asset('admin/assets/libs/popper.js/dist/umd/popper.min-1.js')}}"></script>
     <script src="{{asset('admin/assets/libs/bootstrap/dist/js/bootstrap.min-1.js')}}"></script>

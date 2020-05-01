@@ -7,13 +7,48 @@
             <div class="lds-pos"></div>
         </div>
     </div>
+    <div class="card col-md-4" id="painel-banner" style="position:absolute; top:0px; right:0px; z-index:1000; height:100vh;">
+        <div class="card-body collapse show">
+            <h4 class="card-title">Editar Webinar </h4>
+            <p class="card-subtitle">Utilize as opções para editar os banners.</p>
+            <form class="mt-4">
+                <div class="form-group">
+                    <label class="mr-sm-2">Titulo:</label>
+                    <input type="text" class="form-control" placeholder="Titulo Banner">
+                </div>
+                <div class="input-group">
+                    <label class="mr-sm-2">Miniatura Webinar:</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile04">
+                        <label class="custom-file-label" for="inputGroupFile04">C:\pasta\arquivo.jpeg</label>
+                    </div>
+                </div>
+                <div class="form-group mt-4">
+                    <label class="mr-sm-2">ID Youtube:</label>
+                    <input type="text" class="form-control" placeholder="ID do video">
+                </div>
+                <div class="form-group">
+                <label class="mr-sm-2">Descrição do Webinar:</label>
+                    <textarea class="form-control" rows="3" placeholder="Descrição..."></textarea>
+                </div>
+                <div class="form-group mt-4">
+                     <label class="mr-sm-2">Status do Webinar:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option value="0">Ativo</option>
+                        <option value="1">Inativo</option>
+                    </select>
+                </div>
+                <div class="form-group mt-4">
+                     <button type="submit" class="btn btn-success"> Salvar </button>
+                     <button type="reset" class="btn btn-danger fechar"> Cancelar </button>
+                </div>
+            </form>
+        </div>
+    </div>
     <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
         @include('layouts.admin.header')
         @include('layouts.admin.menus.aside')
         <div class="page-wrapper">
-            <!-- ============================================================== -->
-            <!-- Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-7 align-self-center">

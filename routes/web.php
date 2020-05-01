@@ -12,9 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('/auth/login');
+    return view('home.index');
 });
 
+Route::get('/home', ['uses' => 'HomeSiteController@index', 'as' => 'home']);
+Route::get('/gestao', ['uses' => 'HomeController@adm', 'as' => 'adm']);
 Route::get('/banner', ['uses' => 'HomeController@banner', 'as' => 'banner']);
 Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia']);
 Route::get('/webinar', ['uses' => 'ConteudoController@webinar', 'as' => 'webinar']);

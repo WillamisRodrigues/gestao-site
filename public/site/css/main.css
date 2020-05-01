@@ -1,0 +1,97 @@
+.quem-somos{
+    padding-top: 100px;
+}
+
+.noticias{
+    background-color: #848484;
+    padding: 100px 0px;
+}
+
+.banners{
+    margin-top: 80px!important;
+}
+
+.webinar{
+    padding: 100px 0px;
+    background-color: #ff6f0d;
+}
+
+.item-webinar{
+    margin-top: 60px;
+}
+
+.data{
+    background-color: #de1754;
+}
+
+.bg-data{
+    background-color: #fff;
+}
+
+.mapa{
+    width: 50%;
+    right: 10%;
+    position: absolute;
+}
+
+.conteudo-ivm{
+    margin-top:220px;
+}
+
+.conteudo-ivm{
+    background-color: #de5d57;
+    width: 50%;
+    margin:188px auto;
+    color: #fff;
+    padding: 20px;
+}
+
+.indice{
+    padding-top: 100px;
+}
+
+.municipios{
+    background-color: #0000be;
+}
+
+.contra-corona{
+ margin-top: 100px;
+}
+
+.juntos{
+ margin-top: 100px;
+}
+
+.empresa{
+    width: 80%;
+}
+
+.top-40{
+    margin-top: 40px;
+}
+
+.top-30{
+    margin-top: 30px;
+}
+
+.top-60{
+    margin-top: 100px!important;
+}
+
+.logo-v2{
+    width: 60%;
+    margin-top: -30px;
+}
+
+.material{
+    padding-top: 100px;
+    background-color: #b4dc31;
+}
+
+.contato{
+    margin-top: 100px;
+}
+
+.msg-contato{
+    height: 250px!important;
+}

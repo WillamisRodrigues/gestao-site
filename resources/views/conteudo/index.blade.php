@@ -1,5 +1,5 @@
 @extends('layouts.admin.app')
-@section('Conteudos','Noticias Site')
+@section('titulo','Materiais para Download')
 @section('conteudo')
     <div class="preloader">
         <div class="lds-ripple">
@@ -17,12 +17,12 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-7 align-self-center">
-                        <h4 class="page-title text-truncate text-dark font-weight-medium mb-1">Basic Table</h4>
+                        <h4 class="page-title text-truncate text-dark font-weight-medium mb-1">Alterar Materiais</h4>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb m-0 p-0">
-                                    <li class="breadcrumb-item"><a href="index.html" class="text-muted">Home</a></li>
-                                    <li class="breadcrumb-item text-muted active" aria-current="page">Library</li>
+                                    <li class="breadcrumb-item"><a href="{{route('banner')}}" class="text-muted">Home</a></li>
+                                    <li class="breadcrumb-item text-muted active" aria-current="page">materiais para Download</li>
                                 </ol>
                             </nav>
                         </div>
@@ -40,6 +40,9 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
+                <button type="button" class="btn btn-primary btn-rounded mb-4 ml-4">
+                    <i data-feather="download" class="feather-icon"></i>    
+                    Adicionar Material</button>
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
@@ -52,9 +55,10 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
+                                            <th scope="col">Titulo</th>
+                                            <th scope="col">Descrição</th>
+                                            <th scope="col">Data</th>
+                                            <th scope="col">Ação</th>
                                         </tr>
                                     </thead>
                                     <tbody>

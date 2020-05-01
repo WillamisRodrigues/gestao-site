@@ -6,7 +6,7 @@
                     <!-- ============================================================== -->
                     <div class="navbar-brand">
                         <!-- Logo icon -->
-                        <a href="index.html">
+                        <a href="{{route('banner')}}">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
                                 <img src="{{asset('admin/assets/images/logo-vt.png')}}" alt="homepage" width="80%"  class="dark-logo">
@@ -33,7 +33,7 @@
                                  <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();"><i data-feather="power" class="svg-icon mr-2 ml-1"></i>
-                                    {{ __('Logout') }}</a>
+                                    {{ __('Sair') }}</a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>

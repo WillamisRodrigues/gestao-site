@@ -12,12 +12,12 @@
                         
                         <li class="sidebar-item mt-2"> <a class="sidebar-link" href="{{ route('noticia') }}" aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span class="hide-menu">Noticias</span></a></li>
                         <li class="sidebar-item mt-2"> <a class="sidebar-link" href="{{ route('webinar') }}" aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span class="hide-menu">Webminars</span></a></li>
-                        <li class="sidebar-item mt-2"> <a class="sidebar-link" href="{{ route('conteudo') }}"><i data-feather="book" class="feather-icon"></i><span class="hide-menu">Conteudo</span></a></li>
+                        <li class="sidebar-item mt-2"> <a class="sidebar-link" href="{{ route('conteudo') }}"><i data-feather="download" class="feather-icon"></i><span class="hide-menu">M. para Download</span></a></li>
                         <li class="sidebar-item mt-2"> <a class="sidebar-link" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        <i data-feather="book" class="feather-icon"></i><span class="hide-menu">
-                                        {{ __('Logout') }} </span>
+                                        <i data-feather="power" class="feather-icon"></i><span class="hide-menu">
+                                        {{ __('Sair') }} </span>
                                     </a></li>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf

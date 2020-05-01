@@ -12,12 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('home.index');
+    return view('site.index');
 });
 
-Route::get('/home', ['uses' => 'HomeSiteController@index', 'as' => 'home']);
-Route::get('/gestao', ['uses' => 'HomeController@adm', 'as' => 'adm']);
-Route::get('/banner', ['uses' => 'HomeController@banner', 'as' => 'banner']);
+Route::get('/home', ['uses' => 'homeController@index', 'as' => 'site']);
+Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
+Route::get('/banner', ['uses' => 'ConteudoController@banner', 'as' => 'banner']);
 Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia']);
 Route::get('/webinar', ['uses' => 'ConteudoController@webinar', 'as' => 'webinar']);
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);

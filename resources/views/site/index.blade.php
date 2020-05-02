@@ -4,7 +4,7 @@
   @include('layouts.site.header')
   
   <main class="side-main">    
-    <section class="banners">
+    <section class="banners" id="home">
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
@@ -74,7 +74,7 @@
     </section>
     <!--================ Feature section end =================-->   
     <!--================ Pricing section start =================-->      
-  <section class="noticias">
+  <section class="noticias" id="noticias">
     <div class="container">
       <div class="titulo-noticia">
         <h2 class="section-intro__title titulo-noticia">NOTÍCIAS</h2>
@@ -146,7 +146,7 @@ como acionistas...
       </div>
     </div>
   </section>
-  <section class="webinar">
+  <section class="webinar" id="webinar">
     <div class="container">
       <div class="section-intro pb-85px text-center">
         <h2 class="section-intro__title titulo-webinar">Webninars</h2>
@@ -227,7 +227,7 @@ DO TRABALHADOR</p>
       </div>
     </div>
   </section>
-  <section class="indice" style="background-image: url({{asset('site/img/banner-blue.png')}}); background-size:100% 50%;">
+  <section class="indice" id="ivm" style="background-image: url({{asset('site/img/banner-blue.png')}}); background-size:100% 50%;">
     <div>
       <div class="text-center">
         <h2 class="section-intro__title titulo-ivm">Índice de vunerabilidade dos Municípios (IVM) </h2>
@@ -243,7 +243,7 @@ DO TRABALHADOR</p>
     </div>
     <a href="" class="btn btn-ivm">Acesse os dados IVN </a> 
   </section> 
-  <section class="municipios">
+  <section class="municipios" id="edital">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -263,7 +263,7 @@ de capacitação em gestão do combate ao coronavírus.</p>
         <img src="{{asset('site/img/municipio.png')}}" alt="" width="100%" class="img-municipio">
     </div>
   </section>
-  <section class="material">
+  <section class="material" id="material">
     <div>
       <div class="section-intro pb-85px text-center">
         <h2 class="section-intro__title material">Material de Apoio </h2>
@@ -277,7 +277,7 @@ Municípios Contra o Corona.
       </div>
     </div>
   </section>
-  <section class="contato">
+  <section class="contato" id="contato">
 <div class="container">
 
         <div class="row">

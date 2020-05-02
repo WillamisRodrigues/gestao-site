@@ -12,12 +12,13 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item"><a class="nav-link" href="">HOME</a></li> 
-              <li class="nav-item"><a class="nav-link" href="">NOTICIAS</a></li> 
-              <li class="nav-item"><a class="nav-link" href="">IVM</a></li>
-              <li class="nav-item"><a class="nav-link" href="">EDITAL</a></li>
-              <li class="nav-item"><a class="nav-link" href="">MATERIAL DE APOIO</a></li>
-              <li class="nav-item"><a class="nav-link" href="">CONTATO</a></li>
+              <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#noticias">NOTICIAS</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#webinar">WEBINAR</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#ivm">IVM</a></li>
+              <li class="nav-item"><a class="nav-link" href="#edital">EDITAL</a></li>
+              <li class="nav-item"><a class="nav-link" href="#material">MATERIAL DE APOIO</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
             </ul>
           </div> 
         </div>

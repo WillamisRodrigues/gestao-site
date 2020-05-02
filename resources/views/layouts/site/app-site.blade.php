@@ -23,5 +23,16 @@
   <script src="{{asset('site/js/jquery.ajaxchimp.min.js')}}"></script>
   <script src="{{asset('site/js/mail-script.js')}}"></script>
   <script src="{{asset('site/js/main.js')}}"></script>
+  <script>
+$('.menu_nav a[href^="#"]').on('click', function(e) {
+  e.preventDefault();
+  var id = $(this).attr('href'),
+  targetOffset = $(id).offset().top;
+    
+  $('html, body').animate({ 
+    scrollTop: targetOffset - 100
+  }, 500);
+});
+</script>
 </body>
 </html>

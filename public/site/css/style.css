@@ -225,7 +225,7 @@ h3,
 	font-size: 14px;
 	text-transform: capitalize;
 	font-weight: 700;
-	display: inline-block
+	display: inline-block;
 }
 
 .header_area .navbar .nav .nav-item .nav-link:after {

@@ -3,8 +3,7 @@
 @section('conteudo')
   @include('layouts.site.header')
   
-  <main class="side-main">
-    <!--================ Hero sm Banner start =================-->      
+  <main class="side-main">    
     <section class="banners">
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
@@ -47,14 +46,15 @@
     <!--================ Hero sm Banner end =================-->
 
     <!--================ Feature section start =================-->      
-    <section style=" height: 500px; background-image: url('{{asset('site/img/bg-iniciativa.jpg')}}'); background-size: cover;">
+    <section style=" height: 550px; background-image: url('{{asset('site/img/bg-iniciativa.jpg')}}'); background-size: cover;">
       <div class="container">
         <div class="col-md-6">
          <div class="">
           <h2 class="section-intro__title quem-somos">A INICIATIVA</h2>
-          <p class="section-intro__subtitle">
-            Promovido pelo Instituto Votorantim, o “Municípios contra o <br> 
-            Coronavírus” é uma inciativa do Programa de Apoio à Gestão <br> 
+          <div class="divisao"></div>
+          <p class="section-intro__subtitle subtitulo-quem-somos top-40">
+            Promovido pelo Instituto Votorantim, o "Municípios contra o <br> 
+            Coronavírus" é uma inciativa do Programa de Apoio à Gestão <br> 
             Pública (AGP), que visa apoiar os municípios brasileiros no <br>  
             gerenciamento e enfrentamento  da crise relacionada a <br> 
             COVID-19 promovendo webinars de temas relacionados a <br> 
@@ -62,9 +62,12 @@
             aos municípios, além da disponibilização de materiais de <br> 
             comunicação sobre prevenção e combate ao coronavírus. 
           </p>
-          <p class="mt-2">
+          <p class="mt-2 subtitulo-quem-somos">
             Navegue pelo site e conheça as frentes de atuação.
           </p>
+           <a href="" class="btn btn-sobre-votorantim">Para saber mais sobre o Instituto Votorantim <br>
+                      e os demais programas, clique aqui.
+           </a>
           </div>
       </div>
       </div>
@@ -74,40 +77,69 @@
   <section class="noticias">
     <div class="container">
       <div class="titulo-noticia">
-        <h2 class="section-intro__title">Notícias</h2>
+        <h2 class="section-intro__title titulo-noticia">NOTÍCIAS</h2>
+        <div class="divisao-2"></div>
+        <a href="" class="todas-noticias">VER TODAS AS NOTÍCIAS <img src="{{asset('site/img/icone-noticia.png')}}" alt=""> </a>
       </div>
 
-      <div class="row">
+      <div class="row area-noticia">
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
-              <img width="100%" src="http://www.institutovotorantim.org.br/wp-content/uploads/2016/04/VIA_4-1.jpg" alt="">
+              <img width="100%" src="{{asset('site/img/noticias/1.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-              <h2 class="section-intro__title">Client Says Me</h2>
-              <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam </p>
+              <h2 class="section-intro__title titulo-item-noticia">Guia de Planejamento
+da Atuação Social
+(ISE) 2019</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              O grande desafio para uma empresa que chega
+aos seus 100 anos, como a Votorantim S.A.,
+é entender que sua responsabilidade perante às
+grandes questões globais é proporcional ao
+seu tamanho e à sua história...  
+            </p>
+            <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
-              <img width="100%" src="http://www.institutovotorantim.org.br/wp-content/uploads/2016/04/VIA_4-1.jpg" alt="">
+              <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-              <h2 class="section-intro__title">Client Says Me</h2>
-              <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam </p>
+              <h2 class="section-intro__title titulo-item-noticia">Animação, engajamento e
+educação na Oficina de
+Mobilização do PVE 2019!</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Não há como falar de educação sem engajar.
+E foi pensando nisso que o Instituto
+Votorantim preparou um evento cheio de
+motivação para receber e reenergizar os
+mobilizadores das empresas investidas da...
+              </p>
+              <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
-              <img width="100%" src="http://www.institutovotorantim.org.br/wp-content/uploads/2016/04/VIA_4-1.jpg" alt="">
+              <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-              <h2 class="section-intro__title">Client Says Me</h2>
-              <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam </p>
+              <h2 class="section-intro__title titulo-item-noticia">#MissãoPiauí
+programas e projetos
+sociais em ação!</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Em julho, representantes do Instituto
+Votorantim (iV), da Votorantim Energia (VE)
+e do Banco Nacional de Desenvolvimento
+Econômico e Social (BNDES), bem
+como acionistas...    
+            </p>
+            <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>

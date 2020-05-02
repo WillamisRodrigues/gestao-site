@@ -227,42 +227,53 @@ DO TRABALHADOR</p>
       </div>
     </div>
   </section>
-  <section class="indice" style="background-image: url({{asset('site/img/banner-blue.png')}});">
+  <section class="indice" style="background-image: url({{asset('site/img/banner-blue.png')}}); background-size:100% 50%;">
     <div>
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Indice de vunerabilidade dos Municipios (IVM) </h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac  luctus torquent</p>
+      <div class="text-center">
+        <h2 class="section-intro__title titulo-ivm">Índice de vunerabilidade dos Municípios (IVM) </h2>
+        <div class="divisao-4"></div>
       </div>
            <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa">
            <div class="conteudo-ivm">
-              <p style="width:100%;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>
-              Ipsa perferendis minus quo quod, ipsam obcaecati incidunt <br> 
-              alias debitis modi excepturi rem eveniet praesentium sint, illo culpa. <br> Laudantium nulla necessitatibus temporibus!
-            </p>
-            </div>
+              <p class="desc-ivm">O Instituto Votorantim desenvolveu uma plataforma <br> 
+              online que mapeia a evolução do índice de vulnerabilidade <br> 
+              social de cada município no combate ao Covid-19.
+            </p> 
+          </div>
     </div>
+    <a href="" class="btn btn-ivm">Acesse os dados IVN </a> 
   </section> 
   <section class="municipios">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-              <h2 class="contra-corona">Municipio <br> contra o <br> Coronavirus </h2>
+              <h2 class="contra-corona">Município <br> Contra o <br> Coronavirus </h2>
+              <p class="desc-corona">Edital de seleção de municípios com alto risco <br>
+epidemiológico para participação em programa <br>
+de capacitação em gestão do combate ao coronavírus.</p>
+              <a href="" class="btn btn-edital">Confira o edital</a>
             </div>
             <div class="col-md-6">
-              <h2 class="juntos">Juntos</h2>
+            <img src="{{asset('site/img/juntos.png')}}" alt="" class="juntos">
             </div>
         </div>
     </div>
     <div> 
       <div>
-        <img src="{{asset('site/img/municipio.png')}}" alt="" width="100%">
+        <img src="{{asset('site/img/municipio.png')}}" alt="" width="100%" class="img-municipio">
     </div>
   </section>
   <section class="material">
     <div>
       <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Material de Apoio </h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac  luctus torquent</p>
+        <h2 class="section-intro__title material">Material de Apoio </h2>
+        <div class="divisao-5"></div>
+        <p class="section-intro__subtitle desc-material">
+        Espaço criado para você baixar todos os materiais <br>
+técnicos e de divulgação da iniciativa <br>
+Municípios Contra o Corona.
+        </p>
+        <a href="" class="btn btn-material">Acesse e baixe o material</a>
       </div>
     </div>
   </section>
@@ -273,40 +284,41 @@ DO TRABALHADOR</p>
             <div class="col-md-1"></div>
 
             <div class="col-md-5">
-              <h2 class="titulo-edital">Contato</h2>
-              <p>Lorem ipsum dolor sit amet  <br>
-                nam placeat labore repudiandae!</p>
+              <h2 class="titulo-contato">CONTATO</h2>
+              <div class="divisao-6"></div>
+              <p class="desc-contato">Para tirar dúvidas e contribuir com <br>
+sugestões, deixe sua mensagem.</p>
                 <form  method="POST" class="form-contato" action="envio-contato.php">
 
                     <div class="form-group">
 
-                        <label for="nome" class="titulo-botao titulo-contato">Nome</label>
+                        <label for="nome" class="titulo-botao titulo-contato">Nome:</label>
 
-                        <input type="text" class="form-control btn-contato" name="nome" required>
-
-                    </div>
-
-                    <div class="form-group">
-
-                        <label for="municipio" class="titulo-botao titulo-contato">Telefone</label>
-
-                        <input type="text"  class="form-control telefone btn-contato" name="telefone" required>
+                        <input type="text" class="form-control btn-contato btn-form-contato" name="nome" required>
 
                     </div>
 
                     <div class="form-group">
 
-                        <label for="email" class="titulo-botao titulo-contato">Email</label>
+                        <label for="municipio" class="titulo-botao titulo-contato">Telefone:</label>
 
-                        <input type="email" class="form-control btn-contato" name="email">
+                        <input type="text"  class="form-control telefone btn-contato btn-form-contato" name="telefone" required>
 
                     </div>
 
                     <div class="form-group">
 
-                        <label for="municipio" class="titulo-botao titulo-contato">Município</label>
+                        <label for="email" class="titulo-botao titulo-contato">Email:</label>
 
-                        <input type="text" class="form-control btn-contato" name="municipio" required>
+                        <input type="email" class="form-control btn-contato btn-form-contato" name="email">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="municipio" class="titulo-botao titulo-contato">Município:</label>
+
+                        <input type="text" class="form-control btn-contato btn-form-contato" name="municipio" required>
 
                     </div>
 
@@ -316,17 +328,17 @@ DO TRABALHADOR</p>
 
             <div class="col-md-5">
 
-                <div class="form-contato top-60">
+                <div class="form-contato top-120">
 
                     <div class="form-group">
 
-                        <label for="mensagem" class="titulo-botao titulo-contato">Mensagem</label>
+                        <label for="mensagem" class="titulo-botao titulo-contato">Mensagem:</label>
 
-                        <textarea class="form-control msg-contato" row="20" col="20" name="mensagem"></textarea>
+                        <textarea class="form-control msg-contato btn-form-contato" row="20" col="20" name="mensagem"></textarea>
 
                     </div>
 
-                    <button type="submit" class="btn-form mobile-form btn-block">Enviar</button>
+                    <button type="submit" class="btn-form btn-submit-contato mobile-form btn-block">Enviar</button>
 
                 </div>
 

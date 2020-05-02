@@ -31,6 +31,8 @@
 }
 
 
+
+
 .subtitulo-quem-somos{
     font-family: 'VotorantimSansLight';
     font-weight: bold;
@@ -58,6 +60,37 @@
     font-weight: bold;
 }
 
+.btn-ivm{
+    font-family: 'VotorantimSans';
+    background-color: #ff6f0d;
+    width: 20%;
+    margin-top:-100px;
+    margin-left: 40%;
+    font-size: 20px;
+    position: absolute;
+    color: #fff;
+}
+
+.btn-edital{
+    background-color: #ff6f0d;
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 45%;
+    text-align: center;
+}
+
+.btn-material{
+    background-color: #0000be;
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 45%;
+    text-align: center;
+}
+
 .btn-leia-mais{
     background-color: #ff6f0d;
     color: #fff;
@@ -66,7 +99,7 @@
     font-weight: bold;
 }
 
-.btn-sobre-votorantim:hover, .todas-noticias:hover,.btn-leia-mais:hover,.btn-mais-webinar:hover{
+.btn-sobre-votorantim:hover,.btn-edital:hover,.btn-material:hover, .todas-noticias:hover,.btn-leia-mais:hover,.btn-mais-webinar:hover{
     color: #fff;
 }
 
@@ -93,6 +126,20 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 10pt;
+}
+.desc-contato{
+    font-family: 'VotorantimSansRegular';
+    font-weight: bold;
+    color: #0000be;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.desc-ivm{
+    font-family: 'VotorantimSansRegular';
+    font-weight: bold;
+    font-size: 15pt;
 }
 
 .area-noticia{
@@ -206,6 +253,28 @@
     background-color: #fff;
 }
 
+.divisao-4{
+    height: 5px;
+    width: 10%;
+    margin:0 auto;
+    background-color: #b4dc31;
+    margin: 5px auto;
+}
+
+.divisao-5{
+    height: 5px;
+    width: 60%;
+    margin:0 auto;
+    background-color: #fff;
+    margin: 5px auto;
+}
+
+.divisao-6{
+    height: 5px;
+    width: 40%;
+    background-color: #b4dc31;
+}
+
 .item-webinar{
     margin-top: 60px;
 }
@@ -236,8 +305,15 @@
     padding: 20px;
 }
 
+.titulo-ivm{
+    font-family: 'VotorantimSansBlack';
+    color: #fff;
+    font-size:  34px;
+    text-transform: uppercase;
+}
+
 .indice{
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .municipios{
@@ -246,10 +322,34 @@
 
 .contra-corona{
  margin-top: 100px;
+ font-family: 'VotorantimSans';
+    color: #fff;
+    font-size:  60px;
+    line-height:  1em;
+}
+
+.desc-corona{
+    margin-top: 30px;
+    font-family: 'VotorantimSansRegular';
+    color: #fff;
+    font-size: 16px;
+}
+
+.desc-material{
+    margin-top: 30px;
+    font-family: 'VotorantimSansRegular';
+    color: #0000be;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-municipio{
+    margin-top:-200px;
 }
 
 .juntos{
- margin-top: 100px;
+  width: 60%;
+  margin-top: 20%;
 }
 
 .empresa{
@@ -268,14 +368,37 @@
     margin-top: 100px!important;
 }
 
+.top-120{
+    margin-top: 120px!important;
+}
+
 .logo-v2{
     width: 60%;
     margin-top: -30px;
 }
 
 .material{
-    padding-top: 100px;
+    font-family: 'VotorantimSansBlack';
+    padding-top: 20px;
+    color: #0000be;
     background-color: #b4dc31;
+    text-transform: uppercase;
+}
+
+.titulo-contato{
+    font-family: 'VotorantimSansBlack';
+    color: #0000be;
+}
+
+.btn-form-contato{
+    background-color: #d9d9d9;
+}
+
+.btn-submit-contato{
+    background-color: #0000be;
+    border:none;
+    color: #fff;
+    width: 20%;
 }
 
 .contato{

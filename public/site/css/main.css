@@ -18,6 +18,12 @@
     src: url('../fonts/VotorantimSans-Light_WebOnly.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'VotorantimSansMedium';
+    src: url('../fonts/VotorantimSans-Medium_WebOnly.ttf') format('truetype');
+}
+
+
 .quem-somos{
     font-family: 'VotorantimSansBlack';
     padding-top: 50px;
@@ -60,7 +66,7 @@
     font-weight: bold;
 }
 
-.btn-sobre-votorantim:hover, .todas-noticias:hover,.btn-leia-mais:hover{
+.btn-sobre-votorantim:hover, .todas-noticias:hover,.btn-leia-mais:hover,.btn-mais-webinar:hover{
     color: #fff;
 }
 
@@ -73,6 +79,8 @@
     font-family: 'VotorantimSansBlack';
     color: #fff;
 }
+
+
 
 .titulo-item-noticia{
     font-family: 'VotorantimSansBlack';
@@ -104,8 +112,98 @@
 }
 
 .webinar{
-    padding: 100px 0px;
+    padding: 50px 0px;
     background-color: #ff6f0d;
+}
+
+.titulo-webinar{
+    font-family: 'VotorantimSansBlack';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.data{
+    font-family: 'VotorantimSansBlack';
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    padding-top: 15px;
+}
+
+.desc-data{
+    font-family: 'VotorantimSansBlack';
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.desc-tema-webinar{
+    color: #ff6f0d;
+    font-family: 'VotorantimSansRegular';
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.btn-como-foi{
+    font-family: 'VotorantimSansMedium';
+    font-size: 8px;
+    background-color: #e54576;
+    color: #fff;
+    text-align: left;
+    margin-top: 36px;
+    font-weight: bold;
+    float: right;
+}
+
+.desc-destaque-webinar{
+    font-family: 'VotorantimSansRegular';
+    font-size: 21px;
+    line-height: 1.3em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-mais-webinar{
+    background-color: #e54576;
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.titulo-destaque-webinar{
+    font-family: 'VotorantimSansBlack';
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tema-webinar{
+    font-family: 'VotorantimSansBlack';
+    color: #ff6f0d;
+    padding-top: 10px;
+    line-height: 1.2em;
+}
+
+.desc-webinar{
+    font-family: 'VotorantimSansLight';
+   color: #fff;
+   margin-top: 20px;
+   font-weight: 900;
+   font-size:  20px;
+}
+
+.divisao-3{
+    height: 5px;
+    width: 30%;
+    margin:0 auto;
+    background-color: #fff;
 }
 
 .item-webinar{

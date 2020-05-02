@@ -149,64 +149,79 @@ como acionistas...
   <section class="webinar">
     <div class="container">
       <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title">Webninars</h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac  luctus torquent</p>
+        <h2 class="section-intro__title titulo-webinar">Webninars</h2>
+        <div class="divisao-3"></div>
+        <p class="section-intro__subtitle desc-webinar">Realizado pelo Instituto Votorantim em parceria com <br>
+a BP - A Beneficência Portuguesa de São Paulo</p>
       </div>
 
       <div class="row">
         <div class="col-lg-1"></div>
            <div class="col-lg-4">
-             <img src="img/webinar-destaque.png" alt="" class="img-destque">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Earum inventore expedita ratione non saepe, vitae laudantium aliquam hic nisi? 
-              Nostrum porro ipsam eligendi maxime aliquid est quaerat beatae impedit voluptatum.
+             <img src="{{asset('site/img/webinar-destaque.png')}}" alt="" class="img-destque">
+              <h3 class="titulo-destaque-webinar mt-2"> 05/05 | terça-feira</h3>
+              <p class="desc-destaque-webinar">Saúde do trabalhador
+cuidando dos profissionais
+da Saúde para que cuidem
+de quem precisa ser cuidado
+              </p>
             </div>
             <div class="col-lg-6 ml-4">
               <div class="row">
-                <div class="row">
-                  <div class="col-md-2 data">
-                    22/03
+                <div class="row mb-2">
+                  <div class="col-md-3 data">
+                    <h3 class="data"> 22/04 </h3>
+                    <h3 class="desc-data">Quarta-Feira</h3>
                    </div>
-                  <div class="col-md-8 bg-data">
+                  <div class="col-md-7 bg-data">
                     <div class="card-block">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                      <h4 class="card-title tema-webinar">CUIDADOS NECESSÁRIOS
+COM A EQUIPE DE SAÚDE:</h4>
+                      <p class="card-text desc-tema-webinar">COMO MELHORAR O DIA A DIA
+DO TRABALHADOR</p>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data">
-                    <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                    <a href="#" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
-                <div class="row mt-2">
-                  <div class="col-md-2 data">
-                    22/03
+                <div class="row mb-2">
+                  <div class="col-md-3 data">
+                  <h3 class="data"> 23/04 </h3>
+                    <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
-                  <div class="col-md-8 bg-data">
+                  <div class="col-md-7 bg-data">
                     <div class="card-block">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                    <h4 class="card-title tema-webinar">CUIDADOS NECESSÁRIOS
+COM A EQUIPE DE SAÚDE:</h4>
+                      <p class="card-text desc-tema-webinar">COMO MELHORAR O DIA A DIA
+DO TRABALHADOR</p>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data">
-                    <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                  <a href="#" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
-                <div class="row mt-2">
-                  <div class="col-md-2 data">
-                    22/03
+                <div class="row mb-2">
+                  <div class="col-md-3 data">
+                  <h3 class="data"> 24/04 </h3>
+                    <h3 class="desc-data">Sexta-Feira</h3>
                    </div>
-                  <div class="col-md-8 bg-data">
+                  <div class="col-md-7 bg-data">
                     <div class="card-block">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                    <h4 class="card-title tema-webinar">CUIDADOS NECESSÁRIOS
+COM A EQUIPE DE SAÚDE:</h4>
+                      <p class="card-text desc-tema-webinar">COMO MELHORAR O DIA A DIA
+DO TRABALHADOR</p>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data">
-                    <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                  <a href="#" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
               </div>
               </div>
+              <a href="" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
             </div>
         </div>
       </div>

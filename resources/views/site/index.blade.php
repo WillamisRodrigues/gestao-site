@@ -79,7 +79,7 @@
       <div class="titulo-noticia">
         <h2 class="section-intro__title titulo-noticia">NOTÍCIAS</h2>
         <div class="divisao-2"></div>
-        <a href="" class="todas-noticias">VER TODAS AS NOTÍCIAS <img src="{{asset('site/img/icone-noticia.png')}}" alt=""> </a>
+        <a href="{{route('todas-noticias')}}" class="todas-noticias">VER TODAS AS NOTÍCIAS <img src="{{asset('site/img/icone-noticia.png')}}" alt=""> </a>
       </div>
 
       <div class="row area-noticia">

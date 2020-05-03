@@ -21,6 +21,7 @@ Route::get('/editar_lead_aluno/{id}/edit', 'ConteudoController@edit_banner')->na
 Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
 Route::get('/banner', ['uses' => 'ConteudoController@banner', 'as' => 'banner']);
 Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia']);
+Route::get('/noticias', ['uses' => 'NoticiaController@lista', 'as' => 'todas-noticias']);
 Route::get('/webinar', ['uses' => 'ConteudoController@webinar', 'as' => 'webinar']);
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);
 Auth::routes();

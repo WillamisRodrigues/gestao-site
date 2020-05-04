@@ -169,6 +169,18 @@
     text-transform: uppercase;
 }
 
+.titulo-lista-noticias{
+    font-family: 'VotorantimSansBlack';
+    color: #0000be;
+    text-transform: uppercase;
+}
+
+.titulo-materiais-apoio{
+    font-family: 'VotorantimSansBlack';
+    color: #0000be;
+    text-transform: uppercase;
+}
+
 .data{
     font-family: 'VotorantimSansBlack';
     color: #fff;
@@ -407,4 +419,32 @@
 
 .msg-contato{
     height: 250px!important;
+}
+
+.post{
+    margin-top: 80px;
+}
+
+.titulo-post{
+    color: #b4dc31;
+    font-size: 40pt;
+    line-height: 1em;
+    padding-top: 100px!important;
+}
+
+.img-noticia{
+   width: 60%;
+   margin: -200px auto;
+   display: block;
+}
+
+.data-da-noticia{
+    font-family: 'VotorantimSansRegular';
+    font-size: 10pt;
+    color: #3a414e!important;
+}
+
+.desc-post{
+    padding-top: 270px;
+    font-size: 15pt;
 }

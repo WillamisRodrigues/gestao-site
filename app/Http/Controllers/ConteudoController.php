@@ -7,10 +7,6 @@ use App\Banner;
 
 class ConteudoController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     public function index()
     {
@@ -84,5 +80,17 @@ class ConteudoController extends Controller
     {
         $data = Banner::find($id);
         return response()->json(['data' => $data]);
+    }
+
+    public function todosmateriais(){
+        return view('site.materiais.index');
+    }
+
+    public function playlist(){
+        return view('site.playlist.index');
+    }
+
+    public function cache(){
+        return view('cache.get-cache');
     }
 }

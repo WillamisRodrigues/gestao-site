@@ -15,4 +15,9 @@ class NoticiaController extends Controller
     {
         return view('site.noticias.index');
     }
+
+    public function post()
+    {
+        return view('site.posts.index');
+    }
 }

@@ -12,12 +12,12 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item"><a class="nav-link" href="#home">A INICIATIVA</a></li> 
-              <li class="nav-item"><a class="nav-link" href="#noticias">NOTÍCIAS</a></li> 
+              <li class="nav-item"><a class="nav-link" href="{{url('/')}}">A INICIATIVA</a></li> 
+              <li class="nav-item"><a class="nav-link" href="{{route('todas-noticias')}}">NOTÍCIAS</a></li> 
               <li class="nav-item"><a class="nav-link" href="#webinar">WEBINAR</a></li> 
               <li class="nav-item"><a class="nav-link" href="#ivm">IVM</a></li>
-              <li class="nav-item"><a class="nav-link" href="#edital">EDITAL</a></li>
-              <li class="nav-item"><a class="nav-link" href="#material">MATERIAL DE APOIO</a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.institutovotorantim.org.br/municipioscontraocorona/">EDITAL</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('materiais-download')}}">MATERIAL DE APOIO</a></li>
               <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
             </ul>
           </div> 

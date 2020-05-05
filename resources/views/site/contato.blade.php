@@ -72,31 +72,23 @@ sugestões, deixe sua mensagem.</p>
     </div>
 
 </section>
-  <section class="overview-block-ptb" style="padding-bottom: 20px!important; padding-top: 200px!important;">
+  <section class="overview-block-ptb" style=" padding-top: 200px!important;">
 
     <div class="container">
 
         <div class="row">
-
-            <div class="col-md-3"></div>
-
-            <div class="col-md-2">
+            <div class="col-md-6">
 
                 <div class="heading-title">
 
-                   <h3 class="realizacao">Realização:</h3>
+                <img src="{{asset('site/img/empresas/17.png')}}" alt="">
 
                 </div>
 
             </div>
-
             <div class="col-sm-6">
-
-                <div class="heading-title">
-
-                    <img src="{{asset('site/img/logov2.png')}}" alt="" class="logo-v2">
-
-                </div>
+                    <img src="{{asset('site/img/empresas/16.png')}}" alt="">
+            </div>
 
             </div>
 

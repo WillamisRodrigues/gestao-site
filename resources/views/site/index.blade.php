@@ -6,25 +6,37 @@
   <main class="side-main">    
     <section class="banners" id="home">
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+ <!-- Indicators -->
+ <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
+        <a href="">
+            <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
           alt="First slide">
+        </a>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
+        <a href="">
+          <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
           alt="Second slide">
+        </a>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
+        <a href="">
+          <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
           alt="Third slide">
+        </a>
         <div class="mask rgba-black-slight"></div>
       </div>
     </div>
@@ -42,35 +54,35 @@
   <!--/.Controls-->
 </div>
 <!--/.Carousel Wrapper-->
-    </section>
-    <!--================ Hero sm Banner end =================-->
-
-    <!--================ Feature section start =================-->      
-    <section style=" height: 550px; background-image: url('{{asset('site/img/bg-iniciativa.jpg')}}'); background-size: cover;">
+    </section>  
+    <section class="sobre-iniciativa">
+    <img src="{{asset('site/img/pessoas.png')}}" alt="" style="float:right;">
       <div class="container">
-        <div class="col-md-6">
-         <div class="">
+        <div class="row">
+        <div class="col-md-12">
           <h2 class="section-intro__title quem-somos">A INICIATIVA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-quem-somos top-40">
-            Promovido pelo Instituto Votorantim, o "Municípios contra o <br> 
-            Coronavírus" é uma inciativa do Programa de Apoio à Gestão <br> 
-            Pública (AGP), que visa apoiar os municípios brasileiros no <br>  
-            gerenciamento e enfrentamento  da crise relacionada a <br> 
-            COVID-19 promovendo webinars de temas relacionados a <br> 
-            gestão de saúde, edital para assessoria técnica e personalizada <br> 
-            aos municípios, além da disponibilização de materiais de <br> 
-            comunicação sobre prevenção e combate ao coronavírus. 
+          Promovido pelo Instituto Votorantim, o “Municípios contra o <br>
+Coronavírus” é uma inciativa do Programa de Apoio à Gestão <br>
+Pública (AGP), que visa apoiar os municípios brasileiros no <br>
+gerenciamento e enfrentamento  da crise relacionada a <br>
+COVID-19 promovendo webinars de temas relacionados a <br>
+gestão de saúde, edital para assessoria técnica e personalizada <br>
+aos municípios, além da disponibilização de materiais de <br>
+comunicação sobre prevenção e combate ao coronavírus. 
           </p>
           <p class="mt-2 subtitulo-quem-somos">
             Navegue pelo site e conheça as frentes de atuação.
           </p>
            <a href="" class="btn btn-sobre-votorantim">Para saber mais sobre o Instituto Votorantim <br>
-                      e os demais programas, clique aqui.
+                    e os demais programas, clique aqui.
            </a>
-          </div>
+           <div style="height:58px;"></div>
+        </div>
+        </div>
       </div>
-      </div>
+    </div>
     </section>
     <!--================ Feature section end =================-->   
     <!--================ Pricing section start =================-->      
@@ -165,6 +177,7 @@ cuidando dos profissionais
 da Saúde para que cuidem
 de quem precisa ser cuidado
               </p>
+              <a href="" class="btn-inscreva-webinar"> Inscrevar-se </a>
             </div>
             <div class="col-lg-6 ml-4">
               <div class="row">
@@ -220,38 +233,66 @@ DO TRABALHADOR</p>
                   </div>
                 </div>
               </div>
+              <div class="col-md-12">
+                <a href="" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
+                  </div>
               </div>
-              <a href="" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
+              
             </div>
         </div>
       </div>
     </div>
   </section>
   <section class="indice" id="ivm" style="background-image: url({{asset('site/img/banner-blue.png')}}); background-size:100% 50%;">
-    <div>
-      <div class="text-center">
-        <h2 class="section-intro__title titulo-ivm">Índice de vunerabilidade dos Municípios (IVM) </h2>
+  <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa">  
+  <div>
+      <div class="container">
+        <h2 class="section-intro__title titulo-ivm">Índice de vulnerabilidade <br> Municipal (IVM) </h2>
         <div class="divisao-4"></div>
+        <p class="section-intro__subtitle subtitulo-indice top-40">
+        O IVM foi elaborado com objetivo de indicar o grau de <br>
+vulnerabilidade de cada município brasileiro em relação <br>
+aos impactos provocados pela pandemia de Covid-19. <br>
+O IVM utiliza dados secundários públicos obtidos por <br>
+meio de fontes oficiais.
+        </p>
+        <p class="section-intro__subtitle subtitulo-indice mt-2">
+        A consulta e utilização do IVM é disponibilizada gratuitamente <br>
+para apoiar a tomada de decisão de gestores públicos e privados <br>
+envolvidos em ações de combate à pandemia.   
+        </p>
       </div>
-           <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa">
-           <div class="conteudo-ivm">
-              <p class="desc-ivm">O Instituto Votorantim desenvolveu uma plataforma <br> 
-              online que mapeia a evolução do índice de vulnerabilidade <br> 
-              social de cada município no combate ao Covid-19.
-            </p> 
-          </div>
     </div>
-    <a href="" class="btn btn-ivm">Acesse os dados IVN </a> 
-  </section> 
+  </section>
+  <section class="area-sistema">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+        <p class="section-intro__subtitle desc-sistema top-40">
+       O sistema permite a realização de buscas por regiões
+geográficas, pilares temáticos, níveis de criticidade e o
+cruzamento com o número de casos confirmados e
+óbitos por município, que são atualizados diariamente.
+        </p>
+        </div>
+        <div class="col-md-4">
+            <a href="" class="btn btn-ivm">Acesse o IVM do seu município</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="municipios" id="edital">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-              <h2 class="contra-corona">Município <br> Contra o <br> Coronavirus </h2>
+              <h2 class="contra-corona">Municípios <br> Contra o <br> Coronavirus </h2>
               <p class="desc-corona">Edital de seleção de municípios com alto risco <br>
 epidemiológico para participação em programa <br>
 de capacitação em gestão do combate ao coronavírus.</p>
-              <a href="" class="btn btn-edital">Confira o edital</a>
+              <a href="" class="btn btn-edital">
+              Conheça mais sobre a iniciativa. <br>
+Veja os municípios selecionados. 
+              </a>
             </div>
             <div class="col-md-6">
             <img src="{{asset('site/img/juntos.png')}}" alt="" class="juntos">
@@ -268,7 +309,7 @@ de capacitação em gestão do combate ao coronavírus.</p>
       <div class="section-intro pb-85px text-center">
         <h2 class="section-intro__title material">Material de Apoio </h2>
         <div class="divisao-5"></div>
-        <p class="section-intro__subtitle desc-material">
+        <p class=" desc-material">
         Espaço criado para você baixar todos os materiais <br>
 técnicos e de divulgação da iniciativa <br>
 Municípios Contra o Corona.

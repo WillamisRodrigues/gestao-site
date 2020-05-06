@@ -63,6 +63,16 @@ h2,
 	.h2 {
 		font-size: 36px
 	}
+
+	.pessoas{
+		width: 43%;
+		margin-top:150px;
+	}
+
+	.mapa{
+		width: 38%!important;
+		right: 5%!important;
+	}
 }
 
 h3,

@@ -49,7 +49,7 @@ sugestões, deixe sua mensagem.</p>
 
             <div class="col-md-5">
 
-                <div class="form-contato top-120">
+                <div class="form-contato top-120 top-mobile">
 
                     <div class="form-group">
 
@@ -72,7 +72,7 @@ sugestões, deixe sua mensagem.</p>
     </div>
 
 </section>
-  <section class="overview-block-ptb" style=" padding-top: 200px!important;">
+  <section class="overview-block-ptb padding-mobile" style=" padding-top: 200px;">
 
     <div class="container">
 
@@ -81,13 +81,13 @@ sugestões, deixe sua mensagem.</p>
 
                 <div class="heading-title">
 
-                <img src="{{asset('site/img/empresas/17.png')}}" alt="">
+                <img src="{{asset('site/img/empresas/17.png')}}" alt="" class="btn-mobile">
 
                 </div>
 
             </div>
             <div class="col-sm-6">
-                    <img src="{{asset('site/img/empresas/16.png')}}" alt="">
+                    <img src="{{asset('site/img/empresas/16.png')}}" alt="" class="btn-mobile">
             </div>
 
             </div>

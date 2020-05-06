@@ -25,7 +25,7 @@
       <!--Mask color-->
       <div class="view">
         <a href="">
-          <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
+          <img class="d-block w-100" src="{{asset('site/img/banner/2.jpg')}}"
           alt="Second slide">
         </a>
       </div>
@@ -56,7 +56,7 @@
 <!--/.Carousel Wrapper-->
     </section>  
     <section class="sobre-iniciativa">
-    <img src="{{asset('site/img/pessoas.png')}}" alt="" style="float:right;">
+    <img src="{{asset('site/img/pessoas.png')}}" alt="" class="pessoas" style="float:right;">
       <div class="container">
         <div class="row">
         <div class="col-md-12">
@@ -78,7 +78,7 @@ comunicação sobre prevenção e combate ao coronavírus.
            <a href="" class="btn btn-sobre-votorantim">Para saber mais sobre o Instituto Votorantim <br>
                     e os demais programas, clique aqui.
            </a>
-           <div style="height:58px;"></div>
+           <div style="height:90px;"></div>
         </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ da Atuação Social
 aos seus 100 anos, como a Votorantim S.A.,
 é entender que sua responsabilidade perante às
 grandes questões globais é proporcional ao
-seu tamanho e à sua história...  
+seu tamanho...  
             </p>
             <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
@@ -128,8 +128,7 @@ Mobilização do PVE 2019!</h2>
               Não há como falar de educação sem engajar.
 E foi pensando nisso que o Instituto
 Votorantim preparou um evento cheio de
-motivação para receber e reenergizar os
-mobilizadores das empresas investidas da...
+motivação para receber e reenergizar os...
               </p>
               <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
@@ -178,15 +177,16 @@ da Saúde para que cuidem
 de quem precisa ser cuidado
               </p>
               <a href="" class="btn-inscreva-webinar"> Inscrevar-se </a>
+              <div class="mobile"></div>
             </div>
-            <div class="col-lg-6 ml-4">
+            <div class="col-lg-6 ml-4 ml-mobile">
               <div class="row">
-                <div class="row mb-2">
-                  <div class="col-md-3 data">
+                <div class="row mb-2 espaco-mobile">
+                  <div class="col-md-3 data webinar-mobile">
                     <h3 class="data"> 22/04 </h3>
                     <h3 class="desc-data">Quarta-Feira</h3>
                    </div>
-                  <div class="col-md-7 bg-data">
+                  <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block">
                       <h4 class="card-title tema-webinar">CUIDADOS NECESSÁRIOS
 COM A EQUIPE DE SAÚDE:</h4>
@@ -194,16 +194,16 @@ COM A EQUIPE DE SAÚDE:</h4>
 DO TRABALHADOR</p>
                     </div>
                   </div>
-                  <div class="col-md-2 bg-data">
+                  <div class="col-md-2 bg-data webinar-mobile">
                     <a href="#" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
-                <div class="row mb-2">
-                  <div class="col-md-3 data">
+                <div class="row mb-2  espaco-mobile">
+                  <div class="col-md-3 data webinar-mobile">
                   <h3 class="data"> 23/04 </h3>
                     <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
-                  <div class="col-md-7 bg-data">
+                  <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block">
                     <h4 class="card-title tema-webinar">CUIDADOS NECESSÁRIOS
 COM A EQUIPE DE SAÚDE:</h4>
@@ -211,16 +211,16 @@ COM A EQUIPE DE SAÚDE:</h4>
 DO TRABALHADOR</p>
                     </div>
                   </div>
-                  <div class="col-md-2 bg-data">
+                  <div class="col-md-2 bg-data webinar-mobile">
                   <a href="#" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
-                <div class="row mb-2">
-                  <div class="col-md-3 data">
+                <div class="row mb-2  espaco-mobile">
+                  <div class="col-md-3 data webinar-mobile">
                   <h3 class="data"> 24/04 </h3>
                     <h3 class="desc-data">Sexta-Feira</h3>
                    </div>
-                  <div class="col-md-7 bg-data">
+                  <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block">
                     <h4 class="card-title tema-webinar">CUIDADOS NECESSÁRIOS
 COM A EQUIPE DE SAÚDE:</h4>
@@ -228,7 +228,7 @@ COM A EQUIPE DE SAÚDE:</h4>
 DO TRABALHADOR</p>
                     </div>
                   </div>
-                  <div class="col-md-2 bg-data">
+                  <div class="col-md-2 bg-data webinar-mobile">
                   <a href="#" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
@@ -256,7 +256,7 @@ aos impactos provocados pela pandemia de Covid-19. <br>
 O IVM utiliza dados secundários públicos obtidos por <br>
 meio de fontes oficiais.
         </p>
-        <p class="section-intro__subtitle subtitulo-indice mt-2">
+        <p class="section-intro__subtitle subtitulo-indice mt-4">
         A consulta e utilização do IVM é disponibilizada gratuitamente <br>
 para apoiar a tomada de decisão de gestores públicos e privados <br>
 envolvidos em ações de combate à pandemia.   
@@ -267,15 +267,15 @@ envolvidos em ações de combate à pandemia.
   <section class="area-sistema">
   <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
         <p class="section-intro__subtitle desc-sistema top-40">
-       O sistema permite a realização de buscas por regiões
-geográficas, pilares temáticos, níveis de criticidade e o
-cruzamento com o número de casos confirmados e
+       O sistema permite a realização de buscas por regiões <br>
+geográficas, pilares temáticos, níveis de criticidade e o <br>
+cruzamento com o número de casos confirmados e <br>
 óbitos por município, que são atualizados diariamente.
         </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
             <a href="" class="btn btn-ivm">Acesse o IVM do seu município</a>
         </div>
       </div>
@@ -285,7 +285,7 @@ cruzamento com o número de casos confirmados e
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-              <h2 class="contra-corona">Municípios <br> Contra o <br> Coronavirus </h2>
+              <h2 class="contra-corona">Municípios <br> Contra o <br> Coronavírus </h2>
               <p class="desc-corona">Edital de seleção de municípios com alto risco <br>
 epidemiológico para participação em programa <br>
 de capacitação em gestão do combate ao coronavírus.</p>

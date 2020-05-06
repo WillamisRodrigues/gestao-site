@@ -37,11 +37,11 @@
     font-family: 'VotorantimSansLight';
     font-weight: bold;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .subtitulo-indice{
-    font-family: 'VotorantimSansLight';
+    font-family: 'VotorantimSansRegular';
     font-weight: bold;
     color: #fff;
     font-size: 22px;
@@ -72,41 +72,45 @@
 }
 
 .btn-sobre-votorantim{
+    font-family: 'VotorantimSansRegular';
     background-color: #ff6f0d;
     color: #fff;
     text-align: left;
+    line-height: 1.3em;
     margin-top: 20px;
-    width: 70%;
-    font-size: 14pt;
-    font-weight: bold;
+    width: 71%;
+    font-weight: 500;
+    font-size: 15pt;
 }
 
 .btn-ivm{
     font-family: 'VotorantimSans';
     background-color:#fff;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 0%;
     font-size: 20px;
     margin-top: 80px;
     position: absolute;
     color: #ff6f0d;
+    font-size: 20pt;
 }
 
 .btn-edital{
+    font-family: 'VotorantimSans';
     background-color: #ff6f0d;
     color: #fff;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 50px;
     font-weight: bold;
-    width: 60%;
+    width: 55%;
     text-align: center;
 }
 
 .btn-material{
+    font-family: 'VotorantimSansRegular';
     background-color: #0000be;
     color: #fff;
     margin-top: 20px;
-    font-weight: bold;
     width: 45%;
     text-transform: none!important;
     text-align: center;
@@ -334,8 +338,8 @@
 }
 
 .mapa{
-    width: 33%;
-    right: 10%;
+    width: 31%;
+    right: 16%;
     position: absolute;
 }
 
@@ -360,7 +364,7 @@
 
 .indice{
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 35px;
 }
 
 .municipios{
@@ -371,15 +375,16 @@
  margin-top: 100px;
  font-family: 'VotorantimSans';
     color: #fff;
-    font-size:  60px;
+    font-size:  70px;
     line-height:  1em;
 }
 
 .desc-corona{
     margin-top: 30px;
     font-family: 'VotorantimSansRegular';
+    line-height: 1.3em;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .desc-material{
@@ -392,7 +397,7 @@
 }
 
 .img-municipio{
-    margin-top:-200px;
+    margin-top:-260px;
 }
 
 .juntos{
@@ -443,6 +448,7 @@
 }
 
 .btn-submit-contato{
+    font-family: 'VotorantimSansRegular';
     background-color: #0000be;
     border:none;
     color: #fff;
@@ -483,4 +489,112 @@
 .desc-post{
     padding-top: 270px;
     font-size: 15pt;
+}
+
+
+@media(max-width:479px) {
+    .btn-mobile{
+        width: 100%;
+    }
+    .btn-sobre-votorantim{
+        font-size: 13px;
+        width: 100%;
+    }
+    .btn-ivm{
+       width: 80% ;
+       margin-top: 0px;
+       font-size: 12pt;
+    }
+    .img-destque{
+        width: 98%;
+    }
+    .area-sistema{
+        height: 450px;
+    }
+    .contra-corona{
+        font-size:  30pt;
+    }
+    .btn-mais-webinar{
+        margin: 0px;
+    }
+    .titulo-ivm{
+        font-size:  20pt;
+    }
+
+    .webinar-mobile{
+        width: 86%;
+    }
+
+    .ml-mobile{
+        margin-left: 0px!important;
+    }
+
+    .espaco-mobile{
+        margin-right:0!important;
+        margin-left: 10%;
+    }
+ .logo{
+     width: 80%;
+ }
+ .header_area .navbar-brand {
+    margin-right:0px; 
+ }
+ .pessoas{
+     display: none;
+ }
+ .subtitulo-quem-somos{
+     font-size:  14pt;
+     text-align: left;
+ }
+  .todas-noticias{
+      margin-top:10px;
+  }
+  .subtitulo-indice{
+      font-size: 14pt;
+  }
+
+  .btn-inscreva-webinar{
+      margin:  0px auto;
+      display: block;
+      text-align: center;
+  } 
+  .titulo-destaque-webinar{
+      text-align: center;
+  }
+  .desc-destaque-webinar{
+      text-align: center;
+  }
+  .desc-sistema{
+      font-size: 20px;
+  }
+ .mobile{
+    height: 50px;
+ }   
+ .btn-como-foi{
+     float: none;
+     margin: 10px 0;
+ }
+ .mapa{
+     display: none;
+ }
+ .btn-edital{
+     margin-top:0px;
+     width: 100%;
+ }
+ .img-municipio{
+     margin-top: 0px;
+ }
+ .juntos{
+    margin: 10% 0;
+ }
+ .btn-material{
+     width: 80%;
+ }
+ .padding-mobile{
+     padding-top: 80px!important;
+ }
+ .top-mobile{
+    margin-top: 0px!important;
+ }
+ 
 }

@@ -552,6 +552,9 @@
   .subtitulo-indice{
       font-size: 14pt;
   }
+  #todasnoticias{
+      margin:0px!important;
+  }
 
   .btn-inscreva-webinar{
       margin:  0px auto;
@@ -596,5 +599,20 @@
  .top-mobile{
     margin-top: 0px!important;
  }
- 
+ .titulo-lista-noticias{
+  margin-top:120px;
+ }
+ .vm-stage .current-item-info{
+     font-size: 10pt;
+     position: relative;
+     top:0px;
+     padding: 20px 10px;
+     text-align: center;
+ }
+ .vm-stage{
+     background-color: #fff;
+ }
+ .play-mobile{
+     margin-top: 100px;
+ }
 }

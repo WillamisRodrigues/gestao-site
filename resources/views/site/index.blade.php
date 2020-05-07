@@ -160,7 +160,7 @@ como acionistas...
   <section class="webinar" id="webinar">
     <div class="container">
       <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title titulo-webinar">Webninars</h2>
+        <h2 class="section-intro__title titulo-webinar">Webinar</h2>
         <div class="divisao-3"></div>
         <p class="section-intro__subtitle desc-webinar">Realizado pelo Instituto Votorantim em parceria com <br>
 a BP - A Beneficência Portuguesa de São Paulo</p>
@@ -195,7 +195,7 @@ DO TRABALHADOR</p>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="#" class="btn btn-como-foi">Veja como foi</a>
+                    <a href="{{url('play/1')}}" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
                 <div class="row mb-2  espaco-mobile">
@@ -212,7 +212,7 @@ DO TRABALHADOR</p>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="#" class="btn btn-como-foi">Veja como foi</a>
+                  <a href="{{url('play/2')}}" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
                 <div class="row mb-2  espaco-mobile">
@@ -229,7 +229,7 @@ DO TRABALHADOR</p>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="#" class="btn btn-como-foi">Veja como foi</a>
+                  <a href="{{url('play/3')}}" class="btn btn-como-foi">Veja como foi</a>
                   </div>
                 </div>
               </div>

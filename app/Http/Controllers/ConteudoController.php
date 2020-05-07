@@ -86,8 +86,9 @@ class ConteudoController extends Controller
         return view('site.materiais.index');
     }
 
-    public function playlist(){
-        return view('site.playlist.index');
+    public function playlist($id_webinar=null){
+        
+        return view('site.playlist.index')->with(['webinar' => $id_webinar]);
     }
 
     public function cache(){

@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="{{url('/')}}">A INICIATIVA</a></li> 
               <li class="nav-item"><a class="nav-link" href="{{route('todas-noticias')}}">NOTÍCIAS</a></li> 
-              <li class="nav-item"><a class="nav-link" href="#webinar">WEBINAR</a></li> 
+              <li class="nav-item"><a class="nav-link" href="{{url('play/1')}}">WEBINAR</a></li> 
               <li class="nav-item"><a class="nav-link" href="#ivm">IVM</a></li>
               <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.institutovotorantim.org.br/municipioscontraocorona/">EDITAL</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('materiais-download')}}">MATERIAL DE APOIO</a></li>

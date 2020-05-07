@@ -24,8 +24,8 @@ Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia'])
 Route::get('/noticias', ['uses' => 'NoticiaController@lista', 'as' => 'todas-noticias']);
 Route::get('/posts', ['uses' => 'NoticiaController@post', 'as' => 'post']);
 Route::get('/webinar', ['uses' => 'ConteudoController@webinar', 'as' => 'webinar']);
-Route::get('/play', ['uses' => 'ConteudoController@playlist', 'as' => 'play']);
+Route::get('/play/{id_webinar?}', ['uses' => 'ConteudoController@playlist', 'as' => 'play/']);
 Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais', 'as' => 'materiais-download']);
-Route::post('/cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
+Route::post('{id_webinar?}/cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);
 Auth::routes();

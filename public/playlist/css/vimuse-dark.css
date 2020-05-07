@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'VotorantimSansBlack';
+  src: url('../fonts/VotorantimSans-Black_WebOnly.ttf') format('truetype');
+}
 /******************** Player App **********************/
 .vm-container {
   width: 100%;
@@ -155,23 +159,15 @@
 /******************** Current item info **********************/
 .vm-stage .current-item-info {
   position: absolute;
-  top: 0;
+  top: -130px;
   left: 0;
   right: 0;
   z-index: 10;
+  line-height: 1.3em;
   padding: 10px;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.5);
-  font: 14px/1.4 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #fff;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  -webkit-transition: opacity 400ms ease;
-  -moz-transition: opacity 400ms ease;
-  -ms-transition: opacity 400ms ease;
-  -o-transition: opacity 400ms ease;
-  transition: opacity 400ms ease;
+  font-family: 'VotorantimSansBlack';
+  font-size: 20pt;
+  color: #0000be;
 }
 .vm-stage:hover .current-item-info {
   opacity: 1;
@@ -792,14 +788,7 @@
   border-bottom: none;
 }
 .vm-playlist li.current {
-  background-color: #0099ff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0099ff), to(#005288));
-  background-image: -webkit-linear-gradient(top, #0099ff, #005288);
-  background-image: -moz-linear-gradient(top, #0099ff, #005288);
-  background-image: -ms-linear-gradient(top, #0099ff, #005288);
-  background-image: -o-linear-gradient(top, #0099ff, #005288);
-  background-image: linear-gradient(to bottom, #0099ff, #005288);
-  -pie-background: linear-gradient(top, #0099ff, #005288);
+  background-color: #0100be;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.7);

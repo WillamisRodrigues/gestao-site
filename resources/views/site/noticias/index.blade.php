@@ -30,7 +30,7 @@ aos seus 100 anos, como a Votorantim S.A.,
 grandes questões globais é proporcional ao
 seu tamanho...  
             </p>
-            <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
@@ -50,7 +50,7 @@ E foi pensando nisso que o Instituto
 Votorantim preparou um evento cheio de
 motivação para receber e reenergizar os...
               </p>
-              <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
+              <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
@@ -71,7 +71,7 @@ e do Banco Nacional de Desenvolvimento
 Econômico e Social (BNDES), bem
 como acionistas...    
             </p>
-            <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>

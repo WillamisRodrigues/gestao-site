@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="{{asset('site/vendors/owl-carousel/owl.carousel.min.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/style.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/main.css')}}">
+  <link rel="stylesheet" href="{{asset('site/css/responsive.css')}}">
 </head>
 <body>
  @yield('conteudo')

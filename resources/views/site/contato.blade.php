@@ -163,7 +163,7 @@ sugestões, deixe sua mensagem.</p>
 
             <div class="col-sm-3 duas-logos" style="margin-right:0; text-align:center">
 
-                <img class="" style="width: 100px;" src="{{asset('site/img/empresas/8.png')}}" alt="#">
+                <img class="logo-8" style="width: 100px;" src="{{asset('site/img/empresas/8.png')}}" alt="#">
 
                 <img class="logo-3" style="width: 100px;" src="{{asset('site/img/empresas/9.png')}}" alt="#">
 
@@ -171,7 +171,7 @@ sugestões, deixe sua mensagem.</p>
 
           
 
-            <div class="col-sm-4" style="width:35%">
+            <div class="col-sm-4 mobile-w" style="width:35%">
 
                 <img class="logo-4" style="width: 200px;" src="{{asset('site/img/empresas/10.png')}}" alt="#">
 

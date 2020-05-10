@@ -1,0 +1,340 @@
+@media screen and (max-width: 2000px) and (min-width: 1101px) {
+
+    .subtitulo-indice{
+        width: 50%;
+    }
+    
+    .pessoas{
+        margin-top: 0px!important;
+    }
+    .mapa{
+        right: 10%!important;
+        width: 33%!important;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1100px) {
+   
+    .logo{
+        width: 90%;
+    }
+    .header_area .navbar .nav .nav-item .nav-link{
+        font-size: 10px;
+    }
+ 
+    .btn-sobre-votorantim{
+        width: 85%;
+    }
+    .pessoas{
+     margin-top: 290px;
+    }
+    .img-destque{
+        width: 95%;
+    }
+ 
+    .btn-ivm{
+     font-size: 12pt;
+     margin-top:280px;
+     margin-left: -520px;
+ }
+ .mapa{
+    margin-top:430px;
+    right: 8%!important;
+    width: 32%!important;
+ }
+ .area-sistema{
+     height: 380px;
+ }
+ .desc-sistema{
+     margin-top:80px;
+ }
+ 
+ .btn-edital{
+     width: 60%;
+ }
+ 
+ .img-municipio {
+     margin-top: -100px;
+ }
+ 
+ .btn-mobile{
+     width: 100%;
+ }
+ .logo-8{
+     width: 60px!important;
+ }
+ .logo-3{
+     width: 60px!important;
+ }
+ .logo-4{
+     width: 130px!important;
+ }
+ .logo-5{
+     width: 60px!important;
+ }
+ 
+    
+
+}
+
+@media screen and (max-width: 1099px) and (min-width: 793px) {
+    
+    
+   .logo{
+       width: 90%;
+   }
+   .header_area .navbar .nav .nav-item .nav-link{
+       font-size: 10px;
+   }
+
+   .btn-sobre-votorantim{
+       width: 85%;
+   }
+   .pessoas{
+    margin-top: 310px;
+   }
+   .img-destque{
+       width: 95%;
+   }
+
+   .btn-ivm{
+    font-size: 12pt;
+    margin-top:280px;
+    margin-left: -520px;
+}
+.mapa{
+   margin-top:430px;
+   right: 8%!important;
+   width: 35%!important;
+}
+.area-sistema{
+    height: 380px;
+}
+.desc-sistema{
+    margin-top:80px;
+}
+
+.btn-edital{
+    width: 60%;
+}
+
+.img-municipio {
+    margin-top: -100px;
+}
+
+.btn-mobile{
+    width: 100%;
+}
+.logo-8{
+    width: 60px!important;
+}
+.logo-3{
+    width: 60px!important;
+}
+.logo-4{
+    width: 130px!important;
+}
+.logo-5{
+    width: 60px!important;
+}
+
+}
+
+@media screen and (max-width: 792px) and (min-width: 780px) { 
+    
+    .pessoas{
+        display: none; 
+     }
+     .btn-sobre-votorantim{
+         text-align: center;
+     }
+     .img-destque{
+         margin: 0 auto;
+         display: block;
+     }
+     .titulo-destaque-webinar{
+         text-align: center;
+     }
+     .mobile{
+         height: 50px;
+     }
+     .btn-inscreva-webinar{
+         margin-left: 40%;
+     }
+     .btn-ivm{
+         font-size: 12pt;
+         margin-top:280px;
+         margin-left: -400px;
+     }
+     .mapa{
+        margin-top:480px;
+        right: 10%;
+        width: 35%;
+     }
+     .juntos{
+         margin-left: 100px;
+         margin-top: 30%;
+     }
+    
+     .area-sistema{
+         height: 380px;
+     }
+     .desc-sistema{
+         margin-top:80px;
+     }
+ 
+     .img-municipio{
+         margin-top: -100px;
+     }
+     .btn-edital{
+         width: 100%;
+     }
+     .btn-mobile{
+         width: 100%;
+     }
+     .logo-8{
+         width: 60px!important;
+     }
+     .logo-3{
+         width: 60px!important;
+     }
+     .logo-4{
+         width: 130px!important;
+     }
+     .logo-5{
+         width: 60px!important;
+     }
+}
+
+@media screen and (max-width: 779px) and (min-width: 768px) {
+    
+    .pessoas{
+       display: none; 
+    }
+    .btn-sobre-votorantim{
+        text-align: center;
+    }
+    .img-destque{
+        margin: 0 auto;
+        display: block;
+    }
+    .titulo-destaque-webinar{
+        text-align: center;
+    }
+    .mobile{
+        height: 50px;
+    }
+    .btn-inscreva-webinar{
+        margin-left: 40%;
+    }
+    .btn-ivm{
+        font-size: 12pt;
+    }
+    .mapa{
+       margin-top:480px;
+       right: 10%;
+       width: 35%;
+    }
+    .juntos{
+        margin-left: 100px;
+        margin-top: 30%;
+    }
+    .btn-ivm{
+        margin-top:280px;
+        margin-left: -400px;
+    }
+    .area-sistema{
+        height: 380px;
+    }
+    .desc-sistema{
+        margin-top:80px;
+    }
+
+    .img-municipio{
+        margin-top: -100px;
+    }
+    .btn-edital{
+        width: 100%;
+    }
+    .btn-mobile{
+        width: 100%;
+    }
+    .logo-8{
+        width: 60px!important;
+    }
+    .logo-3{
+        width: 60px!important;
+    }
+    .logo-4{
+        width: 130px!important;
+    }
+    .logo-5{
+        width: 60px!important;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    
+	.pessoas{
+        display: none; 
+     }
+     .btn-sobre-votorantim{
+         text-align: center;
+         width: 100%;
+     }
+     .img-destque{
+         margin: 0 auto;
+         display: block;
+     }
+     .titulo-destaque-webinar{
+         text-align: center;
+     }
+     .mobile{
+         height: 50px;
+     }
+     .btn-inscreva-webinar{
+         margin-left: 40%;
+     }
+     .btn-ivm{
+         font-size: 12pt;
+     }
+     .mapa{
+        margin-top:880px;
+        right: 10%;
+        width: 35%;
+     }
+     .juntos{
+         margin-top: 10%;
+         width: 40%;
+     }
+     .btn-ivm{
+         margin-top:-20px;
+         margin-left: 0px;
+         width: 50%;
+     }
+     .area-sistema{
+         height: 380px;
+     }
+     .desc-sistema{
+         margin-top:80px;
+     }
+ 
+     .img-municipio{
+         margin-top: -100px;
+     }
+     .btn-edital{
+         width: 100%;
+     }
+     .logo-8{
+         width: 40px!important;
+     }
+     .logo-3{
+         width: 40px!important;
+     }
+     .logo-4{
+         width: 60px!important;
+     }
+     .logo-5{
+         width: 60px!important;
+     }
+}

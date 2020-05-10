@@ -407,6 +407,8 @@
 
 .empresa{
     width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 
 .top-40{
@@ -492,13 +494,18 @@
 }
 
 
-@media(max-width:479px) {
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .mobile-w{
+       width:100%!important;
+    }
+
     .btn-mobile{
         width: 100%;
     }
     .btn-sobre-votorantim{
         font-size: 13px;
         width: 100%;
+        text-align: center;
     }
     .btn-ivm{
        width: 80% ;
@@ -615,4 +622,13 @@
  .play-mobile{
      margin-top: 100px;
  }
+ .logo-4{
+     width: 200px!important;
+     margin-left: 50px;
+     margin-top: 20px;
+ }
+ .logo-5{
+    margin-left: 100px;
+    margin-top: 20px;
+}
 }

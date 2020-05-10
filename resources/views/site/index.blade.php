@@ -63,19 +63,19 @@
           <h2 class="section-intro__title quem-somos">A INICIATIVA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-quem-somos top-40">
-          Promovido pelo Instituto Votorantim, o “Municípios contra o <br>
-Coronavírus” é uma inciativa do Programa de Apoio à Gestão <br>
-Pública (AGP), que visa apoiar os municípios brasileiros no <br>
-gerenciamento e enfrentamento  da crise relacionada a <br>
-COVID-19 promovendo webinars de temas relacionados a <br>
-gestão de saúde, edital para assessoria técnica e personalizada <br>
-aos municípios, além da disponibilização de materiais de <br>
+          Promovido pelo Instituto Votorantim, o “Municípios contra o 
+Coronavírus” é uma inciativa do Programa de Apoio à Gestão 
+Pública (AGP), que visa apoiar os municípios brasileiros no 
+gerenciamento e enfrentamento  da crise relacionada a 
+COVID-19 promovendo webinars de temas relacionados a 
+gestão de saúde, edital para assessoria técnica e personalizada 
+aos municípios, além da disponibilização de materiais de
 comunicação sobre prevenção e combate ao coronavírus. 
           </p>
           <p class="mt-2 subtitulo-quem-somos">
             Navegue pelo site e conheça as frentes de atuação.
           </p>
-           <a href="" class="btn btn-sobre-votorantim">Para saber mais sobre o Instituto Votorantim <br>
+           <a href="http://www.institutovotorantim.org.br/" target="_blank" class="btn btn-sobre-votorantim">Para saber mais sobre o Instituto Votorantim <br>
                     e os demais programas, clique aqui.
            </a>
            <div style="height:90px;"></div>
@@ -111,7 +111,7 @@ aos seus 100 anos, como a Votorantim S.A.,
 grandes questões globais é proporcional ao
 seu tamanho...  
             </p>
-            <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
@@ -130,7 +130,7 @@ E foi pensando nisso que o Instituto
 Votorantim preparou um evento cheio de
 motivação para receber e reenergizar os...
               </p>
-              <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
+              <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
@@ -150,7 +150,7 @@ e do Banco Nacional de Desenvolvimento
 Econômico e Social (BNDES), bem
 como acionistas...    
             </p>
-            <a href="" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
@@ -160,9 +160,9 @@ como acionistas...
   <section class="webinar" id="webinar">
     <div class="container">
       <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title titulo-webinar">Webinar</h2>
+        <h2 class="section-intro__title titulo-webinar">Webinars</h2>
         <div class="divisao-3"></div>
-        <p class="section-intro__subtitle desc-webinar">Realizado pelo Instituto Votorantim em parceria com <br>
+        <p class="section-intro__subtitle desc-webinar">Realizado pelo Instituto Votorantim em parceria com 
 a BP - A Beneficência Portuguesa de São Paulo</p>
       </div>
 
@@ -234,7 +234,7 @@ DO TRABALHADOR</p>
                 </div>
               </div>
               <div class="col-md-12">
-                <a href="" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
+                <a href="{{url('play/1')}}" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
                   </div>
               </div>
               
@@ -243,22 +243,22 @@ DO TRABALHADOR</p>
       </div>
     </div>
   </section>
-  <section class="indice" id="ivm" style="background-image: url({{asset('site/img/banner-blue.png')}}); background-size:100% 50%;">
-  <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa">  
+  <section class="indice" id="ivm" style="background-color: #0100be;">
+  <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa img-responsive">  
   <div>
       <div class="container">
         <h2 class="section-intro__title titulo-ivm">Índice de vulnerabilidade <br> Municipal (IVM) </h2>
         <div class="divisao-4"></div>
         <p class="section-intro__subtitle subtitulo-indice top-40">
-        O IVM foi elaborado com objetivo de indicar o grau de <br>
-vulnerabilidade de cada município brasileiro em relação <br>
-aos impactos provocados pela pandemia de Covid-19. <br>
-O IVM utiliza dados secundários públicos obtidos por <br>
+        O IVM foi elaborado com objetivo de indicar o grau de 
+vulnerabilidade de cada município brasileiro em relação 
+aos impactos provocados pela pandemia de Covid-19. 
+O IVM utiliza dados secundários públicos obtidos por 
 meio de fontes oficiais.
         </p>
         <p class="section-intro__subtitle subtitulo-indice mt-4">
-        A consulta e utilização do IVM é disponibilizada gratuitamente <br>
-para apoiar a tomada de decisão de gestores públicos e privados <br>
+        A consulta e utilização do IVM é disponibilizada gratuitamente 
+para apoiar a tomada de decisão de gestores públicos e privados 
 envolvidos em ações de combate à pandemia.   
         </p>
       </div>
@@ -269,14 +269,14 @@ envolvidos em ações de combate à pandemia.
       <div class="row">
         <div class="col-md-7">
         <p class="section-intro__subtitle desc-sistema top-40">
-       O sistema permite a realização de buscas por regiões <br>
-geográficas, pilares temáticos, níveis de criticidade e o <br>
-cruzamento com o número de casos confirmados e <br>
+       O sistema permite a realização de buscas por regiões 
+geográficas, pilares temáticos, níveis de criticidade e o 
+cruzamento com o número de casos confirmados e 
 óbitos por município, que são atualizados diariamente.
         </p>
         </div>
         <div class="col-md-5">
-            <a href="" class="btn btn-ivm">Acesse o IVM do seu município</a>
+            <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/teste-site/ivm/" target="_blank" class="btn btn-ivm">Acesse o IVM do seu município</a>
         </div>
       </div>
     </div>
@@ -286,10 +286,10 @@ cruzamento com o número de casos confirmados e <br>
         <div class="row">
             <div class="col-md-6">
               <h2 class="contra-corona">Municípios <br> Contra o <br> Coronavírus </h2>
-              <p class="desc-corona">Edital de seleção de municípios com alto risco <br>
-epidemiológico para participação em programa <br>
+              <p class="desc-corona">Edital de seleção de municípios com alto risco 
+epidemiológico para participação em programa 
 de capacitação em gestão do combate ao coronavírus.</p>
-              <a href="" class="btn btn-edital">
+              <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/" target="_blank" class="btn btn-edital">
               Conheça mais sobre a iniciativa. <br>
 Veja os municípios selecionados. 
               </a>
@@ -314,7 +314,7 @@ Veja os municípios selecionados.
 técnicos e de divulgação da iniciativa <br>
 Municípios Contra o Corona.
         </p>
-        <a href="" class="btn btn-material">Acesse e baixe o material</a>
+        <a href="{{route('materiais-download')}}" class="btn btn-material">Acesse e baixe o material</a>
       </div>
     </div>
   </section>

@@ -12,11 +12,13 @@
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
+  <div class="carousel-inner" role="listbox" >
+    <div class="carousel-item active" >
       <div class="view">
         <a href="">
-            <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade.jpg')}}"
           alt="First slide">
         </a>
       </div>
@@ -25,8 +27,10 @@
       <!--Mask color-->
       <div class="view">
         <a href="">
-          <img class="d-block w-100" src="{{asset('site/img/banner/2.jpg')}}"
-          alt="Second slide">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/2.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade2.jpg')}}"
+          alt="First slide">
         </a>
       </div>
     </div>
@@ -34,8 +38,10 @@
       <!--Mask color-->
       <div class="view">
         <a href="">
-          <img class="d-block w-100" src="{{asset('site/img/banner/1.jpg')}}"
-          alt="Third slide">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade3.jpg')}}"
+          alt="First slide">
         </a>
         <div class="mask rgba-black-slight"></div>
       </div>

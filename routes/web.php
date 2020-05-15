@@ -29,4 +29,5 @@ Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais'
 Route::post('{id_webinar?}/cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);
 Route::get('/contato', ['uses' => 'ContatoController@index', 'as' => 'contato']);
+Route::get('/agenda', ['uses' => 'CalendarioController@index', 'as' => 'agenda']);
 Auth::routes();

@@ -13,7 +13,7 @@ sugestões, deixe sua mensagem.</p>
 
                     <div class="form-group">
 
-                        <label for="nome" class="titulo-botao titulo-contato">Nome:</label>
+                        <label for="nome" class="titulo-botao titulo-contato-item">Nome:</label>
 
                         <input type="text" class="form-control btn-contato btn-form-contato" name="nome" required>
 
@@ -21,7 +21,7 @@ sugestões, deixe sua mensagem.</p>
 
                     <div class="form-group">
 
-                        <label for="municipio" class="titulo-botao titulo-contato">Telefone:</label>
+                        <label for="municipio" class="titulo-botao titulo-contato-item">Telefone:</label>
 
                         <input type="text"  class="form-control telefone btn-contato btn-form-contato" name="telefone" required>
 
@@ -29,7 +29,7 @@ sugestões, deixe sua mensagem.</p>
 
                     <div class="form-group">
 
-                        <label for="email" class="titulo-botao titulo-contato">Email:</label>
+                        <label for="email" class="titulo-botao titulo-contato-item">Email:</label>
 
                         <input type="email" class="form-control btn-contato btn-form-contato" name="email">
 
@@ -37,7 +37,7 @@ sugestões, deixe sua mensagem.</p>
 
                     <div class="form-group">
 
-                        <label for="municipio" class="titulo-botao titulo-contato">Município:</label>
+                        <label for="municipio" class="titulo-botao titulo-contato-item">Município:</label>
 
                         <input type="text" class="form-control btn-contato btn-form-contato" name="municipio" required>
 
@@ -53,7 +53,7 @@ sugestões, deixe sua mensagem.</p>
 
                     <div class="form-group">
 
-                        <label for="mensagem" class="titulo-botao titulo-contato">Mensagem:</label>
+                        <label for="mensagem" class="titulo-botao titulo-contato-item">Mensagem:</label>
 
                         <textarea class="form-control msg-contato btn-form-contato" row="20" col="20" name="mensagem"></textarea>
 
@@ -77,21 +77,15 @@ sugestões, deixe sua mensagem.</p>
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
 
                 <div class="heading-title">
-
-                <img src="{{asset('site/img/empresas/17.png')}}" alt="" class="btn-mobile">
+                <img src="{{asset('site/img/rodape-mobilidade.png')}}" alt="" class="rodape-mobilidade">
+                <img src="{{asset('site/img/empresas/17.png')}}" alt="" class="btn-mobile rodape-pc">
 
                 </div>
 
             </div>
-            <div class="col-sm-6">
-                    <img src="{{asset('site/img/empresas/16.png')}}" alt="" class="btn-mobile">
-            </div>
-
-            </div>
-
         </div>
 
         <div class="divisao-black"></div>
@@ -175,7 +169,7 @@ sugestões, deixe sua mensagem.</p>
 
                 <img class="logo-4" style="width: 200px;" src="{{asset('site/img/empresas/10.png')}}" alt="#">
 
-                <img class="logo-5" style="width: 100px;" src="{{asset('site/img/empresas/11.png')}}" alt="#">
+                <img class="logo-5 logo-align" style="width: 100px;" src="{{asset('site/img/empresas/11.png')}}" alt="#">
 
             </div>
 

@@ -65,8 +65,8 @@ h2,
 	}
 
 	.pessoas{
-		width: 43%;
 		margin-top:150px;
+		width: 30%;
 	}
 
 	.mapa{
@@ -232,11 +232,12 @@ h3,
 .header_area .navbar .nav .nav-item .nav-link {
 	font-family: "Roboto", sans-serif;
 	color: #fff;
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: capitalize;
 	font-weight: 700;
 	display: inline-block;
 }
+
 
 .header_area .navbar .nav .nav-item .nav-link:after {
 	display: none
@@ -438,7 +439,7 @@ h3,
 
 @media (max-width: 1199px) {
 	.header_area .navbar .nav .nav-item {
-		margin-right: 28px
+		margin-right: 0px
 	}
 	.home_banner_area .banner_inner {
 		padding: 100px 0px

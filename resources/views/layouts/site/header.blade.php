@@ -14,10 +14,11 @@
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="#home">A INICIATIVA</a></li> 
-              <li class="nav-item"><a class="nav-link" href="#noticias">NOTÍCIAS</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#gestao-publica">APOIO À GESTÃO PÚBLICA</a></li> 
               <li class="nav-item"><a class="nav-link" href="#webinar">WEBINAR</a></li> 
-              <li class="nav-item"><a class="nav-link" href="#ivm">IVM</a></li>
-              <li class="nav-item"><a class="nav-link" href="#edital">EDITAL</a></li>
+              <li class="nav-item menu-mobile"><a class="nav-link" href="#ivm">ÍNDICE DE VULNERABILIDADE MUNICIPAL (IVM)</a></li> 
+              <li class="nav-item"><a class="nav-link tooltip-inner" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<p class='titulo-ivm'> ÍNDICE DE VULNERABILIDADE MUNICIPAL</p>" href="#ivm">IVM</a></li>
+              <li class="nav-item"><a class="nav-link" href="#noticias">NOTICIAS</a></li>
               <li class="nav-item"><a class="nav-link" href="#material">MATERIAL DE APOIO</a></li>
               <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
             </ul>

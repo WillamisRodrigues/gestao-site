@@ -23,40 +23,82 @@
     src: url('../fonts/VotorantimSans-Medium_WebOnly.ttf') format('truetype');
 }
 
+.tooltip-inner{ 
+    background-color: #0100be!important; 
+    margin-top: 5px;
+}
+
+.titulo-ivm{
+    margin-top: 20px!important;
+    font-family: "Roboto", sans-serif;
+   font-size: 8pt!important;
+}
 
 .quem-somos{
     font-family: 'VotorantimSansBlack';
+    font-size: 25pt!important;
     padding-top: 50px;
     color: #fff;
 }
 
+.check-iniciativa{
+    width: 20px;
+    height: 20px;
+}
 
+.desc-item-iniciativa{
+    width: 50%!important;
+    color: #fff;
+}
+
+.desc-item-iniciativa-3{
+    width: 60%!important;
+    color: #fff;
+}
+
+.area-btn{}
 
 
 .subtitulo-quem-somos{
     font-family: 'VotorantimSansLight';
     font-weight: bold;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
+    width: 55%;
+}
+
+.subtitulo-gestao-publica{
+    font-family: 'VotorantimSansLight';
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    width: 55%;
+}
+
+.destaque{
+    font-family: 'VotorantimSansBlack';
+    font-weight: 900!important;
 }
 
 .subtitulo-indice{
     font-family: 'VotorantimSansRegular';
     font-weight: bold;
     color: #fff;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .area-sistema{
   background-color: #ff6f0d;
+  margin-top: -20px;
 }
 
 .desc-sistema{
     font-family: 'VotorantimSansRegular';
-    font-size: 22px;
+    font-size: 15px;
     line-height: 1.3em;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: #fff;
+    width: 80%;
 }
 
 .divisao{
@@ -75,21 +117,33 @@
     font-family: 'VotorantimSansRegular';
     background-color: #ff6f0d;
     color: #fff;
+    text-align: center;
+    line-height: 1.3em;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+.btn-programas{
+    font-family: 'VotorantimSansRegular';
+    background-color: #ff6f0d;
+    color: #fff;
     text-align: left;
     line-height: 1.3em;
     margin-top: 20px;
-    width: 71%;
     font-weight: 500;
-    font-size: 15pt;
+    font-size: 13pt;
 }
+
+
 
 .btn-ivm{
     font-family: 'VotorantimSans';
     background-color:#fff;
-    width: 100%;
+    width: 40%;
     margin-left: 0%;
-    font-size: 20px;
-    margin-top: 80px;
+    font-size: 13px!important;
+    margin-top: 35px;
     position: absolute;
     color: #ff6f0d;
     font-size: 20pt;
@@ -108,6 +162,7 @@
 
 .btn-material{
     font-family: 'VotorantimSansRegular';
+    font-size: 13pt;
     background-color: #0000be;
     color: #fff;
     margin-top: 20px;
@@ -121,9 +176,11 @@
 }
 
 .btn-leia-mais{
+    font-family: 'VotorantimSans';
     background-color: #ff6f0d;
     color: #fff;
     text-align: left;
+    font-size: 10pt;
     margin-top: 20px;
     font-weight: bold;
 }
@@ -141,13 +198,14 @@
 .titulo-noticia{
     font-family: 'VotorantimSansBlack';
     color: #fff;
+    font-size: 25pt;
 }
 
 
 
 .titulo-item-noticia{
     font-family: 'VotorantimSansBlack';
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -157,12 +215,18 @@
     font-weight: bold;
     font-size: 10pt;
 }
+
+.desc-material-down{
+    font-family: 'VotorantimSansRegular';
+    font-weight: bold;
+    font-size: 10pt;
+}
 .desc-contato{
     font-family: 'VotorantimSansRegular';
     font-weight: bold;
     color: #0000be;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 15pt;
     line-height: 1.3em;
 }
 
@@ -196,6 +260,7 @@
 .titulo-webinar{
     font-family: 'VotorantimSansBlack';
     color: #fff;
+    font-size: 25pt;
     text-transform: uppercase;
 }
 
@@ -213,15 +278,34 @@
 
 .sobre-iniciativa{
    background-color: #de1754;
+   position: relative;
+   height: auto!important;
 }
 
+.gestao-publica{
+    background-color: #0000be;
+    position: relative;
+    height: auto!important;
+ }
+
+.pessoas{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.predios{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
 
 .data{
     font-family: 'VotorantimSansBlack';
     color: #fff;
     text-align: center;
     font-size: 33px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .desc-data{
@@ -237,6 +321,7 @@
     font-family: 'VotorantimSansRegular';
     text-transform: uppercase;
     line-height: 1.2em;
+    font-size: 13pt;
     margin-top: -10px;
     padding-bottom: 10px;
     font-weight: 900;
@@ -244,11 +329,10 @@
 
 .btn-como-foi{
     font-family: 'VotorantimSansMedium';
-    font-size: 8px;
+    font-size: 13px;
     background-color: #e54576;
     color: #fff;
-    text-align: left;
-    margin-top: 36px;
+    margin-top: 60%;
     font-weight: bold;
     float: right;
 }
@@ -262,10 +346,11 @@
 }
 
 .btn-mais-webinar{
+    font-family: 'VotorantimSansRegular';
+    font-size: 13pt;
     background-color: #e54576;
     color: #fff;
    font-weight: bold;
-    margin: 30px 25%;
     padding: 10px;
 }
 .btn-inscreva-webinar{
@@ -286,6 +371,7 @@
     font-family: 'VotorantimSansBlack';
     color: #ff6f0d;
     padding-top: 10px;
+    font-size: 16pt;
     line-height: 1.2em;
 }
 
@@ -294,7 +380,7 @@
    color: #fff;
    margin-top: 20px;
    font-weight: 900;
-   font-size:  20px;
+   font-size:  15px;
 }
 
 .divisao-3{
@@ -338,9 +424,11 @@
 }
 
 .mapa{
-    width: 31%;
-    right: 16%;
+    width: 25%;
+    left: 50%;
     position: absolute;
+    margin-top: -20px;
+    
 }
 
 .conteudo-ivm{
@@ -355,10 +443,10 @@
     padding: 20px;
 }
 
-.titulo-ivm{
+.titulo-ivm-mapa{
     font-family: 'VotorantimSansBlack';
     color: #fff;
-    font-size:  44px;
+    font-size:  25px;
     text-transform: uppercase;
 }
 
@@ -393,7 +481,7 @@
     color: #0000be;
     text-transform: none!important;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15pt;
 }
 
 .img-municipio{
@@ -435,6 +523,7 @@
 .material{
     font-family: 'VotorantimSansBlack';
     padding-top: 20px;
+    font-size: 25pt;
     color: #0000be;
     background-color: #b4dc31;
     text-transform: uppercase;
@@ -443,6 +532,13 @@
 .titulo-contato{
     font-family: 'VotorantimSansBlack';
     color: #0000be;
+    font-size: 25pt;
+}
+
+.titulo-contato-item{
+    font-family: 'VotorantimSansBlack';
+    color: #0000be;
+    font-size: 14pt;
 }
 
 .btn-form-contato{
@@ -497,7 +593,80 @@
     display: none!important;
 }
 
+.rodape-mobilidade,.menu-mobile{
+   display: none;
+}
+
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .titulo-post{
+        font-size: 25pt;
+    }
+
+    .img-noticia {
+        width: 80%;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .titulo-noticia,.todas-noticias,
+    .titulo-item-noticia,.material,
+    .titulo-contato{
+        font-size: 14pt;
+    }
+
+    .rodape-mobilidade{
+        display: block!important;
+     }
+     
+
+    .rodape-pc, .tooltip-inner{
+        display: none!important;
+    }
+
+    .rodape-mobilidade{
+        width: 100%;
+    }
+
+    .desc-contato,.titulo-contato-item{
+        font-size: 12pt;
+    }
+    .titulo-ivm-mapa{
+        font-size: 14pt;
+    }
+    .tema-webinar{
+        font-size: 14pt;
+    }
+    .data{
+        font-size: 22pt!important;
+    }
+    .titulo-webinar{
+        font-size: 14pt;
+    }
+    .desc-material{
+        font-size: 12pt;
+        padding: 5px;
+    }
+    .desc-tema-webinar{
+        font-size: 12pt;
+        margin-top: 0px;
+    }
+    .desc-webinar{
+        font-size: 12pt;
+    }
+    .subtitulo-gestao-publica{
+        width: 100%!important;
+    }
+    .desc-item-iniciativa{
+        width: 85%!important;
+    }
+    .quem-somos{
+        font-size: 14pt!important;
+    }
+    .btn-programas{
+        font-size: 10pt;
+        text-align: center;
+        margin-bottom: 100px;
+    }
     .slide-mobile{
         display: block!important;
     }
@@ -513,7 +682,8 @@
     }
     .btn-sobre-votorantim{
         font-size: 13px;
-        width: 100%;
+        width: 80%;
+        margin-left: 25px;
         text-align: center;
     }
     .btn-ivm{
@@ -521,17 +691,22 @@
        margin-top: 0px;
        font-size: 12pt;
     }
+
+    .desc-item-iniciativa-3{
+        width: 70%!important;
+    }
     .img-destque{
         width: 98%;
     }
     .area-sistema{
-        height: 450px;
+        height: 260px;
     }
     .contra-corona{
         font-size:  30pt;
     }
     .btn-mais-webinar{
         margin: 0px;
+        font-size: 13pt;
     }
     .titulo-ivm{
         font-size:  20pt;
@@ -559,14 +734,16 @@
      display: none;
  }
  .subtitulo-quem-somos{
-     font-size:  14pt;
+     font-size:  12pt;
      text-align: left;
+     width: 100%;
  }
+
   .todas-noticias{
       margin-top:10px;
   }
   .subtitulo-indice{
-      font-size: 14pt;
+      font-size: 12pt;
   }
   #todasnoticias{
       margin:0px!important;
@@ -584,13 +761,15 @@
       text-align: center;
   }
   .desc-sistema{
-      font-size: 20px;
+      font-size: 12pt;
+      width: 100%!important;
   }
  .mobile{
     height: 50px;
  }   
  .btn-como-foi{
      float: none;
+     display: block;
      margin: 10px 0;
  }
  .mapa{
@@ -608,6 +787,7 @@
  }
  .btn-material{
      width: 80%;
+     font-size: 13pt;
  }
  .padding-mobile{
      padding-top: 80px!important;
@@ -637,7 +817,65 @@
      margin-top: 20px;
  }
  .logo-5{
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 20px;
 }
+
+.logo-align{
+    margin-left: 28%!important;
+    margin-top: 20px;
+}
+
+
+
+}
+
+#agenda .mes{
+    margin:50px 0px 20px 0px;
+    color: #0000be;
+}
+
+#agenda .btn-agenda{
+    font-family: 'VotorantimSansMedium';
+    font-size: 13px;
+    background-color: #e54576;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#agenda .titulo{
+    font-family: 'VotorantimSansBlack';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#agenda .participante{
+    font-family: 'VotorantimSansBlack';
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#agenda .footer{
+    font-family: 'VotorantimSansBlack';
+    font-size: 13px;
+    float: right;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+#agenda .card{
+    margin-top:50px!important;
+}
+
+#agenda .area-mediador{
+    font-family: 'VotorantimSansBlack';
+    font-size: 12px;
+    text-transform: uppercase!important;
+    margin: 40px 0px;
+}
+#agenda .desc-agenda{
+    font-family: 'VotorantimSansRegular';
+    font-weight: bold;
+    font-size: 10pt;
 }

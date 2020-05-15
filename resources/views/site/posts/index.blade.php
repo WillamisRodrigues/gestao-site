@@ -76,15 +76,20 @@
                         <!-- Row -->
                         <div class="row">
                            <!-- column -->
-                           <div class="col-lg-3 col-md-6 img-fluid">
+                           <div class="col-lg-4 col-md-6 img-fluid">
                                 <!-- Card -->
                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{asset('admin/assets/images/big/img1.jpg')}}" alt="Card image cap">
+                                <img width="100%" src="{{asset('site/img/noticias/1.jpg')}}" alt="">
                                     <div class="card-body">
                                     <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong> Then Came The Night Of The First Falling Star. </strong> </h4>
-                                        <p class="card-text desc-noticia">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
+                                        <h4 class="card-title titulo-item-noticia"> <strong> Guia de Planejamento
+da Atuação Social
+(ISE) 2019 </strong> </h4>
+                                        <p class="card-text desc-noticia"> O grande desafio para uma empresa que chega
+aos seus 100 anos, como a Votorantim S.A.,
+é entender que sua responsabilidade perante às
+grandes questões globais é proporcional ao
+seu tamanho...  </p>
                                         <a href="{{ route('post') }}" class="btn btn-leia-mais"> > Leia Mais </a>
                                     </div>
                                 </div>
@@ -92,15 +97,19 @@
                             </div>
                             <!-- column -->
                             <!-- column -->
-                            <div class="col-lg-3 col-md-6 img-fluid">
+                            <div class="col-lg-4 col-md-6 img-fluid">
                                 <!-- Card -->
                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{asset('admin/assets/images/big/img2.jpg')}}" alt="Card image cap">
+                                <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
                                     <div class="card-body">
                                     <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong> Then Came The Night Of The First Falling Star. </strong> </h4>
-                                        <p class="card-text desc-noticia">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
+                                        <h4 class="card-title titulo-item-noticia"> <strong> Animação, engajamento e
+educação na Oficina de
+Mobilização do PVE 2019! </strong> </h4>
+                                        <p class="card-text desc-noticia"> Não há como falar de educação sem engajar.
+E foi pensando nisso que o Instituto
+Votorantim preparou um evento cheio de
+motivação para receber e reenergizar os...</p>
                                         <a href="{{ route('post') }}" class="btn btn-leia-mais"> > Leia Mais </a>
                                     </div>
                                 </div>
@@ -108,31 +117,20 @@
                             </div>
                             <!-- column -->
                             <!-- column -->
-                            <div class="col-lg-3 col-md-6 img-fluid">
+                            <div class="col-lg-4 col-md-6 img-fluid">
                                 <!-- Card -->
                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{asset('admin/assets/images/big/img3.jpg')}}" alt="Card image cap">
+                                <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
                                     <div class="card-body">
                                     <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong> Then Came The Night Of The First Falling Star. </strong> </h4>
-                                        <p class="card-text desc-noticia">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
-                                        <a href="{{ route('post') }}" class="btn btn-leia-mais"> > Leia Mais </a>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-                            <!-- column -->
-                            <!-- column -->
-                            <div class="col-lg-3 col-md-6 img-fluid">
-                                <!-- Card -->
-                                <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{asset('admin/assets/images/big/img4.jpg')}}" alt="Card image cap">
-                                    <div class="card-body">
-                                    <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong> Then Came The Night Of The First Falling Star. </strong> </h4>
-                                        <p class="card-text desc-noticia">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
+                                        <h4 class="card-title titulo-item-noticia"> <strong>#MissãoPiauí
+programas e projetos
+sociais em ação! </strong> </h4>
+                                        <p class="card-text desc-noticia">Em julho, representantes do Instituto
+Votorantim (iV), da Votorantim Energia (VE)
+e do Banco Nacional de Desenvolvimento
+Econômico e Social (BNDES), bem
+como acionistas...    </p>
                                         <a href="{{ route('post') }}" class="btn btn-leia-mais"> > Leia Mais </a>
                                     </div>
                                 </div>

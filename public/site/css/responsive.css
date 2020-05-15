@@ -4,12 +4,24 @@
         width: 50%;
     }
     
-    .pessoas{
-        margin-top: 0px!important;
-    }
     .mapa{
         right: 10%!important;
-        width: 33%!important;
+        width: 25%!important;
+
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .predios{
+        margin-top: 10px;
+    }
+
+    .btn-programas{
+        margin-bottom: 100px;
+    }
+
+    .tooltip-inner{
+        text-align: left;
     }
 }
 
@@ -18,32 +30,40 @@
     .logo{
         width: 90%;
     }
+    .tooltip-inner{
+        margin-top: 4px;
+    }
     .header_area .navbar .nav .nav-item .nav-link{
-        font-size: 10px;
+        font-size: 12px;
+    }
+    
+    .area-btn{
+        width: 100%;
     }
  
     .btn-sobre-votorantim{
-        width: 85%;
-    }
-    .pessoas{
-     margin-top: 290px;
+        margin-left:10px!important;
     }
     .img-destque{
         width: 95%;
     }
  
     .btn-ivm{
-     font-size: 12pt;
-     margin-top:280px;
-     margin-left: -520px;
+        font-size: 12pt;
+        margin-top: 50px;
+        width: 60%;
  }
  .mapa{
-    margin-top:430px;
+    margin-top: -20px;
     right: 8%!important;
-    width: 32%!important;
+    width: 35%!important;
+ }
+
+ .subtitulo-indice{
+     width: 50%;
  }
  .area-sistema{
-     height: 380px;
+    height: 140px;
  }
  .desc-sistema{
      margin-top:80px;
@@ -84,14 +104,13 @@
        width: 90%;
    }
    .header_area .navbar .nav .nav-item .nav-link{
-       font-size: 10px;
+       font-size: 12px;
    }
-
-   .btn-sobre-votorantim{
-       width: 85%;
-   }
+   .subtitulo-quem-somos{
+    width: 100%;
+}
    .pessoas{
-    margin-top: 310px;
+    display: none;
    }
    .img-destque{
        width: 95%;
@@ -99,16 +118,19 @@
 
    .btn-ivm{
     font-size: 12pt;
-    margin-top:280px;
-    margin-left: -520px;
+    margin-top:40px;
+    width: 60%;
 }
 .mapa{
-   margin-top:430px;
    right: 8%!important;
-   width: 35%!important;
+   width: 38%!important;
+   margin-top:140px;
 }
 .area-sistema{
-    height: 380px;
+    height: 140px;
+}
+.subtitulo-indice{
+    width: 50%;
 }
 .desc-sistema{
     margin-top:80px;
@@ -133,6 +155,7 @@
 }
 .logo-4{
     width: 130px!important;
+    margin-left: -30px;
 }
 .logo-5{
     width: 60px!important;
@@ -163,13 +186,13 @@
      }
      .btn-ivm{
          font-size: 12pt;
-         margin-top:280px;
-         margin-left: -400px;
+         margin-top:30px;
+         width: 80%;
      }
      .mapa{
-        margin-top:480px;
+        margin-top: 140px;
         right: 10%;
-        width: 35%;
+        width: 38%;
      }
      .juntos{
          margin-left: 100px;
@@ -177,7 +200,10 @@
      }
     
      .area-sistema{
-         height: 380px;
+         height: 140px;
+     }
+     .subtitulo-indice{
+         width: 50%;
      }
      .desc-sistema{
          margin-top:80px;
@@ -207,7 +233,9 @@
 }
 
 @media screen and (max-width: 779px) and (min-width: 768px) {
-    
+    .subtitulo-quem-somos{
+        width: 100%;
+    }
     .pessoas{
        display: none; 
     }
@@ -231,20 +259,19 @@
         font-size: 12pt;
     }
     .mapa{
-       margin-top:480px;
-       right: 10%;
-       width: 35%;
+       display: none;
     }
     .juntos{
         margin-left: 100px;
         margin-top: 30%;
     }
     .btn-ivm{
-        margin-top:280px;
+        margin-top: 160px;
         margin-left: -400px;
+        width: 80%;
     }
     .area-sistema{
-        height: 380px;
+        height: 250px;
     }
     .desc-sistema{
         margin-top:80px;
@@ -274,7 +301,9 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 481px) {
-    
+    .subtitulo-quem-somos{
+        width: 100%;
+    }
 	.pessoas{
         display: none; 
      }
@@ -301,7 +330,7 @@
      .mapa{
         margin-top:880px;
         right: 10%;
-        width: 35%;
+        width: 25%;
      }
      .juntos{
          margin-top: 10%;
@@ -337,4 +366,64 @@
      .logo-5{
          width: 60px!important;
      }
+}
+
+
+@media screen and (max-width: 1099px) and (min-width: 894px) {
+    
+    .mapa{
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 981px) and (min-width: 893px) {
+    
+    .mapa{
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 775px) and (min-width: 500px) {
+
+    .todasnoticias{
+        margin:0px;
+    }
+      .webinar-mobile{
+          height: 100px;
+      }
+
+      .btn-como-foi{
+          margin-top: 10%;
+      }
+
+      .rodape-pc{
+           width: 100%;
+      }
+
+      .tooltip-inner{
+          text-align: left;
+      }
+
+      .btn-sobre-votorantim{
+             margin-left: 0px!important;
+             width: 100%;
+      }
+      .subtitulo-gestao-publica{
+          width: 100%;
+      }
+
+      .btn-programas{
+          margin-bottom: 100px;
+      }
+
+      .area-sistema{
+          height: 200px;
+      }
+}
+
+@media screen and (max-width: 1628px) and (min-width: 1211px) {
+  .mapa{
+    width: 25%!important;
+  }
+
 }

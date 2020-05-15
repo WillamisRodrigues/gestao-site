@@ -5,7 +5,7 @@
   
   <main class="side-main"> 
        
-  <section  style="margin:200px; 0px" id="todasnoticias">
+  <section  style="margin:200px 0px;" id="todasnoticias">
     <div class="container">
       <div class="titulo-noticia">
       <h2 class="section-intro__title titulo-lista-noticias">Todas as Notícias </h2>

@@ -15,7 +15,7 @@
   <div class="carousel-inner" role="listbox" >
     <div class="carousel-item active" >
       <div class="view">
-        <a href="https://bit.ly/2SUjR62" target="_blank">
+        <a href="https://bit.ly/2zA6VeL" target="_blank">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade.jpg')}}"
@@ -184,53 +184,48 @@ de quem precisa ser cuidado
             <div class="col-lg-8 ml-4 ml-mobile">
                 <div class="row mb-3 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                    <h3 class="data"> 23/04 </h3>
-                    <h3 class="desc-data">Quinta-Feira</h3>
-                   </div>
-                  <div class="col-md-7 bg-data webinar-mobile">
-                    <div class="card-block p-2">
-                      <h4 class="card-title tema-webinar">TELEMEDICINA NO COMBATE
-À COVID-19:</h4>
-                      <p class="card-text desc-tema-webinar">COMO IMPLEMENTAR
-NO SEU MUNICÍPIO</p>
-                    </div>
-                  </div>
-                  <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/2SUjR62" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
-                  </div>
-                </div>
-                <div class="row mb-3  espaco-mobile">
-                  <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 14/04 </h3>
+                    <h3 class="data"> 19/05 </h3>
                     <h3 class="desc-data">Terça-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar">
-                    COORDENAÇÃO INTERFEDERATIVA
-NO ENFRENTAMENTO DA COVID-19:
-                    </h4>
-                      <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p>
+                      <h4 class="card-title tema-webinar text-uppercase">Como Garantir o Estoque de Materiais e a Otimização dos Equipamentos em Tempos de Crise</h4>
+                      
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2SUjR62" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                    <a href="https://bit.ly/3cyiMbI" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
-                <div class="row mb-2  espaco-mobile">
+                <div class="row mb-3  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 09/04 </h3>
+                  <h3 class="data"> 21/05 </h3>
                     <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar">COVID-19 COMO ENFRENTAR
-A PANDEMIA NOS PEQUENOS
-MUNICÍPIOS:</h4>
+                    <h4 class="card-title tema-webinar text-uppercase">
+                    Exames de Imagem como Aliados no Diagnóstico e Tratamento da Covid-19.
+                    </h4>
+                      <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2SUjR62" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2zA6VeL" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  </div>
+                </div>
+                <div class="row mb-2  espaco-mobile">
+                  <div class="col-md-3 data webinar-mobile">
+                  <h3 class="data"> 26/05 </h3>
+                    <h3 class="desc-data">Terça-Feira</h3>
+                   </div>
+                  <div class="col-md-7 bg-data webinar-mobile">
+                    <div class="card-block p-2">
+                    <h4 class="card-title tema-webinar text-uppercase">Gestão de obras, modificação e amplicação de espaços em tempos de crise</h4>
+                    </div>
+                  </div>
+                  <div class="col-md-2 bg-data webinar-mobile">
+                  <a href="https://bit.ly/2zA6VeL" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
               </div>
@@ -313,65 +308,57 @@ Veja os municípios selecionados.
       </div>
 
       <div class="row area-noticia">
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/1.jpg')}}" alt="">
-            </div>
-            <ul class="card-pricing__list">
-              <h2 class="section-intro__title titulo-item-noticia">Guia de Planejamento
-da Atuação Social
-(ISE) 2019</h2>
-              <p class="section-intro__subtitle desc-noticia">
-              O grande desafio para uma empresa que chega
-aos seus 100 anos, como a Votorantim S.A.,
-é entender que sua responsabilidade perante às
-grandes questões globais é proporcional ao
-seu tamanho...  
-            </p>
-            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
-            </div>
-            <ul class="card-pricing__list">
-              <h2 class="section-intro__title titulo-item-noticia">Animação, engajamento e
-educação na Oficina de
-Mobilização do PVE 2019!</h2>
-              <p class="section-intro__subtitle desc-noticia">
-              Não há como falar de educação sem engajar.
-E foi pensando nisso que o Instituto
-Votorantim preparou um evento cheio de
-motivação para receber e reenergizar os...
-              </p>
-              <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
               <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-              <h2 class="section-intro__title titulo-item-noticia">#MissãoPiauí
-programas e projetos
-sociais em ação!</h2>
+              <h2 class="section-intro__title titulo-item-noticia">Sorocaba recebe 100 mil EPIs para unidades de saúde</h2>
               <p class="section-intro__subtitle desc-noticia">
-              Em julho, representantes do Instituto
-Votorantim (iV), da Votorantim Energia (VE)
-e do Banco Nacional de Desenvolvimento
-Econômico e Social (BNDES), bem
-como acionistas...    
+              O quadro Solidariedade S/A, do telejornal Tem Notícias 2ª Edição, 
+              veiculado em toda a região de Sorocaba, mostrou a entrega de 100 mil 
+              EPIs para unidades....
+                 
             </p>
-            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('combater-coronavirus')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
+            </div>
+            <ul class="card-pricing__list">
+              <h2 class="section-intro__title titulo-item-noticia">Os aspectos clínicos e laboratoriais do Covid-19</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Na última quinta-feira (14) aconteceu a nona palestra da iniciativa Webinar Saúde. 
+              Conduzido pelo diretor Clínico do Grupo Fleury e médico infectologista ...
+              </p>
+              <a href="{{route('aspecto-clinico')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <img width="100%" src="{{asset('site/img/noticias/4.jpg')}}" alt="">
+            </div>
+            <ul class="card-pricing__list">
+              <h2 class="section-intro__title titulo-item-noticia">A tecnologia como uma aliada  à saúde</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Na terça-feira (12) aconteceu a oitava palestra da iniciativa Webinar Saúde. 
+              Conduzida pela diretora executiva de Tecnologia e Operações da BP....  
+            </p>
+            <a href="{{route('tecnologia-aliada')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+            </ul>
+          </div>
+        </div>
+        
+       
       </div>
     </div>
   </section>

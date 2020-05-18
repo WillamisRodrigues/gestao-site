@@ -211,9 +211,13 @@
 
 .desc-noticia{
     font-family: 'VotorantimSansRegular';
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 10pt;
+}
+
+.imagem-post-vt{
+    margin:0 auto; 
+    display:block;
 }
 
 .desc-material-down{
@@ -569,7 +573,15 @@
     color: #b4dc31;
     font-size: 40pt;
     line-height: 1em;
+    margin: 0 auto;
+    width: 60%;
     padding-top: 100px!important;
+}
+
+.subtitulo-post{
+    margin: 20px auto;
+    font-style: oblique;
+    width: 60%;
 }
 
 .img-noticia{
@@ -598,12 +610,35 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .post{
+        background-color: #0000c9;
+        height: 500px;
+    }
+    .sem-espaco{
+        height: 350px!important;
+    }
+    .imagem-post-vt{
+        width: 100%;
+    }
     .titulo-post{
         font-size: 25pt;
+        width: 80%;
+        padding-top: 20px!important;
+        background-color: #0000c9;
+    }
+
+    .subtitulo-post{
+        width: 80%;
+        font-size: 14pt;
+    }
+
+    .desc-post{
+        font-size: 13pt;
     }
 
     .img-noticia {
         width: 80%;
+        margin-top: -100px;
     }
     .menu-mobile{
         display: block;

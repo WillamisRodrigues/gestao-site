@@ -7,30 +7,28 @@
     <div>
       <div class="text-center">
         <h2 class="section-intro__title titulo-post">
-        Webinar debate sobre a tecnologia como uma aliada  à saúde 
+        Webinar debate sobre os aspectos clínicos e laboratoriais do Covid-19
         </h2>
         <div class="divisao-4"></div>
         <h4 class="text-white subtitulo-post">
-          <i> A diretora executiva de Tecnologia e Operações da BP- A Beneficiência 
-          Portuguesa de São Paulo, Lilian Quintal Hoffman, compartilhou estratégias
-           que as unidades de saúde podem tomar para viabilizar o seu funcionamento </i> 
+          <i>O médico infectologista Celso Granato detalhou sobre a carga viral e as medidas clínicas existentes hoje para combater o Covid-19 </i> 
         </h4>
-         <p class="text-white"> 12 de maio de 2020 </p>
+         <p class="text-white"> 14 de maio de 2020 </p>
          <div style="height:260px;"></div>
       </div>
     </div>
   </section>
   <section class="container">
-      <img src="{{asset('site/img/post/3.jpg')}}" alt="" class="img-noticia">
+      <img src="{{asset('site/img/post/2.jpg')}}" alt="" class="img-noticia">
   </section>
   <section class="container">
         <div class="desc-post">
-          <p>Na terça-feira (12) aconteceu a oitava palestra da iniciativa Webinar Saúde. Conduzida pela diretora executiva de Tecnologia e Operações da BP - A Beneficiência Portuguesa de São Paulo, Lilian Quintal Hoffman, e mediado pelo gerente executivo de de Tecnologia da instituição, Fabrício Amando, o momento foi focado em estratégias nos sistemas operacionais que os hospitais podem tomar para melhorar o funcionamento em meio à pandemia do Covid-19. </p>
-          <p>De acordo com Hoffman, é fundamental que cada unidade de saúde pontue todos os aspectos que corroboram para surgir uma estratégia digital que as ajudam. “Hoje em dia, 69% das unidades básicas de saúde possuem sistema eletrônico para registro das informações dos pacientes. Mas esse acesso ainda engatinha, visto que o prontuário eletrônico, por exemplo, quase não existe de forma digital entre as unidades. É necessário fazer com que os profissionais de saúde se familiarizem ainda mais com as ferramentas digitais para fazer com que o fluxo de trabalho se intensifique”, lembra.</p>
-          <p>A diretora lembra que o Ministério da Saúde se atentou para essa realidade e lançou no estado de Alagoas o projeto piloto do Conecte Sus, que é um sistema que permite que todas as informações do paciente sejam compactadas dentro do sistema para facilitar o atendimento em qualquer unidade de saúde que a pessoa for. “Se trata de um incentivo para a informatização da saúde. Mas é necessário, além de uma plataforma, capacitar todos os funcionários e viabilizar o acesso a computadores e a internet na totalidade das unidades de saúde básica. Ainda vai levar algum tempo para esse projeto de tornar unânime no Brasil”, afirma.</p>
-          <p>O mediador da palestra, Fabrício Amando, lembrou que o fomento a inovação é uma iniciativa chave para a tecnologia se tornar realidade em todos os ambientes hospitalares. “Inteligência artificial, processos autônomos robotizados e integração de dispositivos são algumas estratégias digitais que podem melhorar ainda mais o atendimento às pessoas", finaliza.</p>
-          <p>O tema do próximo webinar será “Testes  Disponíveis para Diagnóstico de Covid-19: Indicações e Interpretação e acontecerá às 18h da próxima quinta-feira (14). Para participar, basta acessar as redes sociais do Instituto Votorantim e solicitar o link da plataforma para a palestra em questão.</p>
-      </div>
+          <p>Na última quinta-feira (14) aconteceu a nona palestra da iniciativa Webinar Saúde. Conduzido pelo diretor Clínico do Grupo Fleury e médico infectologista, Celso Granato, e mediado pela gerente-executiva Médica de Medicina Diagnóstica da BP – A Beneficência Portuguesa de São Paulo, Roberta Paulikevis, o momento foi focado nos aspectos taxonômicos, clínicos e laboratoriais do Covid-19.  </p>
+           <p>De acordo com o infectologista, é fundamental que os profissionais de saúde entendam a possível origem do vírus e as fases da patologia que ele provoca dentro do corpo do ser humano. “Entender todos os processos do vírus pode ajudar a entender como agir para impedir a sua propagação. Foi assim que foram criados os três testes rápidos existentes hoje em dia, os quais carregam vantagens e desvantagens. Além disso, é necessário que os profissionais saibam, detalhadamente, os riscos que correm os pacientes que já tem outras doenças previamente diagnosticadas, como diabetes ou pneumonia”, afirma.</p> 
+           <p>O infectologista ainda lembra que a necessidade de exames diários nos pacientes diagnosticados é latente. "É preciso se atentar a carga viral nas excreções para avaliar a evolução da positividade do vírus. Cada pessoa precisa ter um quadro clínico de acompanhamento intenso. Enquanto a vacina para o vírus não for aprovada e comercializada, todos precisam ser extremamente avaliados", lembra</p>
+           <p>Indagado pela gerente-executiva Médica de Medicina Diagnóstica da BP – A Beneficência Portuguesa de São Paulo, Roberta Paulikevis, sobre a comercialização dos testes rápidos, o infectologista afirmou que a interpretação dos resultados precisam ser tomadas com responsabilidade e conhecimentos, o que exige a necessidade de um médico. "Além disso, é importante sempre repetir os testes para atestar a veracidade e procurar as medidas cabíveis", finalizou.</p>
+           <p>Indagado pela gerente-executiva Médica de Medicina Diagnóstica da BP – A Beneficência Portuguesa de São Paulo, Roberta Paulikevis, sobre a comercialização dos testes rápidos, o infectologista afirmou que a interpretação dos resultados precisam ser tomadas com responsabilidade e conhecimentos, o que exige a necessidade de um médico. "Além disso, é importante sempre repetir os testes para atestar a veracidade e procurar as medidas cabíveis", finalizou.</p> 
+        </div>
       <div style="height:30px;"></div>
       <h2 class="section-intro__title titulo-lista-noticias">Mais Notícias: </h2>
     <div class="divisao-6"></div>

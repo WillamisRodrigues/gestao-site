@@ -22,7 +22,6 @@ Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
 Route::get('/banner', ['uses' => 'ConteudoController@banner', 'as' => 'banner']);
 Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia']);
 Route::get('/noticias', ['uses' => 'NoticiaController@lista', 'as' => 'todas-noticias']);
-Route::get('/posts', ['uses' => 'NoticiaController@post', 'as' => 'post']);
 Route::get('/webinar', ['uses' => 'ConteudoController@webinar', 'as' => 'webinar']);
 Route::get('/play/{id_webinar?}', ['uses' => 'ConteudoController@playlist', 'as' => 'play/']);
 Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais', 'as' => 'materiais-download']);
@@ -30,4 +29,10 @@ Route::post('{id_webinar?}/cache/get-cache.php', ['uses' => 'ConteudoController@
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);
 Route::get('/contato', ['uses' => 'ContatoController@index', 'as' => 'contato']);
 Route::get('/agenda', ['uses' => 'CalendarioController@index', 'as' => 'agenda']);
+
+// noticias
+Route::get('/posts/tecnologia-aliada', ['uses' => 'NoticiaController@post', 'as' => 'tecnologia-aliada']);
+Route::get('/posts/aspectos-clinicos', ['uses' => 'NoticiaController@post2', 'as' => 'aspecto-clinico']);
+Route::get('/posts/combater-coronavirus', ['uses' => 'NoticiaController@post3', 'as' => 'combater-coronavirus']);
+
 Auth::routes();

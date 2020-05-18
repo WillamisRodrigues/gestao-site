@@ -20,4 +20,14 @@ class NoticiaController extends Controller
     {
         return view('site.posts.index');
     }
+
+    public function post2()
+    {
+        return view('site.posts.noticia-2');
+    }
+
+    public function post3()
+    {
+        return view('site.posts.noticia-3');
+    }
 }

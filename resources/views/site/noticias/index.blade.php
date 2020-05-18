@@ -16,21 +16,17 @@
         <div class="col-md-3 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/1.jpg')}}" alt="">
+            <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-            <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-              <h2 class="section-intro__title titulo-item-noticia">Guia de Planejamento
-da Atuação Social
-(ISE) 2019</h2>
+            <h6 class="card-title data-da-noticia">15 de Maio de 2020</h6>
+              <h2 class="section-intro__title titulo-item-noticia">Sorocaba recebe 100 mil EPIs para unidades de saúde</h2>
               <p class="section-intro__subtitle desc-noticia">
-              O grande desafio para uma empresa que chega
-aos seus 100 anos, como a Votorantim S.A.,
-é entender que sua responsabilidade perante às
-grandes questões globais é proporcional ao
-seu tamanho...  
+              O quadro Solidariedade S/A, do telejornal Tem Notícias 2ª Edição, 
+              veiculado em toda a região de Sorocaba, mostrou a entrega de 100 mil 
+              EPIs para unidades....
             </p>
-            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('combater-coronavirus')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
@@ -40,38 +36,29 @@ seu tamanho...
               <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-            <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-              <h2 class="section-intro__title titulo-item-noticia">Animação, engajamento e
-educação na Oficina de
-Mobilização do PVE 2019!</h2>
+            <h6 class="card-title data-da-noticia">14 de Maio de 2020</h6>
+              <h2 class="section-intro__title titulo-item-noticia">Os aspectos clínicos e laboratoriais do Covid-19</h2>
               <p class="section-intro__subtitle desc-noticia">
-              Não há como falar de educação sem engajar.
-E foi pensando nisso que o Instituto
-Votorantim preparou um evento cheio de
-motivação para receber e reenergizar os...
+              Na última quinta-feira (14) aconteceu a nona palestra da iniciativa Webinar Saúde. 
+              Conduzido pelo diretor Clínico do Grupo Fleury e médico infectologista ...
               </p>
-              <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+              <a href="{{route('aspecto-clinico')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
         <div class="col-md-3 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
+            <img width="100%" src="{{asset('site/img/noticias/4.jpg')}}" alt="">
             </div>
             <ul class="card-pricing__list">
-            <h6 class="card-title data-da-noticia">13 November, 2019</h6>
-              <h2 class="section-intro__title titulo-item-noticia">#MissãoPiauí
-programas e projetos
-sociais em ação!</h2>
+            <h6 class="card-title data-da-noticia">12 de Maio de 2020</h6>
+              <h2 class="section-intro__title titulo-item-noticia">A tecnologia como uma aliada  à saúde</h2>
               <p class="section-intro__subtitle desc-noticia">
-              Em julho, representantes do Instituto
-Votorantim (iV), da Votorantim Energia (VE)
-e do Banco Nacional de Desenvolvimento
-Econômico e Social (BNDES), bem
-como acionistas...    
+              Na terça-feira (12) aconteceu a oitava palestra da iniciativa Webinar Saúde. 
+              Conduzida pela diretora executiva de Tecnologia e Operações da BP....  
             </p>
-            <a href="{{route('post')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{route('tecnologia-aliada')}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>

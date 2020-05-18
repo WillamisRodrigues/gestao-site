@@ -13,13 +13,13 @@
             <div class="card mt-4">
         <div class="row no-gutters">
             <div class="col-md-5">
-                <img src="{{asset('site/img/agenda-web.jpg')}}" class="card-img-top w-100" alt="...">
+                <img src="{{asset('site/img/agenda/1.jpg')}}" class="card-img-top w-100" alt="...">
             </div>
             <div class="col-md-7">
                 <div class="card-body">
-                    <h5 class="titulo">Garantindo a continuidade do negócio - Dispensação e fornecimento de materiais </h5>
+                    <h5 class="titulo">Como Garantir o Estoque de Materiais e a Otimização dos Equipamentos em Tempos de Crise </h5>
                     <p class="card-text area-mediador">
-                        <span class="participante"> Participante: </span> Ana Paula Melo <br> 
+                        <span class="participante"> Participante: </span> Ana Paula Melo / Marcos Iadocicco <br> 
                         <span class="participante"> Mediador (a): </span> Andréia Sanches
                     </p>
                     <p class="card-text desc-agenda">
@@ -37,11 +37,11 @@
      <div class="card mt-4">
         <div class="row no-gutters">
         <div class="col-md-5">
-                <img src="{{asset('site/img/agenda-web.jpg')}}" class="card-img-top w-100" alt="...">
+                <img src="{{asset('site/img/agenda/2.jpg')}}" class="card-img-top w-100" alt="...">
             </div>
             <div class="col-md-7">
                 <div class="card-body">
-                    <h5 class="titulo">Achados radiológicos da Covid-19 </h5>
+                    <h5 class="titulo">Exames de Imagem como Aliados no Diagnóstico e Tratamento da Covid-19. </h5>
                     <p class="card-text area-mediador">
                         <span class="participante"> Participante: </span> Pablo Rydz <br> 
                         <span class="participante"> Mediador (a): </span> Carlos Longo

@@ -19,7 +19,7 @@
               <li class="nav-item"><a class="nav-link" href="{{url('play/1')}}">WEBINAR</a></li> 
               <li class="nav-item menu-mobile"><a class="nav-link" href="http://www.institutovotorantim.org.br/municipioscontraocorona/ivm/">ÍNDICE DE VULNERABILIDADE MUNICIPAL (IVM)</a></li> 
               <li class="nav-item"><a class="nav-link tooltip-inner" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<p class='titulo-ivm'> ÍNDICE DE VULNERABILIDADE MUNICIPAL</p>" href="#ivm">IVM</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('todas-noticias')}}">NOTICIAS</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('todas-noticias')}}">NOTÍCIAS</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('materiais-download')}}">MATERIAL DE APOIO</a></li>
               <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
             </ul>

@@ -7,7 +7,7 @@ $(document).on('click', '.edit_banner', function () {
     $('#form_result').html('');
     
     $.ajax({
-        url: "/editar_lead_aluno/" + id + "/edit",
+        url: "http://www.institutovotorantim.org.br/municipioscontraocorona/teste-site/lista_banner/editar_lead_aluno/" + id + "/edit",
         dataType: "json",
         success: function (html) {
            // $('#nome').val(html.data.pag_nome);
@@ -23,7 +23,7 @@ $(function () {
     var table = $('#banners').DataTable({
         processing: true,
         serverSide: true,
-        ajax: "/lista_banner",
+        ajax: "http://www.institutovotorantim.org.br/municipioscontraocorona/teste-site/lista_banner",
         columns: [
             { data: 'id', name: 'id' },
             { data: 'titulo', name: 'titulo' },

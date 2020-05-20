@@ -21,9 +21,11 @@
  <script src="{{asset('site/vendors/jquery/jquery-3.2.1.min.js')}}"></script>
   <script src="{{asset('site/vendors/bootstrap/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('site/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
   <script src="{{asset('site/js/jquery.ajaxchimp.min.js')}}"></script>
   <script src="{{asset('site/js/mail-script.js')}}"></script>
   <script src="{{asset('site/js/main.js')}}"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
   <script>
 $('.menu_nav a[href^="#"]').on('click', function(e) {
   e.preventDefault();
@@ -34,6 +36,22 @@ $('.menu_nav a[href^="#"]').on('click', function(e) {
     scrollTop: targetOffset - 100
   }, 500);
 });
+</script>
+<script>
+  jQuery("input.telefone")
+        .mask("(99) 9999-9999?9")
+        .focusout(function (event) {  
+            var target, phone, element;  
+            target = (event.currentTarget) ? event.currentTarget : event.srcElement;  
+            phone = target.value.replace(/\D/g, '');
+            element = $(target);  
+            element.unmask();  
+            if(phone.length > 10) {  
+                element.mask("(99) 99999-999?9");  
+            } else {  
+                element.mask("(99) 9999-9999?9");  
+            }  
+        });
 </script>
 </body>
 </html>

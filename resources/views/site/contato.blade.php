@@ -9,8 +9,24 @@
               <div class="divisao-6"></div>
               <p class="desc-contato">Para tirar dúvidas e contribuir com <br>
 sugestões, deixe sua mensagem.</p>
-                <form  method="POST" class="form-contato" action="envio-contato.php">
-
+                @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                    </div>
+				@endif
+				@if ($message = Session::get('success'))
+				<div class="alert alert-success alert-block">
+					<button type="button" class="close" data-dismiss="alert">×</button>
+				    <strong>{{ $message }}</strong>
+				</div>
+				@endif
+                <form  method="POST" class="form-contato"  action="{{route('contato')}}">
+                   {{ csrf_field() }}
                     <div class="form-group">
 
                         <label for="nome" class="titulo-botao titulo-contato-item">Nome:</label>
@@ -78,11 +94,16 @@ sugestões, deixe sua mensagem.</p>
 
         <div class="row">
             <div class="col-md-12">
-
+                <div class="heading-title">
+                <img src="{{asset('site/img/empresas/realizacao.png')}}" alt="" class="btn-mobile rodape-pc">
+                </div>
+                <hr>
+  
+            </div>
+            <div class="col-md-12">
                 <div class="heading-title">
                 <img src="{{asset('site/img/rodape-mobilidade.png')}}" alt="" class="rodape-mobilidade">
-                <img src="{{asset('site/img/empresas/17.png')}}" alt="" class="btn-mobile rodape-pc">
-
+                <img src="{{asset('site/img/empresas/19.png')}}" alt="" class="btn-mobile rodape-pc">
                 </div>
 
             </div>
@@ -98,91 +119,45 @@ sugestões, deixe sua mensagem.</p>
     <div class="container">
           <hr>
         <div class="row">
-
-            
-
-             <div class="col-sm-1" ></div>
-
             <div class="col-sm-2">
               <h5 class="apoio"> <strong> Apoio: </strong> </h5>
-                <img class="empresa img-responsive" src="{{asset('site/img/empresas/1.png')}}" alt="#">
-
+                <img class="empresa top-20" src="{{asset('site/img/empresas/1.png')}}" alt="#">
             </div>
-
             <div class="col-sm-2">
-
                 <img class="empresa top-30" src="{{asset('site/img/empresas/2.png')}}" alt="#">
-
             </div>
-
             <div class="col-sm-2">
-
                 <img class="empresa top-30" src="{{asset('site/img/empresas/3.png')}}" alt="#">
-
             </div>
-
             <div class="col-sm-2">
-
                 <img class="empresa top-30" src="{{asset('site/img/empresas/4.png')}}" alt="#">
-
             </div>
-
-            <div class="col-sm-2" style="text-align:center">
-
-                <img class="empresa logo-5 top-30" src="{{asset('site/img/empresas/5.png')}}" alt="#" style="width:58%">
-
-            </div>
-
-            
-
-        </div>
-
-        <div class="row top-40">
-
-            <div class="col-sm-1" style="width:3%"></div>
-
-            
-
-            <div class="col-sm-2" style="text-align:center">
-
-                <img class="empresa img-responsive" src="{{asset('site/img/empresas/6.png')}}" alt="#">
-
-            </div>
-
             <div class="col-sm-2">
-
-                <img class="empresa img-responsive" src="{{asset('site/img/empresas/7.png')}}" alt="#">
-
+                <img class="empresa mobile-logo top-30" src="{{asset('site/img/empresas/5.png')}}" alt="#" style="width:58%">
             </div>
-
-            <div class="col-sm-3 duas-logos" style="margin-right:0; text-align:center">
-
-                <img class="logo-8" style="width: 100px;" src="{{asset('site/img/empresas/8.png')}}" alt="#">
-
-                <img class="logo-3" style="width: 100px;" src="{{asset('site/img/empresas/9.png')}}" alt="#">
-
+            <div class="col-sm-2">
+                <img class="empresa top-30" src="{{asset('site/img/empresas/6.png')}}" alt="#">
             </div>
-
-          
-
-            <div class="col-sm-4 mobile-w" style="width:35%">
-
-                <img class="logo-4" style="width: 200px;" src="{{asset('site/img/empresas/10.png')}}" alt="#">
-
-                <img class="logo-5 logo-align" style="width: 100px;" src="{{asset('site/img/empresas/11.png')}}" alt="#">
-
-            </div>
-
-            
-
-            
-
         </div>
-
-        
-
+        <div class="row top-40 non-top offset-md-1">
+           
+            <div class="col-sm-2">
+                <img class="empresa top-30" src="{{asset('site/img/empresas/7.png')}}" alt="#">
+            </div>
+            <div class="col-sm-2">
+                <img class="empresa logo-menor" src="{{asset('site/img/empresas/8.png')}}" alt="#">
+            </div>
+            <div class="col-sm-2">
+                <img class="empresa logo-menor-2"  src="{{asset('site/img/empresas/9.png')}}" alt="#">
+            </div>
+            <div class="col-sm-2 mobile-w">
+                <img class="empresa top-30" src="{{asset('site/img/empresas/10.png')}}" alt="#">
+            </div>
+            <div class="col-sm-2 mobile-w">
+                <img class="empresa logo-menor-2" src="{{asset('site/img/empresas/11.png')}}" alt="#">
+            </div>
+        </div>
         <div class="divisao-black" style="margin:50px 0 0"></div>
-
-    </div>
+    </div> 
 
 </section>

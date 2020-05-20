@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('site.index');
 });
 
-Route::get('/home', ['uses' => 'homeController@index', 'as' => 'site']);
+Route::get('/home', ['uses' => 'HomeController@index', 'as' => 'site']);
 Route::get('/lista_banner', ['uses' => 'ConteudoController@listaBanners', 'as' => 'banner']);
 Route::get('/editar_lead_aluno/{id}/edit', 'ConteudoController@edit_banner')->name('user-edit');
 Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
@@ -27,7 +27,7 @@ Route::get('/play/{id_webinar?}', ['uses' => 'ConteudoController@playlist', 'as'
 Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais', 'as' => 'materiais-download']);
 Route::post('{id_webinar?}/cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);
-Route::get('/contato', ['uses' => 'ContatoController@index', 'as' => 'contato']);
+Route::post('/contato', ['uses' => 'ContatoController@index', 'as' => 'contato']);
 Route::get('/agenda', ['uses' => 'CalendarioController@index', 'as' => 'agenda']);
 
 // noticias

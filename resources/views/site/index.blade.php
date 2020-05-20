@@ -61,7 +61,7 @@
 </div>
 <!--/.Carousel Wrapper-->
     </section>  
-    <section class="sobre-iniciativa">
+    <section class="sobre-iniciativa" id="iniciativa">
     <img src="{{asset('site/img/pessoas.png')}}" alt="" class="pessoas" style="float:right;">
       <div class="container">
         <div class="">

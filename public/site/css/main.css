@@ -87,6 +87,10 @@
     font-size: 15px;
 }
 
+.apoio{
+    font-family: 'VotorantimSansRegular';
+}
+
 .area-sistema{
   background-color: #ff6f0d;
   margin-top: -20px;
@@ -169,6 +173,14 @@
     width: 45%;
     text-transform: none!important;
     text-align: center;
+}
+
+.logo-menor{
+    width: 50%!important;
+}
+
+.logo-menor-2{
+    width: 60%!important;
 }
 
 .bp{
@@ -498,7 +510,7 @@
 }
 
 .empresa{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -610,6 +622,20 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .logo-menor, .logo-menor-2{
+        width: 25%!important;
+        margin-top: 10px;
+    }
+    .mobile-logo{
+        width: 30%!important;
+    }
+
+    .non-top{
+        margin-top: 0px!important;
+    }
+    .empresa{
+        width: 50%;
+    }
     .post{
         background-color: #0000c9;
         height: 500px;

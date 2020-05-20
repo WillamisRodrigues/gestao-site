@@ -3,30 +3,35 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use PHPMailer\PHPMailer;
+use App\Mail\SendMail;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contato;
+use Redirect;
 
 class ContatoController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $text             = 'Hello Mail';
-        $mail             = new PHPMailer\PHPMailer(); // create a n
-        $mail->SMTPDebug  = 1; // debugging: 1 = errors and messages, 2 = messages only
-        $mail->SMTPAuth   = true; // authentication enabled
-        $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-        $mail->Host       = "smtp.gmail.com";
-        $mail->Port       = 465; // or 587
-        $mail->IsHTML(true);
-        $mail->Username = "wrodrigues153@gmail.com";
-        $mail->Password = "qwe123&&";
-        $mail->SetFrom("wrodrigues153@gmail.com", 'Sender Name');
-        $mail->Subject = "Test Subject";
-        $mail->Body    = $text;
-        $mail->AddAddress("wrodrigues153@gmail.com", "Receiver Name");
-        if ($mail->Send()) {
-            return 'Email Sended Successfully';
-        } else {
-            return 'Failed to Send Email';
-        }
+        $this->validate($request, [
+            'nome'     =>  'required',
+            'telefone'  =>  'required',
+            'email'  =>  'required',
+            'municipio'  =>  'required',
+            'mensagem' =>  'required'
+           ]);
+      
+              $data = array(
+                  'nome' =>  $request->nome,
+                  'telefone' =>  $request->telefone,
+                  'email'   =>  $request->email,
+                  'municipio'   =>  $request->municipio,
+                  'mensagem' =>   $request->mensagem
+              );
+      
+        Mail::to('wrodrigues153@gmail.com')
+        ->cc('antonio.rodrigues@engajacomunicacao.com.br')
+        ->send(new Contato($data));
+        return back()->with('success', 'Email enviado com sucesso !');
+      
     }
 }

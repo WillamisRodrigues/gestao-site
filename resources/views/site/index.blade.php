@@ -308,57 +308,24 @@ Veja os municípios selecionados.
       </div>
 
       <div class="row area-noticia">
+      @foreach($noticias as $noticia)
       <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
+              <img width="100%" src="{{asset('site/img/noticias/'.$noticia->miniatura)}}" alt="">
             </div>
             <ul class="card-pricing__list">
-              <h2 class="section-intro__title titulo-item-noticia">Sorocaba recebe 100 mil EPIs para unidades de saúde</h2>
+              <h2 class="section-intro__title titulo-item-noticia">{{$noticia->titulo}}</h2>
               <p class="section-intro__subtitle desc-noticia">
-              O quadro Solidariedade S/A, do telejornal Tem Notícias 2ª Edição, 
-              veiculado em toda a região de Sorocaba, mostrou a entrega de 100 mil 
-              EPIs para unidades....
+              {{$noticia->descricao}}
                  
             </p>
-            <a href="{{route('combater-coronavirus')}}" class="btn btn-leia-mais">LEIA MAIS</a>
+            <a href="{{$noticia->destino}}" class="btn btn-leia-mais">LEIA MAIS</a>
             </ul>
           </div>
         </div>
+      @endforeach
 
-      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
-            </div>
-            <ul class="card-pricing__list">
-              <h2 class="section-intro__title titulo-item-noticia">Os aspectos clínicos e laboratoriais do Covid-19</h2>
-              <p class="section-intro__subtitle desc-noticia">
-              Na última quinta-feira (14) aconteceu a nona palestra da iniciativa Webinar Saúde. 
-              Conduzido pelo diretor Clínico do Grupo Fleury e médico infectologista ...
-              </p>
-              <a href="{{route('aspecto-clinico')}}" class="btn btn-leia-mais">LEIA MAIS</a>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card text-center card-pricing">
-            <div class="card-pricing__header">
-              <img width="100%" src="{{asset('site/img/noticias/4.jpg')}}" alt="">
-            </div>
-            <ul class="card-pricing__list">
-              <h2 class="section-intro__title titulo-item-noticia">A tecnologia como uma aliada  à saúde</h2>
-              <p class="section-intro__subtitle desc-noticia">
-              Na terça-feira (12) aconteceu a oitava palestra da iniciativa Webinar Saúde. 
-              Conduzida pela diretora executiva de Tecnologia e Operações da BP....  
-            </p>
-            <a href="{{route('tecnologia-aliada')}}" class="btn btn-leia-mais">LEIA MAIS</a>
-            </ul>
-          </div>
-        </div>
-        
-       
       </div>
     </div>
   </section>

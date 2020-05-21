@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Noticia;
 
 class NoticiaController extends Controller
 {    
@@ -13,21 +14,31 @@ class NoticiaController extends Controller
 
     public function lista()
     {
-        return view('site.noticias.index');
+        $noticias = Noticia::orderBy('created_at','desc')->get();
+        return view('site.noticias.index',compact('noticias'));
     }
 
     public function post()
     {
-        return view('site.posts.index');
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.index',compact('noticias'));
     }
 
     public function post2()
     {
-        return view('site.posts.noticia-2');
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-2',compact('noticias'));
     }
 
     public function post3()
     {
-        return view('site.posts.noticia-3');
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-3',compact('noticias'));
+    }
+
+    public function post4()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-4',compact('noticias'));
     }
 }

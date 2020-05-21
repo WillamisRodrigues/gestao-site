@@ -11,11 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('site.index');
-});
-
-Route::get('/home', ['uses' => 'HomeController@index', 'as' => 'site']);
+Route::get('/', ['uses' => 'HomeController@site', 'as' => 'site']);
+Route::get('/instituto-votorantim', ['uses' => 'HomeController@site', 'as' => 'site']);
+Route::get('/home', ['uses' => 'HomeController@index', 'as' => 'home']);
 Route::get('/lista_banner', ['uses' => 'ConteudoController@listaBanners', 'as' => 'banner']);
 Route::get('/editar_lead_aluno/{id}/edit', 'ConteudoController@edit_banner')->name('user-edit');
 Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
@@ -34,5 +32,6 @@ Route::get('/agenda', ['uses' => 'CalendarioController@index', 'as' => 'agenda']
 Route::get('/posts/tecnologia-aliada', ['uses' => 'NoticiaController@post', 'as' => 'tecnologia-aliada']);
 Route::get('/posts/aspectos-clinicos', ['uses' => 'NoticiaController@post2', 'as' => 'aspecto-clinico']);
 Route::get('/posts/combater-coronavirus', ['uses' => 'NoticiaController@post3', 'as' => 'combater-coronavirus']);
+Route::get('/posts/indicadores-logistica', ['uses' => 'NoticiaController@post4', 'as' => 'indicadores-logistica']);
 
 Auth::routes();

@@ -37,59 +37,25 @@
                     <div class="col-12">
                         <!-- Row -->
                         <div class="row">
+                        @foreach($noticias as $noticia)
                            <!-- column -->
                            <div class="col-lg-4 col-md-6 img-fluid">
                                 <!-- Card -->
                                 <div class="card">
-                                <img width="100%" src="{{asset('site/img/noticias/3.jpg')}}" alt="">
+                                <img width="100%" src="{{asset('site/img/noticias/'.$noticia->miniatura)}}" alt="">
                                     <div class="card-body">
-                                    <h6 class="card-title data-da-noticia">15 de Maio de 2020</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong>Sorocaba recebe 100 mil EPIs para unidades de saúde</strong> </h4>
+                                    <h6 class="card-title data-da-noticia"><i class="fa fa-clock"></i> {{ date('d/m/Y', strtotime($noticia->created_at)) }}</h6>
+                                        <h4 class="card-title titulo-item-noticia"> <strong>{{$noticia->titulo}}</strong> </h4>
                                         <p class="card-text desc-noticia">
-                                        O quadro Solidariedade S/A, do telejornal Tem Notícias 2ª Edição, 
-              veiculado em toda a região de Sorocaba, mostrou a entrega de 100 mil 
-              EPIs para unidades....
-seu tamanho...  </p>
-                                        <a href="{{route('combater-coronavirus')}}" class="btn btn-leia-mais"> > Leia Mais </a>
+                                            {{$noticia->descricao}}
+                                        </p>
+                                        <a href="{{$noticia->destino}}" class="btn btn-leia-mais"> > Leia Mais </a>
                                     </div>
                                 </div>
                                 <!-- Card -->
                             </div>
                             <!-- column -->
-                            <!-- column -->
-                            <div class="col-lg-4 col-md-6 img-fluid">
-                                <!-- Card -->
-                                <div class="card">
-                                <img width="100%" src="{{asset('site/img/noticias/2.jpg')}}" alt="">
-                                    <div class="card-body">
-                                    <h6 class="card-title data-da-noticia">14 de Maio de 2020</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong> Os aspectos clínicos e laboratoriais do Covid-19 </strong> </h4>
-                                        <p class="card-text desc-noticia"> 
-              Na última quinta-feira (14) aconteceu a nona palestra da iniciativa Webinar Saúde. 
-              Conduzido pelo diretor Clínico do Grupo Fleury e médico infectologista ...</p>
-                                        <a href="{{route('aspecto-clinico')}}" class="btn btn-leia-mais"> > Leia Mais </a>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-                            <!-- column -->
-                            <!-- column -->
-                            <div class="col-lg-4 col-md-6 img-fluid">
-                                <!-- Card -->
-                                <div class="card">
-                                <img width="100%" src="{{asset('site/img/noticias/4.jpg')}}" alt="">
-                                    <div class="card-body">
-                                    <h6 class="card-title data-da-noticia">12 de Maio de 2020</h6>
-                                        <h4 class="card-title titulo-item-noticia"> <strong>A tecnologia como uma aliada  à saúde </strong> </h4>
-                                        <p class="card-text desc-noticia">
-              Na terça-feira (12) aconteceu a oitava palestra da iniciativa Webinar Saúde. 
-              Conduzida pela diretora executiva de Tecnologia e Operações da BP....    </p>
-                                        <a href="{{route('tecnologia-aliada')}}" class="btn btn-leia-mais"> > Leia Mais </a>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-                            <!-- column -->
+                            @endforeach
                         </div>
                         <!-- Row -->
                     </div>

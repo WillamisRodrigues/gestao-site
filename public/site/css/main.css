@@ -41,6 +41,13 @@
     color: #fff;
 }
 
+.titulo-telemedicina{
+    font-family: 'VotorantimSansBlack';
+    font-size: 25pt!important;
+    padding-top: 50px;
+    color: #0000be;
+}
+
 .check-iniciativa{
     width: 20px;
     height: 20px;
@@ -56,7 +63,12 @@
     color: #fff;
 }
 
-.area-btn{}
+.subtitulo-telemedicina{
+    font-family: 'VotorantimSansLight';
+    font-weight: bold;
+    color: #0000be;
+    font-size: 15px;
+}
 
 
 .subtitulo-quem-somos{
@@ -304,9 +316,21 @@
     height: auto!important;
  }
 
+ .telemedicina{
+    background-color: #05e3ff;
+    position: relative;
+    height: auto!important;
+ }
+
 .pessoas{
     position: absolute;
     right: 0px;
+    bottom: 0px;
+}
+
+.medicos{
+    position: absolute;
+    left: 0px;
     bottom: 0px;
 }
 
@@ -791,7 +815,7 @@
  .header_area .navbar-brand {
     margin-right:0px; 
  }
- .pessoas{
+ .pessoas,.medicos{
      display: none;
  }
  .subtitulo-quem-somos{
@@ -939,4 +963,7 @@
     font-family: 'VotorantimSansRegular';
     font-weight: bold;
     font-size: 10pt;
+}
+.social{
+    font-size: 12pt!important;
 }

@@ -5,7 +5,7 @@
   
   <main class="side-main">    
     <section class="banners" id="home">
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
  <!-- Indicators -->
  <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -16,7 +16,7 @@
     <div class="carousel-item active" >
       <div class="view">
         <a href="https://bit.ly/2zA6VeL" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.jpg')}}"
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.1.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade.jpg')}}"
           alt="First slide">
@@ -27,7 +27,7 @@
       <!--Mask color-->
       <div class="view">
         <a href="http://institutovotorantim.org.br/municipioscontraocorona/ivm" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/2.jpg')}}"
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/2.2.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade2.jpg')}}"
           alt="First slide">
@@ -38,7 +38,7 @@
       <!--Mask color-->
       <div class="view">
         <a href="{{url('play/1')}}">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.jpg')}}"
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.3.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade3.jpg')}}"
           alt="First slide">
@@ -69,10 +69,12 @@
           <h2 class="section-intro__title quem-somos">A INICIATIVA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-quem-somos top-40">
-          Promovida pelo Instituto Votorantim, a iniciativa <span class="destaque"> Municípios contra o Coronavírus </span> é uma
-nova frente de atuação do Programa de Apoio à Gestão Pública (AGP), que tem a missão
-de apoiar os municípios brasileiros no gerenciamento e enfrentamento da crise relacionada
-a COVID-19.
+            Promovida pelo Instituto Votorantim e BDNES, em parceria as empresas 
+            investidas da Votorantim, a BP – Beneficência Portuguesa de São Paulo 
+            e o Instituto Arapyaú, a iniciativa <span class="destaque"> Municípios 
+            contra o Coronavírus </span> tem a missão de apoiar os municípios 
+            brasileiros no gerenciamento e enfrentamento da crise relacionada a 
+            COVID-19.
  
           </p>
           <p class="mt-2 subtitulo-quem-somos">
@@ -81,41 +83,44 @@ a COVID-19.
           <div>
           <div class="row ml-1">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-             <p class="desc-item-iniciativa ml-2"> Programa de Apoio à Gestão Pública (AGP), com assessoria técnica e especializada
-em gestão de saúde para mais de 80 prefeituras, selecionadas via edital e por meio
-de indicação de municípios de influência das empresas investidas da Votorantim. </p>
+             <p class="desc-item-iniciativa ml-2"> 
+             <span class="destaque"> <a href="" class="text-white"> Mentoria e assessoria para combate ao covid-19 </a> </span>, 
+             com orientação técnica e especializada em 
+             gestão de saúde para mais de 80 prefeituras, 
+             selecionadas via edital e por meio de indicação de 
+             municípios de influência das empresas investidas da Votorantim. </p>
             </div>
           </div>
           <div class="row ml-1">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-             <p class="desc-item-iniciativa ml-2"> Webinars semanais em parceria com a BP – Beneficência Portuguesa de São Paulo
-com temas relacionadas a Covid-19 </p>
+             <p class="desc-item-iniciativa ml-2"> 
+             <span class="destaque"> <a href="" class="text-white"> Telemedicina </a></span>, oferecendo soluções de triagem, 
+             autoatendimento, teleorientação e teleconsulta com profissionais 
+             da área da saúde para municípios selecionados </p>
             </div>
           </div>
           <div class="row ml-3">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-             <p class="desc-item-iniciativa-3 ml-2">Desenvolvimento do Índice de Vulnerabilidade Municipal, uma régua de avaliação
-sobre as fragilidades da saúde municipal dos territórios. </p>
+             <p class="desc-item-iniciativa-3 ml-2">
+             <span class="destaque"> <a href="" class="text-white"> Webinar semanal </a></span>, em parceria com a BP – Beneficência Portuguesa de São Paulo, 
+                com temas relacionadas a Covid-19, como aspectos clínicos da doença; 
+                gestão da saúde e liderança na pandemia; e cuidados com a equipe de saúde.. </p>
+            </div>
+            <div class="row ml-3">
+            <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
+             <p class="desc-item-iniciativa-3 ml-2">
+             <span class="destaque"> <a href="" class="text-white">Ferramentas e conteúdos </a></span>, 
+             que apoiam os municípios em gestão e comunicação, trazendo informações sobre prevenção e contenção do Coronavírus.
+             </p>
             </div>
           </div>
-          <p class="subtitulo-quem-somos">Além disso, uma serie de materiais de comunicação com foco em prevenção está sendo
-produzido diariamente e distribuídos pelo Facebook e Linkedin do Instituto Votorantim.</p>
-          <div class="row area-btn">
-             <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/" target="_blank" class="btn btn-sobre-votorantim">
-             Saiba mais sobre o edital e confira <br>os municípios selecionados
-           </a>
-             
-             <a href="{{route('agenda')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
-             Confira a agenda e <br>
-            temas dos Webinars
-           </a>
-             
-             <a href="{{route('materiais-download')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
-             Acesse os materiais <br>
-de comunicação
-           </a>
-          </div>           
-
+          <p class="subtitulo-quem-somos mt-4">
+          Para apoiar essa e outras iniciativas voltadas à contenção da pandemia, o Instituto Votorantim desenvolveu o IVM - Índice de Vulnerabilidade Municipal, 
+          uma régua de avaliação sobre as fragilidades da saúde municipal dos 
+          territórios brasileiros. Além disso, uma serie de materiais de comunicação 
+          com foco em prevenção está sendo produzido diariamente e 
+          distribuídos pelo <a href="" class="text-white"> <i class="fa fa-facebook-square text-white social"></i><span class="destaque"> Facebook </span> </a> e  <a href="" class="text-white"> <i class="fa fa-linkedin-square text-white social"></i> <span class="destaque">  Linkedin </span> </a> Instituto Votorantim.
+          </p>
            <div style="height:90px;"></div>
         </div>
         </div>
@@ -127,36 +132,87 @@ de comunicação
       <div class="container">
         <div class="row">
         <div class="col-md-12">
-          <h2 class="section-intro__title quem-somos">APOIO À GESTÃO PÚBLICA</h2>
+          <h2 class="section-intro__title quem-somos">MENTORIA E ASSESSORIA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-gestao-publica top-40">
-          O Programa de Apoio à Gestão pública foi criado em 2012 pelo Instituto Votorantim com
-objetivo de ampliar as capacidades do poder público municipal, fortalecendo o seu papel
-como agente do desenvolvimento local. O AGP apresenta uma metodologia de atuação em
-três frentes: Modernização administrativa, Ordenamento territorial e agora Gestão de
-Saúde.
+          Uma das frente da iniciativa é o apoio às prefeituras e equipes de saúde dos municípios 
+          por meio de assessoria e mentoria especializada oferecendo suporte técnico e estratégico 
+          na área da saúde pública e gestão para o planejamento de ações de controle e tratamento 
+          da população infectada, normatização de comportamentos sociais conforme as orientações 
+          do Ministério da Saúde e Organização 
+          Mundial da Saúde e para aplicação de recursos de investimento necessários para a gestão da crise.
           </p>
           <p class="subtitulo-gestao-publica mt-4">
-          Em Modernização Administrativa atua com o equilíbrio fiscal, planejamento governamental,
-e com transparência e participação social. Em Ordenamento Territorial, oferece suporte
-técnico à elaboração de planos setoriais (Plano Diretor, Plano de Saneamento, Habitação
-ou Mobilidade) e projetos executivos para nortear a administração pública para que pleiteie
-recursos em linhas de fomento específicas.
+          A atuação oferece suporte em cinco eixos: <br>
+          </p>
+          <p class="subtitulo-gestao-publica mt-4">
+          <span class="destaque">Governança de Crise: </span> Tomar decisões, montar uma estrutura c
+          oordenada e exercer governança durante a crise.
+          </p>
+          <p class="subtitulo-gestao-publica">
+          <span class="destaque"> Assistência: </span>Preparar o sistema de saúde 
+          para prestar assistência durante a epidemia de forma resolutiva.
+          </p>
+          <p class="subtitulo-gestao-publica">
+          <span class="destaque"> Vigilância: </span> Construir inteligência para o enfrentamento da crise a 
+          partir do monitoramento de casos e dos dados demográficos e epidemiológicos da população.
+          </p>
+          <p class="subtitulo-gestao-publica">
+          <span class="destaque"> Comunicação e distanciamento: </span> Comunicar de maneira efetiva para informar, 
+          fomentar práticas de prevenção e orientar a busca pelos serviços de saúde.
+          </p>
+          <p class="subtitulo-gestao-publica">
+          <span class="destaque"> Impactos Fiscais: </span> Análise de impactos fiscais decorrentes da crise e apoio no planejamento de recursos e medidas 
+          para alcance do equilíbrio fiscal e para conter a crise econômico nos municípios.
           </p>
           <div>
-             <a href="http://www.institutovotorantim.org.br/" target="_blank" class="btn btn-programas">
-             Para conhecer mais sobre os programas do <br>
-Instituto Votorantim, clique aqui.
+          <div class="row area-btn mt-4">
+             <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/" target="_blank" class="btn btn-sobre-votorantim">
+             Confira o edital
            </a>
+             
+             <a href="{{route('agenda')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
+             Conheça a metodologia
+           </a>
+             
+             <a href="{{route('materiais-download')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
+             Veja os municípios selecionados
+           </a>
+          </div>    
            <div style="height:90px;"></div>
         </div>
         </div>
       </div>
     </div>
     </section>
-    <!--================ Feature section end =================-->   
-    <!--================ Pricing section start =================-->      
-  
+    <section class="telemedicina" id="telemedicina">
+    <img src="{{asset('site/img/medicos.png')}}" alt="" class="medicos" style="float:left;">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6 offset-md-6">
+          <h2 class="section-intro__title titulo-telemedicina">TELEMEDICINA</h2>
+          <div class="divisao"></div>
+          <p class="section-intro__subtitle subtitulo-telemedicina top-40">
+          Com foco em inovação, em parceria com a Elogroup e Laura,
+a frente de Telemedicina tem a proposta de oferecer soluções
+de triagem automatizada, manejo clínico, protocolos médicos,
+dentre outros serviços de gestão de saúde que possam ser
+oferecidos aos municípios participantes do programa, atuando
+com dois focos principais:
+          </p>
+          <img src="{{asset('site/img/aumentar-informacao.png')}}" alt="" class="mt-4" width="90%">
+          <img src="{{asset('site/img/desafogar-sistema.png')}}" alt="" class="mt-2"  width="90%">
+          <p class="section-intro__subtitle subtitulo-telemedicina top-40">
+          O piloto foi iniciado e está em andamento em quatro municípios:
+Araraquara/SP, Araripina/PE, Catanduva/SP e Muriaé/MG.
+          </p>
+          <div>
+           <div style="height:90px;"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </section>
   <section class="webinar" id="webinar">
     <div class="container">
       <div class="section-intro pb-85px text-center">
@@ -235,6 +291,20 @@ de quem precisa ser cuidado
                   </div>
               </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="material" id="material">
+    <div>
+      <div class="section-intro pb-85px text-center">
+        <h2 class="section-intro__title material">Ferramentas e Conteúdos</h2>
+        <div class="divisao-5"></div>
+        <p class=" desc-material">
+        Espaço criado para você acessar e baixar todos 
+os materiais técnicos e de divulgação da 
+iniciativa Municípios Contra o Corona.
+        </p>
+        <a href="{{route('materiais-download')}}" class="btn btn-material">Acesse e baixe o material</a>
       </div>
     </div>
   </section>
@@ -326,20 +396,6 @@ Veja os municípios selecionados.
         </div>
       @endforeach
 
-      </div>
-    </div>
-  </section>
-  <section class="material" id="material">
-    <div>
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title material">Material de Apoio </h2>
-        <div class="divisao-5"></div>
-        <p class=" desc-material">
-        Espaço criado para você acessar e baixar todos 
-os materiais técnicos e de divulgação da 
-iniciativa Municípios Contra o Corona.
-        </p>
-        <a href="{{route('materiais-download')}}" class="btn btn-material">Acesse e baixe o material</a>
       </div>
     </div>
   </section>

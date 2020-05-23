@@ -45,14 +45,25 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
         });
-		$('#playlist-right').vimuse({
+  
+    $('#aspectos').vimuse({
 			playlistPosition: 'right',
       showPlaylistThumbs: true,
       youtubeFeed : true,
 			enablePlaylistSort : false ,
 			enableCache: true,
-			playlistURL : '/cache/get-cache.php' ,
-			cacheFileName: 'regular-cache.json',
+			cacheFileName: '/get-cache2.php',
+			showDeleteButtons : false,
+			playerFixOffset : 0 , 
+		}); 
+
+    $('#gestao').vimuse({
+      playlistPosition: 'right',
+      showPlaylistThumbs: true,
+      youtubeFeed : true,
+			enablePlaylistSort : false ,
+			enableCache: true,
+			cacheFileName: '/get-cache.php',
 			showDeleteButtons : false,
 			playerFixOffset : 0 , 
 		});

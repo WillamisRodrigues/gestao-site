@@ -94,4 +94,8 @@ class ConteudoController extends Controller
     public function cache(){
         return view('cache.get-cache');
     }
+
+    public function cache2(){
+        return view('cache.get-cache2');
+    }
 }

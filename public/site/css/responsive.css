@@ -109,6 +109,10 @@
    .subtitulo-quem-somos{
     width: 100%;
 }
+
+   .medicos{
+       width: 50%;
+   }
    .pessoas{
     display: none;
    }
@@ -165,7 +169,7 @@
 
 @media screen and (max-width: 792px) and (min-width: 780px) { 
     
-    .pessoas{
+    .pessoas, .medicos{
         display: none; 
      }
      .btn-sobre-votorantim{
@@ -236,7 +240,7 @@
     .subtitulo-quem-somos{
         width: 100%;
     }
-    .pessoas{
+    .pessoas,.medicos{
        display: none; 
     }
     .btn-sobre-votorantim{
@@ -304,7 +308,7 @@
     .subtitulo-quem-somos{
         width: 100%;
     }
-	.pessoas{
+	.pessoas,.medicos{
         display: none; 
      }
      .btn-sobre-votorantim{

@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="{{asset('site/css/style.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/main.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/responsive.css')}}">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
  @yield('conteudo')

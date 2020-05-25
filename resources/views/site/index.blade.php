@@ -171,11 +171,11 @@
              Confira o edital
            </a>
              
-             <a href="{{route('agenda')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
+             <a href="{{route('metodologia')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
              Conheça a metodologia
            </a>
              
-             <a href="{{route('materiais-download')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
+             <a href="{{route('municipios-selecionados')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
              Veja os municípios selecionados
            </a>
           </div>    

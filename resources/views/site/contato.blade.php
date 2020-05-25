@@ -105,11 +105,10 @@ sugestões, deixe sua mensagem.</p>
                 <img src="{{asset('site/img/rodape-mobilidade.png')}}" alt="" class="rodape-mobilidade">
                 <img src="{{asset('site/img/empresas/19.png')}}" alt="" class="btn-mobile rodape-pc">
                 </div>
-            <hr>
+            <hr class="rodape-pc">
             </div>
             <div class="col-md-12">
                 <div class="heading-title">
-                <img src="{{asset('site/img/rodape-mobilidade.png')}}" alt="" class="rodape-mobilidade">
                 <img src="{{asset('site/img/empresas/tecnicos.png')}}" alt="" class="btn-mobile rodape-pc">
                 </div>
 

@@ -25,7 +25,6 @@ Route::get('/play/aspectos', ['uses' => 'ConteudoController@playlist', 'as' => '
 Route::get('/metodologia-organizacao', ['uses' => 'ConteudoController@metodologia', 'as' => 'metodologia']);
 Route::get('/play/gestao', ['uses' => 'ConteudoController@playlistgestao', 'as' => 'playgestao']);
 Route::get('/play/saude', ['uses' => 'ConteudoController@playlistsaude', 'as' => 'playsaude']);
-Route::get('/play/saude', ['uses' => 'ConteudoController@playlistsaude', 'as' => 'playsaude']);
 Route::get('/municipios-selecionados', ['uses' => 'ConteudoController@municipios', 'as' => 'municipios-selecionados']);
 Route::get('/ajax/estados.html', ['uses' => 'ConteudoController@estados', 'as' => 'estados']);
 
@@ -38,6 +37,7 @@ Route::get('/ajax/estados.html', ['uses' => 'ConteudoController@estados', 'as' =
 
 
 Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais', 'as' => 'materiais-download']);
+Route::get('/materiais-download/ferramentas', ['uses' => 'ConteudoController@ferramentas', 'as' => 'ferramentas']);
 Route::post('cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::post('cache/get-cache2.php', ['uses' => 'ConteudoController@cache2', 'as' => 'get-cache2']);
 Route::post('cache/get-cache3.php', ['uses' => 'ConteudoController@cache3', 'as' => 'get-cache2']);

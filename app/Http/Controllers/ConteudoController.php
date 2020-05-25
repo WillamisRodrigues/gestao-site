@@ -86,6 +86,10 @@ class ConteudoController extends Controller
         return view('site.materiais.index');
     }
 
+    public function ferramentas(){
+        return view('site.ferramentas.index');
+    }
+
     public function playlist(){
         
         return view('site.playlist.index');

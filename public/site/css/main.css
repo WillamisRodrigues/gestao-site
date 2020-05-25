@@ -23,9 +23,14 @@
     src: url('../fonts/VotorantimSans-Medium_WebOnly.ttf') format('truetype');
 }
 
+
+.logo-vt{
+    width: 100%;
+}
+
 .tooltip-inner{ 
     background-color: #0100be!important; 
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .titulo-ivm{
@@ -646,6 +651,44 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    #conteudoAjax h2 {
+        margin-left: 180px!important;
+    }
+    #conteudoAjax .table td, .table th {
+        padding-left: 200px;
+    }
+    .titulo-materiais-apoio{
+        font-size: 14pt;
+    }
+    .mobile-right{
+        margin-right: 0px!important;
+    }
+    #area-metodologia .check-circulo{
+        display: none;
+    }
+    .t-etapa2,.t-etapa3, .t-etapa4{
+        margin-top: 50px;
+    }
+    #area-metodologia .subtitulo-etapa{
+        font-size: 14pt!important;
+        margin-left: 0px!important;
+    }
+    #area-metodologia .check-circulo-texto{
+        font-size: 12pt;
+    }
+    #area-metodologia .etapa, #area-metodologia .etapa2,
+    #area-metodologia .etapa3,#area-metodologia .etapa4{
+        width: 100%!important;
+    }
+    #metodologia .desc-metodologia{
+        font-size: 12pt!important;
+    }
+    #metodologia{
+        margin-top: 100px!important;
+    }
+    .area-btn{
+        margin-bottom: 100px;
+    }
     .logo-menor, .logo-menor-2{
         width: 25%!important;
         margin-top: 10px;
@@ -998,6 +1041,7 @@
     background-size: 100% 100%;
     font-size: 20pt;
     padding: 10px 10px 10px 20px;
+    margin-top: 20px;
     }
 
     #area-metodologia .etapa3{
@@ -1009,7 +1053,7 @@
           background-size: 100% 100%;
           font-size: 20pt;
           padding: 10px 10px 10px 20px;
-          
+          margin-top: 20px;
         }
         #area-metodologia .etapa4{
             font-family: 'VotorantimSansBlack';
@@ -1020,7 +1064,8 @@
           background-size: 100% 100%;
           font-size: 20pt;
           padding: 10px 10px 10px 20px;
-            }
+          margin-top: 20px;
+        }
 
 #area-metodologia .subtitulo-etapa{
     font-family: 'VotorantimSansBlack';

@@ -20,7 +20,7 @@ equipes de saúde dos municípios para o gerenciamento do combate
             <div class="col-md-12">
                 <h3 class="subtitulo-etapa">ATIVAÇÃO </h3>
             </div>
-            <div class="row ml-2">
+            <div class="row ml-2 mobile-right">
             <div class="col-md-0 nopadding">
                 <img src="{{asset('site/img/circulo-amarelo.png')}}" alt="" class="check-circulo">
             </div>
@@ -87,7 +87,7 @@ conjunto de iniciativas pactuadas.
    <div class="col-md-12">
         <h1 class="etapa4"> 4ª ETAPA</h1>
         <div class="col-md-12">
-            <h3 class="subtitulo-etapa">ATIVAÇÃO </h3>
+            <h3 class="subtitulo-etapa">MONITORAMENTO PLANO DE AÇÃO </h3>
         </div>
         <div class="row ml-2">
             <div class="col-md-0 nopadding">

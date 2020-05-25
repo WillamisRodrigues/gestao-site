@@ -967,3 +967,164 @@
 .social{
     font-size: 12pt!important;
 }
+
+#metodologia .desc-metodologia{
+    font-family: 'VotorantimSans';
+    font-size: 18pt;
+    line-height: 1.3em;
+    width: 100%;
+    margin: 30px 0px;
+}
+#area-metodologia{
+    margin-bottom: 100px;
+}
+#area-metodologia .etapa{
+    font-family: 'VotorantimSansBlack';
+    background-image: url("../img/etapa-1.png");
+    background-repeat: no-repeat;
+    width: 16%;
+    color: #fff;
+    background-size: 100% 100%;
+    font-size: 20pt;
+    padding: 10px 10px 10px 20px;
+}
+
+#area-metodologia .etapa2{
+    font-family: 'VotorantimSansBlack';
+    background-image: url("../img/etapa-2.png");
+    background-repeat: no-repeat;
+    width: 16%;
+    color: #fff;
+    background-size: 100% 100%;
+    font-size: 20pt;
+    padding: 10px 10px 10px 20px;
+    }
+
+    #area-metodologia .etapa3{
+        font-family: 'VotorantimSansBlack';
+          background-image: url("../img/etapa-3.png");
+          background-repeat: no-repeat;
+          width: 16%;
+          color: #fff;
+          background-size: 100% 100%;
+          font-size: 20pt;
+          padding: 10px 10px 10px 20px;
+          
+        }
+        #area-metodologia .etapa4{
+            font-family: 'VotorantimSansBlack';
+          background-image: url("../img/etapa-4.png");
+          background-repeat: no-repeat;
+          width: 16%;
+          color: #fff;
+          background-size: 100% 100%;
+          font-size: 20pt;
+          padding: 10px 10px 10px 20px;
+            }
+
+#area-metodologia .subtitulo-etapa{
+    font-family: 'VotorantimSansBlack';
+    font-size: 20pt;
+    margin-top:10px;
+    margin-left: 20px;
+}
+
+#area-metodologia .circulo-amarelo{
+    background-image: url("../img/circulo-amarelo.png");
+}
+
+.nopadding{
+    padding: 0px!important;
+    margin:0px!important;
+}
+
+#area-metodologia .check-circulo{
+    margin-left: 25px;
+}
+
+#area-metodologia .check-circulo-texto{
+    font-family: 'VotorantimSansBlack';
+    line-height: 1.3em;
+}
+
+.borda-direita{
+    border-right: 2px solid #b7b7b7;
+    border-width: 2px;
+}
+
+.t-etapa{
+    font-family: 'VotorantimSansLight';
+    font-size: 20pt;
+    text-align: center;
+    background-color: #ffc408;
+    padding:10px 0px;
+    color: #fff;
+}
+
+.t-etapa2{
+    font-family: 'VotorantimSansLight';
+    font-size: 20pt;
+    text-align: center;
+    background-color: #0000be;
+    padding:10px 0px;
+    color: #fff;
+}
+
+.t-etapa3{
+    font-family: 'VotorantimSansLight';
+    font-size: 20pt;
+    text-align: center;
+    background-color: #1bbe00;
+    padding:10px 0px;
+    color: #fff;
+}
+
+.t-etapa4{
+    font-family: 'VotorantimSansLight';
+    font-size: 20pt;
+    text-align: center;
+    background-color: #de1754;
+    padding:10px 0px;
+    color: #fff;
+}
+
+.s-etapa{
+    font-family: 'VotorantimSans';
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+
+.desc-icone{
+    font-family: 'VotorantimSans';
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 14pt;
+    
+}
+
+.icone{
+    margin: 0 auto;
+    display: block;
+}
+
+.titulo-mapa{
+    font-family: 'VotorantimSansBlack';
+    color: #0000be;
+    text-transform: uppercase;
+}
+
+.desc-mapa-destaque{
+    font-family: 'VotorantimSans';
+    font-size: 18pt;
+    line-height: 1.3em;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.desc-mapa{
+    font-family: 'VotorantimSans';
+    font-size: 13pt;
+    line-height: 1.3em;
+    width: 100%;
+}

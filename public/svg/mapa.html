@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Mapa do Brasil interativo com SVG</title>
+<style>
+#carregando{position:absolute;display:none;left:-40px;top:0;}
+#tudo {
+	position:relative;
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
+	overflow:auto;
+}
+#brasil {position:absolute;top:275px;opacity:0.4;display:none;}
+.mostrar {display:block !important;}
+#mapa {width:520px;float:left;}
+#texto {width:475px;float:right;position:relative;}
+#texto h3 {margin:5px 0 10px 0;}
+#nome_estado {
+	text-align:center;
+	position:absolute;
+	line-height:1.4;
+	font-weight:bold;
+	background: #0100be;
+	color:white;
+	border-radius:6px;
+}
+#nome_estado img {margin-right:10px;vertical-align:middle;}
+#capital_estado {
+	text-align:center;
+	position:absolute;
+	line-height:1.4;
+	font-weight:bold;
+	background:blue;
+	color:white;
+	border-radius:6px;
+}
+#conteudoAjax {padding-right:10px;height:680px;overflow:auto;color:#dba82b;}
+#conteudoAjax h2 {text-align:center;padding:4px 0;background:#d9c757;color:black;margin:0;}
+#conteudoAjax img {display:block; float:left; margin:0 10px 10px 0;}
+</style>
+</head>
+<body>
+<div id="tudo">
+<div id="texto"> <!-- coluna direita -->
+  <div id="carregando">
+	<img  src="carregando.gif" alt="Carregando..." />  
+</div>
+<div id="conteudoAjax"></div>
+</div>
+
+<div id="mapa">  <!-- coluna esquerda -->
+    <section id="au">	
+        <label><input type="radio" name="r" /> Região Norte</label>
+        <label><input type="radio" name="r" /> Região Nordeste</label>
+        <label><input type="radio" name="r" /> Região Sudeste</label>
+        <label><input type="radio" name="r" /> Região Centro-Oeste</label>
+        <label><input type="radio" name="r" /> Região Sul</label>
+        <label><input type="radio" name="r" />RESET</label>
+	</section>
+    
+    <section>
+        <p>Para interagir com o mapa passe o mouse ou click os estados.</p>
+        <embed id="E" src="mapa.svg" type="image/svg+xml">  
+        <p id="nome_estado"></p>
+        <p id="capital_estado"></p>
+    </section>
+  </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="scripts/jquery-1.7.2.min.js"><\/script>');</script>
+<script>
+function init() {
+var objEstado = {
+  "ac": [
+    {
+      "nome": "Acre",
+      "capital": "Rio Branco"
+    }],
+    "al": [{
+      "nome": "Alagoas",
+      "capital": "Maceió"
+    }],
+    "ap": [{
+      "nome": "Amapá",
+      "capital": "Macapá"
+    }],
+  	"am": [
+    {
+      "nome": "Amazonas",
+      "capital": "Manaus"
+    }],
+    "ba": [{
+      "nome": "Bahia",
+      "capital": "Salvador"
+    }],
+    "ce": [{
+      "nome": "Ceará (3)",
+    }],
+    "df": [{
+      "nome": "Distrito Federal",
+      "capital": "Brasília"
+    }],
+    "es": [{
+      "nome": "Espírito Santo",
+      "capital": "Vitória"
+    }],
+    "go": [{
+      "nome": "Goiás",
+      "capital": "Goiânia"
+    }],
+    "ma": [{
+      "nome": "Maranhão",
+      "capital": "São Luís"
+    }],
+	"mt": [{
+      "nome": "Mato Grosso",
+      "capital": "Cuiabá"
+    }],
+    "ms": [{
+      "nome": "Mato Grosso do Sul",
+      "capital": "Campo Grande"
+    }],
+    "mg": [{
+      "nome": "Minas Gerais",
+      "capital": "Belo Horizonte"
+    }],
+	"pr": [{
+      "nome": "Paraná",
+      "capital": "Curitiba"
+    }],
+    "pb": [{
+      "nome": "Paraíba",
+      "capital": "João Pessoa"
+    }],
+    "pa": [{
+      "nome": "Pará",
+      "capital": "Belém"
+    }],
+	"pe": [{
+      "nome": "Pernambuco",
+      "capital": "Recife"
+    }],
+    "pi": [{
+      "nome": "Piauí",
+      "capital": "Terezina"
+    }],
+    "rj": [{
+      "nome": "Rio de Janeiro",
+      "capital": "Rio de Janeiro"
+    }],
+	"rn": [{
+      "nome": "Rio Grande do Norte",
+      "capital": "Natal"
+    }],
+    "rs": [{
+      "nome": "Rio Grande do Sul",
+      "capital": "Porto Alegre"
+    }],
+    "ro": [{
+      "nome": "Rondônia",
+      "capital": "Porto Velho"
+    }],
+	"rr": [{
+      "nome": "Roraima",
+      "capital": "Boa Vista"
+    }],
+    "sc": [{
+      "nome": "Santa Catarina",
+      "capital": "Florianópolis"
+    }],
+    "se": [{
+      "nome": "Sergipe",
+      "capital": "Aracaju"
+    }],
+    "sp": [{
+      "nome": "São Paulo",
+      "capital": "São Paulo"
+    }],
+    "to": [{
+      "nome": "Tocantins",
+      "capital": "Palmas"
+    }]
+}
+
+var i = j = k = l = m = 0;
+var msg = document.getElementById('msg');
+var D = document.getElementById('E'); 
+SVGDoc = D.getSVGDocument(); 
+SVGRoot = SVGDoc.documentElement; 
+svgns = 'http://www.w3.org/2000/svg';
+var estados = SVGRoot.getElementsByTagName('path');
+var qdeEstados = estados.length;
+var todasRegioes = SVGRoot.querySelectorAll('.regiao');
+var regiaoNorte = SVGRoot.querySelector('#norte');
+var regiaoNordeste = SVGRoot.querySelector('#nordeste');
+var regiaoSudeste = SVGRoot.querySelector('#sudeste');
+var regiaoCentroOeste = SVGRoot.querySelector('#centro-oeste');
+var regiaoSul = SVGRoot.querySelector('#sul');
+for ( ; i<qdeEstados; i++ ) { 
+	estados[i].onmouseover = function(evt) {
+		var x = evt.pageX;
+		var y = evt.pageY + 250;
+		this.style.fill = '#0100be';
+		var siglaEstado = this.parentNode.id;
+	
+	$('#nome_estado').html('<img src="bandeiras/'+ siglaEstado +'.png" alt="" width="20" height="14" />' + objEstado[siglaEstado][0].nome).css({
+		top: y,
+		left: x,
+		padding: '0 0.6em',
+		border: '2px solid white',
+		boxShadow: '4px 4px 6px #444'
+	});
+	}
+	estados[i].onmouseout = function() {
+		var fillColor = this.getAttribute('fill'); 
+		this.style.fill = fillColor;
+		$('#nome_estado').html('').css({
+		border: 'none',
+	});
+	$('#capital_estado').html('').css({
+		border: 'none',
+	});
+	}
+}
+
+var regioes = [regiaoNorte, regiaoNordeste, regiaoSudeste, regiaoCentroOeste, regiaoSul, ''];
+	for ( ; k<6; k++ ) (function(k) {  
+		$('input').eq(k).click(function() {
+			regiaoNorte.style.opacity = .15;	
+			regiaoNordeste.style.opacity = .15; 
+			regiaoSudeste.style.opacity = .15; 
+			regiaoCentroOeste.style.opacity = .15; 
+			regiaoSul.style.opacity = .15;
+			if ( k !== 5) {
+				regioes[k].style.opacity = 1;	
+			
+			} else {
+			regiaoNorte.style.opacity = 1;	
+			regiaoNordeste.style.opacity = 1; 
+			regiaoSudeste.style.opacity = 1; 
+			regiaoCentroOeste.style.opacity = 1; 
+			regiaoSul.style.opacity = 1;
+			$('#conteudoAjax').html('');
+			}
+		});
+	})(k);
+
+// AJAX
+	var carregando = $('#carregando')
+	var conteudoAjax = $('#conteudoAjax')
+
+	function mostrarCarregando(){  
+     carregando.css('display', 'block');  
+ 	};
+	
+	function aposCarregamento(){  
+     carregando.hide();  
+     conteudoAjax.fadeIn(1000);  
+	};  
+
+$('input').click(function(){ // Carregar nomes  dos estados das regiões   
+	mostrarCarregando();  
+    indexRegiaoClicada = $('input').index(this);
+	switch(indexRegiaoClicada){  
+        case 0:  
+            conteudoAjax.slideUp();  
+            conteudoAjax.load('ajax/regioes.html #n', aposCarregamento);  
+            break;  
+        case 1:  
+            conteudoAjax.slideUp();  
+            conteudoAjax.load('ajax/regioes.html #ne', aposCarregamento);  
+            break;  
+        case 2:  
+            conteudoAjax.slideUp();  
+            conteudoAjax.load('ajax/regioes.html #se', aposCarregamento); 
+            break;  
+        case 3:  
+            conteudoAjax.slideUp();  
+            conteudoAjax.load('ajax/regioes.html #co', aposCarregamento);  
+            break;  
+        case 4:  
+            conteudoAjax.slideUp();  
+            conteudoAjax.load('ajax/regioes.html #s', aposCarregamento);  
+            break;  
+		default:  
+            aposCarregamento();  
+            break;  
+    }  	
+});
+
+for ( ; m<qdeEstados; m++ ) { // Carregar descrição do estado  
+	estados[m].onclick = function() { 
+	mostrarCarregando();  
+		regiaoNorte.style.opacity = 1;	
+		regiaoNordeste.style.opacity = 1; 
+		regiaoSudeste.style.opacity = 1; 
+		regiaoCentroOeste.style.opacity = 1; 
+		regiaoSul.style.opacity = 1;
+	var estadoClicado = this.parentNode.id;
+	conteudoAjax.slideUp();  
+    conteudoAjax.load('ajax/estados.html #'+estadoClicado+'', aposCarregamento); 
+	}
+}
+
+}
+window.addEventListener("load", init, false);
+</script>
+</body>
+</html>
+

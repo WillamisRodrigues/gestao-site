@@ -6,8 +6,9 @@
   <main class="side-main"> 
     <section style="margin:200px 0px;" id="todasnoticias">
         <div class="container">
-        <h2 class="section-intro__title titulo-materiais-apoio">MATERIAIS DE APOIO </h2>
+        <h2 class="section-intro__title titulo-materiais-apoio">FERRAMENTAS E CONTEÚDOS </h2>
         <div class="divisao-6"></div>
+        @include('site.materiais.menu.principal')
                <div style="height:100px;"></div>
                <div class="row">
                     <div class="col-12">

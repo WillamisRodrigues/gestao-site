@@ -287,7 +287,7 @@ de quem precisa ser cuidado
               </div>
               <div class="col-md-4"></div>
               <div class="col-md-4 mt-4">
-                <a href="{{url('play/1')}}" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
+                <a href="{{url('play/aspectos')}}" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
                   </div>
               </div>
         </div>

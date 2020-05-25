@@ -21,10 +21,26 @@ Route::get('/banner', ['uses' => 'ConteudoController@banner', 'as' => 'banner'])
 Route::get('/noticia', ['uses' => 'NoticiaController@index', 'as' => 'noticia']);
 Route::get('/noticias', ['uses' => 'NoticiaController@lista', 'as' => 'todas-noticias']);
 Route::get('/webinar', ['uses' => 'ConteudoController@webinar', 'as' => 'webinar']);
-Route::get('/play/{id_webinar?}', ['uses' => 'ConteudoController@playlist', 'as' => 'play/']);
+Route::get('/play/aspectos', ['uses' => 'ConteudoController@playlist', 'as' => 'play']);
+Route::get('/metodologia-organizacao', ['uses' => 'ConteudoController@metodologia', 'as' => 'metodologia']);
+Route::get('/play/gestao', ['uses' => 'ConteudoController@playlistgestao', 'as' => 'playgestao']);
+Route::get('/play/saude', ['uses' => 'ConteudoController@playlistsaude', 'as' => 'playsaude']);
+Route::get('/play/saude', ['uses' => 'ConteudoController@playlistsaude', 'as' => 'playsaude']);
+Route::get('/municipios-selecionados', ['uses' => 'ConteudoController@municipios', 'as' => 'municipios-selecionados']);
+Route::get('/ajax/estados.html', ['uses' => 'ConteudoController@estados', 'as' => 'estados']);
+
+
+
+
+
+
+
+
+
 Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais', 'as' => 'materiais-download']);
 Route::post('cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::post('cache/get-cache2.php', ['uses' => 'ConteudoController@cache2', 'as' => 'get-cache2']);
+Route::post('cache/get-cache3.php', ['uses' => 'ConteudoController@cache3', 'as' => 'get-cache2']);
 Route::get('/conteudo', ['uses' => 'ConteudoController@index', 'as' => 'conteudo']);
 Route::post('/contato', ['uses' => 'ContatoController@index', 'as' => 'contato']);
 Route::get('/agenda', ['uses' => 'CalendarioController@index', 'as' => 'agenda']);

@@ -105,6 +105,13 @@ sugestões, deixe sua mensagem.</p>
                 <img src="{{asset('site/img/rodape-mobilidade.png')}}" alt="" class="rodape-mobilidade">
                 <img src="{{asset('site/img/empresas/19.png')}}" alt="" class="btn-mobile rodape-pc">
                 </div>
+            <hr>
+            </div>
+            <div class="col-md-12">
+                <div class="heading-title">
+                <img src="{{asset('site/img/rodape-mobilidade.png')}}" alt="" class="rodape-mobilidade">
+                <img src="{{asset('site/img/empresas/tecnicos.png')}}" alt="" class="btn-mobile rodape-pc">
+                </div>
 
             </div>
         </div>
@@ -114,6 +121,7 @@ sugestões, deixe sua mensagem.</p>
     </div>
 
 </section> 
+
   <section class="area-empresas" style="padding-bottom: 20px!important; ">
  
     <div class="container">

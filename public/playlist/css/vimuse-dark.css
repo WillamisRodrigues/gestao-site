@@ -3,6 +3,16 @@
   src: url('../fonts/VotorantimSans-Black_WebOnly.ttf') format('truetype');
 }
 /******************** Player App **********************/
+.desc-sobrewebinars{
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  line-height: 1.3em!important;
+  margin-top: 20px;
+  font-weight: normal!important;
+  width: 80%;
+}
+
 .vm-container {
   width: 100%;
   max-width: 960px;

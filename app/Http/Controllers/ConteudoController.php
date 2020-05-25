@@ -86,9 +86,24 @@ class ConteudoController extends Controller
         return view('site.materiais.index');
     }
 
-    public function playlist($id_webinar=null){
+    public function playlist(){
         
-        return view('site.playlist.index')->with(['webinar' => $id_webinar]);
+        return view('site.playlist.index');
+    }
+
+    public function playlistgestao(){
+        
+        return view('site.playlist.gestao');
+    }
+
+    public function playlistsaude(){
+        
+        return view('site.playlist.saude');
+    }
+
+    public function metodologia(){
+        
+        return view('site.metodologia.index');
     }
 
     public function cache(){
@@ -98,4 +113,17 @@ class ConteudoController extends Controller
     public function cache2(){
         return view('cache.get-cache2');
     }
+
+    public function cache3(){
+        return view('cache.get-cache3');
+    }
+
+    public function municipios(){
+        return view('site.municipio.index');
+    }
+
+    public function estados(){
+        return view('site.municipio.ajax.index');
+    }
+    
 }

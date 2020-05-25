@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="{{asset('site/vendors/owl-carousel/owl.carousel.min.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/style.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/main.css')}}">
+  <link rel="stylesheet" href="{{asset('svg/mapa.css')}}">
   <link rel="stylesheet" href="{{asset('site/css/responsive.css')}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -26,6 +28,7 @@
   <script src="{{asset('site/js/jquery.ajaxchimp.min.js')}}"></script>
   <script src="{{asset('site/js/mail-script.js')}}"></script>
   <script src="{{asset('site/js/main.js')}}"></script>
+  <script src="{{asset('svg/mapa.js')}}"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
   <script>
 $('.menu_nav a[href^="#"]').on('click', function(e) {

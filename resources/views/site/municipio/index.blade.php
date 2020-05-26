@@ -6,12 +6,11 @@
 <section class="container">
    <div class="row">
        <div class="col-md-12">
-       <div class="container">
+       <div>
                 <h2 class="section-intro__title titulo-mapa" style="margin-top:200px;">
                 MUNICÍPIOS CONTRA O CORONAVÍRUS </h2>
         <div class="divisao-6"></div>
         <p class="desc-mapa-destaque mt-4"> Presença Nacional</p>
-        <p class="desc-mapa"> Confira os Municípios Selecionados:</p>
                 </div>
        </div>
        <div class="col-md-6">

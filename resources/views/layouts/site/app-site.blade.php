@@ -42,6 +42,17 @@ $('.menu_nav a[href^="#"]').on('click', function(e) {
 });
 </script>
 <script>
+$('.navegacao').on('click', function(e) {
+  e.preventDefault();
+  var id = $(this).attr('href'),
+  targetOffset = $(id).offset().top;
+    
+  $('html, body').animate({ 
+    scrollTop: targetOffset - 100
+  }, 500);
+});
+</script>
+<script>
   jQuery("input.telefone")
         .mask("(99) 9999-9999?9")
         .focusout(function (event) {  

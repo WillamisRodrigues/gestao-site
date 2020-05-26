@@ -8,7 +8,7 @@
 }
 #brasil {position:absolute;top:275px;opacity:0.4;display:none;}
 .mostrar {display:block !important;}
-#mapa {width:100%; float:left; margin-top: 80px;}
+#mapa {width:100%; float:left; margin-top: 10px;}
 #texto {width:475px;float:right;position:relative;}
 #texto h3 {margin:5px 0 10px 0;}
 #nome_estado {

@@ -23,7 +23,7 @@ var objEstado = {
       "capital": "Salvador"
     }],
     "ce": [{
-      "nome": "Ceará (3)",
+      "nome": "Ceará",
     }],
     "df": [{
       "nome": "Distrito Federal",

@@ -84,7 +84,7 @@
           <div class="row ml-1">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa ml-2"> 
-             <span class="destaque"> <a href="" class="text-white"> Mentoria e assessoria para combate ao covid-19 </a> </span>, 
+             <span class="destaque"> <a href="#gestao-publica" class="text-white navegacao"> Mentoria e assessoria para combate ao covid-19 </a> </span>, 
              com orientação técnica e especializada em 
              gestão de saúde para mais de 80 prefeituras, 
              selecionadas via edital e por meio de indicação de 
@@ -94,7 +94,7 @@
           <div class="row ml-1">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa ml-2"> 
-             <span class="destaque"> <a href="" class="text-white"> Telemedicina </a></span>, oferecendo soluções de triagem, 
+             <span class="destaque"> <a href="#telemedicina" class="text-white navegacao"> Telemedicina </a></span>, oferecendo soluções de triagem, 
              autoatendimento, teleorientação e teleconsulta com profissionais 
              da área da saúde para municípios selecionados </p>
             </div>
@@ -102,14 +102,14 @@
           <div class="row ml-3">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa-3 ml-2">
-             <span class="destaque"> <a href="" class="text-white"> Webinar semanal </a></span>, em parceria com a BP – Beneficência Portuguesa de São Paulo, 
+             <span class="destaque"> <a href="{{route('play')}}" class="text-white"> Webinar semanal </a></span>, em parceria com a BP – Beneficência Portuguesa de São Paulo, 
                 com temas relacionadas a Covid-19, como aspectos clínicos da doença; 
                 gestão da saúde e liderança na pandemia; e cuidados com a equipe de saúde.. </p>
             </div>
             <div class="row ml-3">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa-3 ml-2">
-             <span class="destaque"> <a href="" class="text-white">Ferramentas e conteúdos </a></span>, 
+             <span class="destaque"> <a href="{{route('materiais-download')}}" class="text-white">Ferramentas e conteúdos </a></span>, 
              que apoiam os municípios em gestão e comunicação, trazendo informações sobre prevenção e contenção do Coronavírus.
              </p>
             </div>
@@ -119,7 +119,7 @@
           uma régua de avaliação sobre as fragilidades da saúde municipal dos 
           territórios brasileiros. Além disso, uma serie de materiais de comunicação 
           com foco em prevenção está sendo produzido diariamente e 
-          distribuídos pelo <a href="" class="text-white"> <i class="fa fa-facebook-square text-white social"></i><span class="destaque"> Facebook </span> </a> e  <a href="" class="text-white"> <i class="fa fa-linkedin-square text-white social"></i> <span class="destaque">  Linkedin </span> </a> Instituto Votorantim.
+          distribuídos pelo <a href="https://www.facebook.com/institutovotorantim" target="_blank" class="text-white"> <i class="fa fa-facebook-square text-white social"></i><span class="destaque"> Facebook </span> </a> e  <a href="https://www.linkedin.com/company/13056958" target="_blank" class="text-white"> <i class="fa fa-linkedin-square text-white social"></i> <span class="destaque">  Linkedin </span> </a> Instituto Votorantim.
           </p>
            <div style="height:90px;"></div>
         </div>
@@ -309,9 +309,12 @@ iniciativa Municípios Contra o Corona.
     </div>
   </section>
   <section class="indice" id="ivm" style="background-color: #0100be;">
-  <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa">  
+   
   <div>
       <div class="container">
+        <div class="row">
+        
+        <div class="col-md-6">
         <h2 class="section-intro__title titulo-ivm-mapa">Índice de vulnerabilidade <br> Municipal (IVM) </h2>
         <div class="divisao-4"></div>
         <p class="section-intro__subtitle subtitulo-indice top-40">
@@ -326,7 +329,14 @@ meio de fontes oficiais.
 para apoiar a tomada de decisão de gestores públicos e privados 
 envolvidos em ações de combate à pandemia.   
         </p>
+        </div>
+        <div class="col-md-6">
+        <img src="{{asset('site/img/mapa.png')}}" alt="" class="mapa"> 
+        </div>
+       
       </div>
+        </div>
+        
     </div>
   </section>
   <section class="area-sistema">

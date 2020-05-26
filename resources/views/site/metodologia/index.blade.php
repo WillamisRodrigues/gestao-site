@@ -14,13 +14,12 @@ equipes de saúde dos municípios para o gerenciamento do combate
 </section>
 <section class="container" id="area-metodologia">
 <div class="row">
+<div class="col-md-12">
+        <h1 class="etapa"> 1ª ETAPA</h1>
         <div class="col-md-12">
-            <h1 class="etapa"> 1ª ETAPA</h1>
+            <h3 class="subtitulo-etapa">ATIVAÇÃO </h3>
         </div>
-            <div class="col-md-12">
-                <h3 class="subtitulo-etapa">ATIVAÇÃO </h3>
-            </div>
-            <div class="row ml-2 mobile-right">
+        <div class="row ml-2">
             <div class="col-md-0 nopadding">
                 <img src="{{asset('site/img/circulo-amarelo.png')}}" alt="" class="check-circulo">
             </div>
@@ -29,7 +28,8 @@ equipes de saúde dos municípios para o gerenciamento do combate
                 Estudo dos materiais e protocolos sobre a covid-19.
                 </p>
             </div>
-   </div>
+        </div>
+    </div>
    <div class="col-md-12">
         <h1 class="etapa2"> 2ª ETAPA</h1>
         <div class="col-md-12">

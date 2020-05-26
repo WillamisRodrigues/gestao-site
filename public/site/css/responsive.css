@@ -1,13 +1,22 @@
-@media screen and (max-width: 2000px) and (min-width: 1101px) {
+@media screen and (min-width: 1920px) {
 
-    .subtitulo-indice{
-        width: 50%;
+    .mapa{
+        right: 28%!important;
+    }
+
+    .desc-sistema{
+        margin-top: 50px!important;
+    }
+
+    .btn-ivm{
+        margin-top: 50px;
     }
     
-    .mapa{
-        right: 10%!important;
-        width: 25%!important;
+}
 
+@media (min-width: 992px){
+    .area-btn{
+        margin-bottom: 100px;
     }
 }
 
@@ -39,6 +48,7 @@
     
     .area-btn{
         width: 100%;
+        margin-bottom: 100px;
     }
  
     .btn-sobre-votorantim{
@@ -53,15 +63,7 @@
         margin-top: 50px;
         width: 60%;
  }
- .mapa{
-    margin-top: -20px;
-    right: 8%!important;
-    width: 35%!important;
- }
-
- .subtitulo-indice{
-     width: 50%;
- }
+ 
  .area-sistema{
     height: 140px;
  }
@@ -125,16 +127,9 @@
     margin-top:40px;
     width: 60%;
 }
-.mapa{
-   right: 8%!important;
-   width: 38%!important;
-   margin-top:140px;
-}
+
 .area-sistema{
     height: 140px;
-}
-.subtitulo-indice{
-    width: 50%;
 }
 .desc-sistema{
     margin-top:80px;
@@ -193,11 +188,7 @@
          margin-top:30px;
          width: 80%;
      }
-     .mapa{
-        margin-top: 140px;
-        right: 10%;
-        width: 38%;
-     }
+
      .juntos{
          margin-left: 100px;
          margin-top: 30%;
@@ -262,9 +253,7 @@
     .btn-ivm{
         font-size: 12pt;
     }
-    .mapa{
-       display: none;
-    }
+   
     .juntos{
         margin-left: 100px;
         margin-top: 30%;
@@ -331,11 +320,7 @@
      .btn-ivm{
          font-size: 12pt;
      }
-     .mapa{
-        margin-top:880px;
-        right: 10%;
-        width: 25%;
-     }
+    
      .juntos{
          margin-top: 10%;
          width: 40%;
@@ -370,21 +355,6 @@
      .logo-5{
          width: 60px!important;
      }
-}
-
-
-@media screen and (max-width: 1099px) and (min-width: 894px) {
-    
-    .mapa{
-        margin-top: -40px;
-    }
-}
-
-@media screen and (max-width: 981px) and (min-width: 893px) {
-    
-    .mapa{
-        margin-top: 120px;
-    }
 }
 
 @media screen and (max-width: 775px) and (min-width: 500px) {
@@ -423,11 +393,4 @@
       .area-sistema{
           height: 200px;
       }
-}
-
-@media screen and (max-width: 1628px) and (min-width: 1211px) {
-  .mapa{
-    width: 25%!important;
-  }
-
 }

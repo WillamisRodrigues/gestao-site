@@ -81,7 +81,6 @@
     font-weight: bold;
     color: #fff;
     font-size: 15px;
-    width: 55%;
 }
 
 .subtitulo-gestao-publica{
@@ -89,7 +88,6 @@
     font-weight: bold;
     color: #fff;
     font-size: 15px;
-    width: 55%;
 }
 
 .destaque{
@@ -118,6 +116,7 @@
     font-size: 15px;
     line-height: 1.3em;
     margin-bottom: 40px;
+    margin-top: 50px!important;
     color: #fff;
     width: 80%;
 }
@@ -164,7 +163,7 @@
     width: 40%;
     margin-left: 0%;
     font-size: 13px!important;
-    margin-top: 35px;
+    margin-top: 50px;
     position: absolute;
     color: #ff6f0d;
     font-size: 20pt;
@@ -282,7 +281,7 @@
 }
 
 .banners{
-    margin-top: 80px!important;
+    margin-top: 78px!important;
 }
 
 .webinar{
@@ -337,6 +336,11 @@
     position: absolute;
     left: 0px;
     bottom: 0px;
+}
+
+.mapa{
+    position: absolute;
+    right: 10%;
 }
 
 .predios{
@@ -468,13 +472,6 @@
     background-color: #fff;
 }
 
-.mapa{
-    width: 25%;
-    left: 50%;
-    position: absolute;
-    margin-top: -20px;
-    
-}
 
 .conteudo-ivm{
     margin-top:220px;
@@ -496,6 +493,8 @@
 }
 
 .indice{
+    position: relative;
+    height: auto!important;
     padding-top: 40px;
     padding-bottom: 35px;
 }
@@ -651,6 +650,9 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .titulo-mapa{
+        margin-top: 100px!important;
+    }
     #conteudoAjax h2 {
         margin-left: 180px!important;
     }
@@ -891,6 +893,8 @@
   .desc-sistema{
       font-size: 12pt;
       width: 100%!important;
+      margin-top: 50px!important;
+      margin-bottom: 20px!important;
   }
  .mobile{
     height: 50px;
@@ -900,9 +904,7 @@
      display: block;
      margin: 10px 0;
  }
- .mapa{
-     display: none;
- }
+
  .btn-edital{
      margin-top:0px;
      width: 100%;

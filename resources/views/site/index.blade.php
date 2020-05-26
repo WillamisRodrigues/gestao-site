@@ -15,7 +15,7 @@
   <div class="carousel-inner" role="listbox" >
     <div class="carousel-item active" >
       <div class="view">
-        <a href="https://bit.ly/2zA6VeL" target="_blank">
+        <a href="">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.1.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade.jpg')}}"
@@ -26,7 +26,7 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <a href="http://institutovotorantim.org.br/municipioscontraocorona/ivm" target="_blank">
+        <a href="https://bit.ly/2ZBNHAC" target="_blank">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/2.2.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade2.jpg')}}"
@@ -37,10 +37,10 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <a href="{{url('play/1')}}">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.3.jpg')}}"
+        <a href="http://institutovotorantim.org.br/municipioscontraocorona/ivm/">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/5.5.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade3.jpg')}}"
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade5.jpg')}}"
           alt="First slide">
         </a>
         <div class="mask rgba-black-slight"></div>
@@ -146,22 +146,27 @@
           A atuação oferece suporte em cinco eixos: <br>
           </p>
           <p class="subtitulo-gestao-publica mt-4">
+          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
           <span class="destaque">Governança de Crise: </span> Tomar decisões, montar uma estrutura c
           oordenada e exercer governança durante a crise.
           </p>
           <p class="subtitulo-gestao-publica">
+          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
           <span class="destaque"> Assistência: </span>Preparar o sistema de saúde 
           para prestar assistência durante a epidemia de forma resolutiva.
           </p>
           <p class="subtitulo-gestao-publica">
+          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
           <span class="destaque"> Vigilância: </span> Construir inteligência para o enfrentamento da crise a 
           partir do monitoramento de casos e dos dados demográficos e epidemiológicos da população.
           </p>
           <p class="subtitulo-gestao-publica">
+          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
           <span class="destaque"> Comunicação e distanciamento: </span> Comunicar de maneira efetiva para informar, 
           fomentar práticas de prevenção e orientar a busca pelos serviços de saúde.
           </p>
           <p class="subtitulo-gestao-publica">
+          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
           <span class="destaque"> Impactos Fiscais: </span> Análise de impactos fiscais decorrentes da crise e apoio no planejamento de recursos e medidas 
           para alcance do equilíbrio fiscal e para conter a crise econômico nos municípios.
           </p>
@@ -240,48 +245,51 @@ de quem precisa ser cuidado
             <div class="col-lg-8 ml-4 ml-mobile">
                 <div class="row mb-3 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                    <h3 class="data"> 19/05 </h3>
-                    <h3 class="desc-data">Terça-Feira</h3>
+                    <h3 class="data"> 28/05 </h3>
+                    <h3 class="desc-data">Quarta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
-                      <h4 class="card-title tema-webinar text-uppercase">Como Garantir o Estoque de Materiais e a Otimização dos Equipamentos em Tempos de Crise</h4>
+                      <h4 class="card-title tema-webinar text-uppercase">
+                      Adequação de espaços físicos e segurança nos controles de acesso durante pandemias.
+                      </h4>
                       
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/3cyiMbI" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                    <a href="https://bit.ly/2ZBNHAC" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-3  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 21/05 </h3>
+                  <h3 class="data"> 04/06 </h3>
                     <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                     <h4 class="card-title tema-webinar text-uppercase">
-                    Exames de Imagem como Aliados no Diagnóstico e Tratamento da Covid-19.
+                    Manejo clínico e ventilatório do paciente com covid-19. 
+                     <!-- remover este espaço --><div style="height:30px;"></div> 
                     </h4>
                       <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2zA6VeL" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2ZBNHAC" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-2  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 26/05 </h3>
-                    <h3 class="desc-data">Terça-Feira</h3>
+                  <h3 class="data"> 11/06 </h3>
+                    <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar text-uppercase">Gestão de obras, modificação e amplicação de espaços em tempos de crise</h4>
+                    <h4 class="card-title tema-webinar text-uppercase">Como garantir qualidade assistencial e segurança do paciente.</h4>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2zA6VeL" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2ZBNHAC" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
               </div>

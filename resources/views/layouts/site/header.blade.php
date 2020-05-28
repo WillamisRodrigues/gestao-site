@@ -1,10 +1,10 @@
 <header class="header_area">
     <div class="main_menu">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="" href="{{url('/')}}" class="logo-vt">
-          <img src="{{asset('site/img/logo-vt-bnds.png')}}" alt=""></a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="" href="{{url('/')}}" class="logo-vt">
+          <img src="{{asset('site/img/logo-vt-bnds.png')}}" alt="" class="logo-vt"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -14,7 +14,8 @@
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent" style="flex-basis: 100%!important;">
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="#iniciativa">A INICIATIVA</a></li> 
-              <li class="nav-item"><a class="nav-link" href="#gestao-publica">MENTORIA e ASSESSORIA</a></li> 
+              <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.institutovotorantim.org.br/municipioscontraocorona/edital/">EDITAL</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#gestao-publica">MENTORIA</a></li> 
               <li class="nav-item"><a class="nav-link" href="#telemedicina">TELEMEDICINA</a></li> 
               <li class="nav-item"><a class="nav-link" href="#webinar">WEBINARS</a></li> 
               <li class="nav-item"><a class="nav-link" href="#material">FERRAMENTAS E CONTEÚDOS</a></li>

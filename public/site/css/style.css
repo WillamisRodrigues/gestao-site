@@ -425,6 +425,7 @@ h3,
 	background: #ec9d5f
 }
 
+
 .top_menu .float-left a {
 	line-height: 40px;
 	display: inline-block;
@@ -477,13 +478,16 @@ h3,
 	}
 }
 
+
 @media (max-width: 991px) {
 	#area-metodologia .etapa,#area-metodologia .etapa2,
 	#area-metodologia .etapa3,#area-metodologia .etapa4
 	{
-		width: 40%!important;
+		width: 100%!important;
 	}
-
+    .metodologia-caixa{
+		margin-top: 145px!important;
+	}
 	.check-circulo{
 		display: none;
 	}
@@ -808,7 +812,7 @@ h3,
 	#area-metodologia .etapa,#area-metodologia .etapa2,
 	#area-metodologia .etapa3,#area-metodologia .etapa4
 	{
-		width: 40%!important;
+		width: 100%!important;
 	}
 }
 

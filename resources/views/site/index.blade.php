@@ -5,15 +5,27 @@
   
   <main class="side-main">    
     <section class="banners" id="home">
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
  <!-- Indicators -->
  <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner" role="listbox" >
-    <div class="carousel-item active" >
+  <div class="carousel-item active">
+      <!--Mask color-->
+      <div class="view">
+        <a href="http://institutovotorantim.org.br/municipioscontraocorona/edital" target="_blank">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/4.4.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade4.jpg')}}"
+          alt="First slide">
+        </a>
+      </div>
+    </div>  
+  <div class="carousel-item" >
       <div class="view">
         <a href="">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.1.jpg')}}"
@@ -23,6 +35,7 @@
         </a>
       </div>
     </div>
+    
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
@@ -69,57 +82,63 @@
           <h2 class="section-intro__title quem-somos">A INICIATIVA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-quem-somos top-40">
-            Promovida pelo Instituto Votorantim e BDNES, em parceria as empresas 
-            investidas da Votorantim, a BP – Beneficência Portuguesa de São Paulo 
-            e o Instituto Arapyaú, a iniciativa <span class="destaque"> Municípios 
-            contra o Coronavírus </span> tem a missão de apoiar os municípios 
-            brasileiros no gerenciamento e enfrentamento da crise relacionada a 
-            COVID-19.
+          Promovida pelo Instituto Votorantim e BNDES, em parceria as empresas 
+          investidas da Votorantim, o Instituto Arapyaú e a BP – Beneficência 
+          Portuguesa de São Paulo, a iniciativa Municípios contra o Coronavírus 
+          tem a missão de apoiar os municípios brasileiros no gerenciamento e 
+          enfrentamento da crise relacionada a covid-19.
  
           </p>
           <p class="mt-2 subtitulo-quem-somos">
-          Dentre as frentes da iniciativa estão:
+         <span class="destaque"> Dentre as frentes da iniciativa estão: </span>
           </p>
           <div>
           <div class="row ml-1">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa ml-2"> 
              <span class="destaque"> <a href="#gestao-publica" class="text-white navegacao"> Mentoria e assessoria para combate ao covid-19 </a> </span>, 
-             com orientação técnica e especializada em 
-             gestão de saúde para mais de 80 prefeituras, 
-             selecionadas via edital e por meio de indicação de 
-             municípios de influência das empresas investidas da Votorantim. </p>
+             com orientação técnica e especializada em gestão de saúde 
+             para municípios em todo o território nacional, selecionados 
+             via edital e por meio de indicação de municípios de influência 
+             das empresas investidas da Votorantim e parceiros. </p>
             </div>
           </div>
           <div class="row ml-1">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa ml-2"> 
-             <span class="destaque"> <a href="#telemedicina" class="text-white navegacao"> Telemedicina </a></span>, oferecendo soluções de triagem, 
-             autoatendimento, teleorientação e teleconsulta com profissionais 
-             da área da saúde para municípios selecionados </p>
+             <span class="destaque"> <a href="#telemedicina" class="text-white navegacao"> Telemedicina </a></span>, 
+             oferecida pelo Instituto Votorantim, tem soluções de triagem, autoatendimento, 
+             teleorientação e teleconsulta com profissionais da área da saúde para municípios
+              selecionados. </p>
             </div>
           </div>
           <div class="row ml-3">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa-3 ml-2">
-             <span class="destaque"> <a href="{{route('play')}}" class="text-white"> Webinar semanal </a></span>, em parceria com a BP – Beneficência Portuguesa de São Paulo, 
-                com temas relacionadas a Covid-19, como aspectos clínicos da doença; 
-                gestão da saúde e liderança na pandemia; e cuidados com a equipe de saúde.. </p>
+             <span class="destaque"> <a href="{{route('play')}}" class="text-white"> Webinar semanal </a></span>, 
+             em parceria com a BP – Beneficência Portuguesa de São Paulo, 
+             com temas relacionadas a Covid-19, como aspectos clínicos da doença; 
+             gestão da saúde e liderança na pandemia; e cuidados com a equipe de saúde. </p>
             </div>
             <div class="row ml-3">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa-3 ml-2">
              <span class="destaque"> <a href="{{route('materiais-download')}}" class="text-white">Ferramentas e conteúdos </a></span>, 
-             que apoiam os municípios em gestão e comunicação, trazendo informações sobre prevenção e contenção do Coronavírus.
+             que apoiam os municípios em gestão e comunicação, 
+             trazendo informações sobre prevenção e contenção do Coronavírus.
              </p>
             </div>
           </div>
           <p class="subtitulo-quem-somos mt-4">
-          Para apoiar essa e outras iniciativas voltadas à contenção da pandemia, o Instituto Votorantim desenvolveu o IVM - Índice de Vulnerabilidade Municipal, 
-          uma régua de avaliação sobre as fragilidades da saúde municipal dos 
-          territórios brasileiros. Além disso, uma serie de materiais de comunicação 
-          com foco em prevenção está sendo produzido diariamente e 
-          distribuídos pelo <a href="https://www.facebook.com/institutovotorantim" target="_blank" class="text-white"> <i class="fa fa-facebook-square text-white social"></i><span class="destaque"> Facebook </span> </a> e  <a href="https://www.linkedin.com/company/13056958" target="_blank" class="text-white"> <i class="fa fa-linkedin-square text-white social"></i> <span class="destaque">  Linkedin </span> </a> Instituto Votorantim.
+          Além disso, para apoiar essa e outras iniciativas voltadas à contenção 
+          da pandemia, o Instituto Votorantim desenvolveu o IVM - 
+          Índice de Vulnerabilidade Municipal, uma régua de avaliação sobre as 
+          fragilidades da saúde municipal dos territórios brasileiros. 
+          Conheça mais sobre o índice acessando  
+          <a href="http://institutovotorantim.org.br/municipioscontraocorona/ivm" style="word-wrap: break-word;" target="_blank" class="text-white">
+            http://institutovotorantim.org.br/municipioscontraocorona/ivm/
+</span></a>
+          
           </p>
            <div style="height:90px;"></div>
         </div>
@@ -135,44 +154,58 @@
           <h2 class="section-intro__title quem-somos">MENTORIA E ASSESSORIA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-gestao-publica top-40">
-          Uma das frente da iniciativa é o apoio às prefeituras e equipes de saúde dos municípios 
-          por meio de assessoria e mentoria especializada oferecendo suporte técnico e estratégico 
-          na área da saúde pública e gestão para o planejamento de ações de controle e tratamento 
-          da população infectada, normatização de comportamentos sociais conforme as orientações 
-          do Ministério da Saúde e Organização 
-          Mundial da Saúde e para aplicação de recursos de investimento necessários para a gestão da crise.
+          A mentoria e assessoria ofertada aos municípios participantes tem 
+          por objetivo dar suporte técnico e estratégico na área da saúde pública 
+          e gestão, para o planejamento de ações de controle e tratamento da população 
+          no enfrentamento da pandemia. O trabalho consiste em apoiar remotamente as 
+          equipes municipais que estão atuando na gestão do covid-19 em 5 eixos:
           </p>
-          <p class="subtitulo-gestao-publica mt-4">
-          A atuação oferece suporte em cinco eixos: <br>
+          <p class="subtitulo-gestao-publica mt-4 text-center">
+          <span class="destaque"> A atuação oferece suporte em cinco eixos: </span> <br>
           </p>
-          <p class="subtitulo-gestao-publica mt-4">
-          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-          <span class="destaque">Governança de Crise: </span> Tomar decisões, montar uma estrutura c
-          oordenada e exercer governança durante a crise.
-          </p>
-          <p class="subtitulo-gestao-publica">
-          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-          <span class="destaque"> Assistência: </span>Preparar o sistema de saúde 
-          para prestar assistência durante a epidemia de forma resolutiva.
-          </p>
-          <p class="subtitulo-gestao-publica">
-          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-          <span class="destaque"> Vigilância: </span> Construir inteligência para o enfrentamento da crise a 
-          partir do monitoramento de casos e dos dados demográficos e epidemiológicos da população.
-          </p>
-          <p class="subtitulo-gestao-publica">
-          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-          <span class="destaque"> Comunicação e distanciamento: </span> Comunicar de maneira efetiva para informar, 
-          fomentar práticas de prevenção e orientar a busca pelos serviços de saúde.
-          </p>
-          <p class="subtitulo-gestao-publica">
-          <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-          <span class="destaque"> Impactos Fiscais: </span> Análise de impactos fiscais decorrentes da crise e apoio no planejamento de recursos e medidas 
-          para alcance do equilíbrio fiscal e para conter a crise econômico nos municípios.
-          </p>
-          <div>
-          <div class="row area-btn mt-4">
-             <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/" target="_blank" class="btn btn-sobre-votorantim">
+          <div class="row">
+              <div class="col-md-4">
+                <p class="subtitulo-gestao-publica">
+                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
+                <span class="destaque">Governança de Crise: </span> 
+                <br> Tomar decisões, montar uma estrutura coordenada e exercer governança durante a crise.
+                </p>
+              </div>
+              <div class="col-md-4">
+                  <p class="subtitulo-gestao-publica">
+                  <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
+                  <span class="destaque"> Assistência: </span> <br> Preparar o sistema de saúde 
+                  para prestar assistência durante a epidemia de forma resolutiva.
+                  </p>
+              </div>
+              <div class="col-md-4">
+                <p class="subtitulo-gestao-publica">
+                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
+                <span class="destaque"> Vigilância: </span> <br> Construir inteligência para o enfrentamento da crise a 
+                partir do monitoramento de casos e dos dados demográficos e epidemiológicos da população.
+                </p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-4">
+                <p class="subtitulo-gestao-publica">
+                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
+                <span class="destaque"> Comunicação e distanciamento: </span> <br> Comunicar de maneira efetiva para informar, 
+                fomentar práticas de prevenção e orientar a busca pelos serviços de saúde.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p class="subtitulo-gestao-publica">
+                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
+                <span class="destaque"> Impactos Fiscais: </span> <br> Análise de impactos fiscais decorrentes da crise e apoio no planejamento de recursos e medidas 
+                para alcance do equilíbrio fiscal e para conter a crise econômico nos municípios.
+                </p>
+              </div>
+          </div>
+         
+            <div class="row area-btn mt-4">
+             <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/edital" target="_blank" class="btn btn-sobre-votorantim">
              Confira o edital
            </a>
              
@@ -181,7 +214,7 @@
            </a>
              
              <a href="{{route('municipios-selecionados')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
-             Veja os municípios selecionados
+             Veja os municípios participantes
            </a>
           </div>    
            <div style="height:90px;"></div>
@@ -198,18 +231,18 @@
           <h2 class="section-intro__title titulo-telemedicina">TELEMEDICINA</h2>
           <div class="divisao"></div>
           <p class="section-intro__subtitle subtitulo-telemedicina top-40">
-          Com foco em inovação, em parceria com a Elogroup e Laura,
-a frente de Telemedicina tem a proposta de oferecer soluções
-de triagem automatizada, manejo clínico, protocolos médicos,
-dentre outros serviços de gestão de saúde que possam ser
-oferecidos aos municípios participantes do programa, atuando
-com dois focos principais:
+          Com foco em inovação, o Instituto Votorantim, em parceria 
+          com a Elogroup e Laura, oferece soluções de triagem automatizada, 
+          manejo clínico, protocolos médicos, dentre outros serviços de 
+          gestão de saúde para municípios, atuando com dois focos principais:
           </p>
           <img src="{{asset('site/img/aumentar-informacao.png')}}" alt="" class="mt-4" width="90%">
           <img src="{{asset('site/img/desafogar-sistema.png')}}" alt="" class="mt-2"  width="90%">
           <p class="section-intro__subtitle subtitulo-telemedicina top-40">
-          O piloto foi iniciado e está em andamento em quatro municípios:
-Araraquara/SP, Araripina/PE, Catanduva/SP e Muriaé/MG.
+          O piloto foi iniciado em maio/2020 e está em andamento em quatro municípios: 
+          Araraquara/SP, Araripina/PE, Catanduva/SP e Muriaé/MG. 
+          A ampliação poderá ser realizada para outros municípios 
+          conforme resultados do piloto.
           </p>
           <div>
            <div style="height:90px;"></div>

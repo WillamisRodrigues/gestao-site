@@ -357,7 +357,22 @@
      }
 }
 
-@media screen and (max-width: 775px) and (min-width: 500px) {
+
+
+@media screen and (max-width: 776px) and (min-width: 500px) {
+
+    .caixa-metodologia{
+		max-width: 100%!important;
+    }
+    
+    #area-metodologia .etapa{
+        margin-top: 50px;
+    }
+	.metodologia-caixa{
+		margin: 20px 0px!important;
+		transform: rotate(0deg)!important;
+    }
+    
 
     .todasnoticias{
         margin:0px;

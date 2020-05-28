@@ -25,7 +25,7 @@
 
 
 .logo-vt{
-    width: 100%;
+    width: 120%;
 }
 
 .tooltip-inner{ 
@@ -59,7 +59,7 @@
 }
 
 .desc-item-iniciativa{
-    width: 50%!important;
+    width: 70%!important;
     color: #fff;
 }
 
@@ -81,7 +81,7 @@
     font-weight: bold;
     color: #fff;
     font-size: 15px;
-    width: 55%;
+    width: 70%;
 }
 
 .subtitulo-gestao-publica{
@@ -89,11 +89,13 @@
     font-weight: bold;
     color: #fff;
     font-size: 15px;
+    margin-top: 50px!important;
 }
 
 .destaque{
     font-family: 'VotorantimSansBlack';
     font-weight: 900!important;
+    font-size: 14pt;
 }
 
 .subtitulo-indice{
@@ -161,9 +163,9 @@
 .btn-ivm{
     font-family: 'VotorantimSans';
     background-color:#fff;
-    width: 40%;
+    width: 60%;
     margin-left: 0%;
-    font-size: 13px!important;
+    font-size: 14px!important;
     margin-top: 50px;
     position: absolute;
     color: #ff6f0d;
@@ -282,7 +284,7 @@
 }
 
 .banners{
-    margin-top: 78px!important;
+    margin-top: 76px!important;
 }
 
 .webinar{
@@ -540,7 +542,7 @@
 
 .empresa{
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: block;
 }
 
@@ -651,8 +653,21 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .logo-vt{
+        width:80%;
+    }
+    #area-metodologia .etapa{
+        margin-top: 20px;
+    }
+    .caixa-metodologia{
+        max-width: 100%!important;
+    }
+    .metodologia-caixa{
+        transform: rotate(0deg)!important;
+        margin-top: 10px!important;
+    }
     .titulo-mapa{
-        margin-top: 100px!important;
+        margin-top: 140px!important;
     }
     #conteudoAjax h2 {
         margin-left: 180px!important;
@@ -687,7 +702,7 @@
         font-size: 12pt!important;
     }
     #metodologia{
-        margin-top: 100px!important;
+        margin-top: 140px!important;
     }
     .area-btn{
         margin-bottom: 100px;
@@ -719,7 +734,7 @@
     .titulo-post{
         font-size: 25pt;
         width: 80%;
-        padding-top: 20px!important;
+        padding-top: 40px!important;
         background-color: #0000c9;
     }
 
@@ -1022,10 +1037,11 @@
     margin: 30px 0px;
 }
 #area-metodologia{
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #area-metodologia .etapa{
-    font-family: 'VotorantimSansBlack';
+    font-family: 'VotorantimSans';
     background-image: url("../img/etapa-1.png");
     background-repeat: no-repeat;
     width: 16%;
@@ -1036,7 +1052,7 @@
 }
 
 #area-metodologia .etapa2{
-    font-family: 'VotorantimSansBlack';
+    font-family: 'VotorantimSans';
     background-image: url("../img/etapa-2.png");
     background-repeat: no-repeat;
     width: 16%;
@@ -1048,7 +1064,7 @@
     }
 
     #area-metodologia .etapa3{
-        font-family: 'VotorantimSansBlack';
+        font-family: 'VotorantimSans';
           background-image: url("../img/etapa-3.png");
           background-repeat: no-repeat;
           width: 16%;
@@ -1059,7 +1075,7 @@
           margin-top: 20px;
         }
         #area-metodologia .etapa4{
-            font-family: 'VotorantimSansBlack';
+        font-family: 'VotorantimSans';
           background-image: url("../img/etapa-4.png");
           background-repeat: no-repeat;
           width: 16%;
@@ -1176,3 +1192,49 @@
     line-height: 1.3em;
     width: 100%;
 }
+
+.metodologia-caixa{
+    font-family: 'VotorantimSans';
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 120px;
+    transform: rotate(-90deg);
+    color: #fff!important;
+}
+
+.caixa-metodologia{
+    background-color: #0000be;
+    max-width: 5%;
+}
+
+.desc-etapa-1{
+    font-family: 'VotorantimSans';
+    font-size: 10pt;
+   color: #ffc408;
+}
+
+.desc-etapa-2{
+    font-family: 'VotorantimSans';
+    font-size: 10pt;
+    color: #0000be;
+    font-weight: bold;
+ }
+.desc-etapa-3{
+    font-family: 'VotorantimSans';
+    font-size: 10pt;
+    color: #1bbe00;
+    font-weight: bold;
+}
+
+ .desc-etapa-4{
+    font-family: 'VotorantimSans';
+    font-size: 10pt;
+    color: #de1754;
+    font-weight: bold;
+ }
+
+ .atuacao-direta{
+     font-size: 14pt;
+     margin-bottom: 50px;
+     color: #0000be;
+ }

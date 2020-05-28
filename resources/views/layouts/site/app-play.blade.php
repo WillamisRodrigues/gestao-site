@@ -52,7 +52,7 @@
       youtubeFeed : true,
 			enablePlaylistSort : false ,
 			enableCache: true,
-			cacheFileName: '/get-cache.php',
+			cacheFileName: 'cache/get-cache.php',
 			showDeleteButtons : false,
 			playerFixOffset : 0 , 
 		}); 
@@ -63,7 +63,7 @@
       youtubeFeed : true,
 			enablePlaylistSort : false ,
 			enableCache: true,
-			cacheFileName: '/get-cache2.php',
+			cacheFileName: 'cache/get-cache2.php',
 			showDeleteButtons : false,
 			playerFixOffset : 0 , 
     });
@@ -74,7 +74,7 @@
       youtubeFeed : true,
 			enablePlaylistSort : false ,
 			enableCache: true,
-			cacheFileName: '/get-cache3.php',
+			cacheFileName: 'cache/get-cache3.php',
 			showDeleteButtons : false,
 			playerFixOffset : 0 , 
 		});

@@ -11,6 +11,7 @@
                 MUNICÍPIOS CONTRA O CORONAVÍRUS </h2>
         <div class="divisao-6"></div>
         <p class="desc-mapa-destaque mt-4"> Presença Nacional</p>
+        <p class="desc-mapa">Atualmente, participam da iniciativa aproximadamente 90 municípios, em todas as regiões do país.</p>
                 </div>
        </div>
        <div class="col-md-6">

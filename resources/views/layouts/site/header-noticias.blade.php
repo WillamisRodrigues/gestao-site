@@ -2,20 +2,20 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="" href="{{url('/')}}">
-          <img src="{{asset('site/img/logo-vt-bnds.png')}}" alt="" class="logo-vt">
-        </a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="" href="{{url('/')}}" class="logo-vt">
+          <img src="{{asset('site/img/logo-vt-bnds.png')}}" alt="" class="logo-vt"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent" style="flex-basis: 100%!important;">
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="{{url('/')}}">A INICIATIVA</a></li> 
-              <li class="nav-item"><a class="nav-link" href="{{url('/')}}">MENTORIA e ASSESSORIA</a></li> 
+              <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.institutovotorantim.org.br/municipioscontraocorona/edital/">EDITAL</a></li> 
+              <li class="nav-item"><a class="nav-link" href="{{url('/')}}">MENTORIA</a></li> 
               <li class="nav-item"><a class="nav-link" href="{{url('/')}}">TELEMEDICINA</a></li> 
               <li class="nav-item"><a class="nav-link" href="{{url('play/aspectos')}}">WEBINARS</a></li> 
               <li class="nav-item"><a class="nav-link" href="{{route('materiais-download')}}">FERRAMENTAS E CONTEÚDOS</a></li>

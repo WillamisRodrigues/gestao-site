@@ -12,7 +12,35 @@ equipes de saúde dos municípios para o gerenciamento do combate
 à pandemia, adotamos uma metodologia dividida em quatro etapas:</p>
 </div>
 </section>
-<section class="container" id="area-metodologia">
+<section class="container"  id="area-metodologia">
+    <div class="row">
+      <div class="col-md-1 caixa-metodologia">
+         <h1 class="metodologia-caixa">METODOLOGIA</h1>
+      </div>
+      <div class="col-md-11">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="etapa text-center"> ETAPA 1</h1>
+                <h3 class="desc-etapa-1 ml-2"><strong> IMERSÃO e ALINHAMENTO SOBRE O FUNCIONAMENTO DA MENTORIA </strong> </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="etapa2 text-center"> ETAPA 2</h1>
+                <h3 class="desc-etapa-2 ml-2">DIAGNÓSTICO + COMITÊ DE GESTÃO DE CRISE</h3>
+            </div>
+            <div class="col-md-4">
+                <h1 class="etapa3 text-center"> ETAPA 3</h1>
+                <h3 class="desc-etapa-3 ml-2">DEFINIÇÃO DOS PLANOS DE AÇÃO</h3>
+            </div>
+            <div class="col-md-4">
+                <h1 class="etapa4 text-center"> ETAPA 4</h1>
+                <h3 class="desc-etapa-4 ml-2">MONITORAMENTO DO PROJETO</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="container" id="area-metodologia">
 <div class="row">
 <div class="col-md-12">
         <h1 class="etapa"> 1ª ETAPA</h1>
@@ -69,7 +97,7 @@ equipes de saúde dos municípios para o gerenciamento do combate
    <div class="col-md-12">
         <h1 class="etapa3"> 3ª ETAPA</h1>
         <div class="col-md-12">
-        <h3 class="subtitulo-etapa">PACTAÇÃO DE PLANOS DE AÇÃO </h3>
+        <h3 class="subtitulo-etapa">PACTUAÇÃO DE PLANOS DE AÇÃO </h3>
         </div>
         <div class="row ml-2">
             <div class="col-md-0 nopadding">
@@ -101,6 +129,9 @@ definidos com os participantes.
             </div>
         </div>
     </div>    
+</section> -->
+<section class="container">
+    <h1 class="atuacao-direta">ATUAÇÃO DIRETA DOS CONSULTORES DO PROGRAMA DE APOIO A GESTÃO PUBLICA COM OS MUNICÍPIOS</h1>
 </section>
 <section>
     <div class="container">
@@ -109,38 +140,49 @@ definidos com os participantes.
              <h1 class="t-etapa"> 1ª ETAPA</h1>
              <h3 class="s-etapa">ATIVAÇÃO DO MUNICIPIO</h3>
              <img src="{{asset('site/img/icone-telefone.png')}}" alt="" class="icone">
-             <h5 class="desc-icone">PRIMEIRO <br>
-                  CONTATO</h5>
+             <h5 class="desc-icone">Primeiro <br> contato</h5>
              <img src="{{asset('site/img/icone-globo.png')}}" alt="" class="icone mt-4">
-             <h5 class="desc-icone">PESQUISA SOBRE MUNICÍPIOS</h5>
+             <h5 class="desc-icone">Alinhamento <br> sobre o <br>
+             funcionamento <br> da mentoria</h5>
          </div>
          <div class="col-md-3 borda-direita">
             <h1 class="t-etapa2"> 2ª ETAPA</h1>
             <h3 class="s-etapa">DIAGNÓSTICO MUNICIPAL</h3>
             <img src="{{asset('site/img/icone-lista.png')}}" alt="" class="icone">
-            <h5 class="desc-icone">CHECKLIST <br> ARAPYAÚ</h5>
-            <img src="{{asset('site/img/icone-lista.png')}}" alt="" class="icone mt-4">
-            <h5 class="desc-icone">PESQUISAS <br> ESPECIFÍCAS</h5>
+            <h5 class="desc-icone">Analise da situação <br>
+municipal em relação <br>
+ao covid-19 e <br>
+atuação conjunta <br>
+com o comitê de crise</h5>
          </div>
          <div class="col-md-3 borda-direita">
             <h1 class="t-etapa3"> 3ª ETAPA</h1>
             <h3 class="s-etapa">PACTUAÇÃO DE PLANOS DE AÇÃO</h3>
             <img src="{{asset('site/img/icone-caderno.png')}}" alt="" class="icone">
-            <h5 class="desc-icone">FORMALIZAÇÃO DA <br> ATA DE DIAGNÓSTICO</h5>
-            <img src="{{asset('site/img/icone-rede.png')}}" alt="" class="icone mt-4">
-            <h5 class="desc-icone">CÁLCULO DA MATURIDADE <br> MUNICIPAL POR FRENTE </h5>
+            <h5 class="desc-icone">Formulação/apoio a <br>
+organização das <br>
+iniciativas para <br>
+enfrentamento da <br>
+pandemia</h5>
             <img src="{{asset('site/img/icone-mapa.png')}}" alt="" class="icone mt-4">
-            <h5 class="desc-icone">DEFINIÇÃO DE TRILHAS <br> DE INICIATIVA</h5>
+            <h5 class="desc-icone">Definição dos <br>
+prazos, responsáveis <br>
+e resultados <br>
+esperados </h5>
          </div>
          <div class="col-md-3">
             <h1 class="t-etapa4"> 4ª ETAPA</h1>
             <h3 class="s-etapa"> MONITORAMENTO PLANO DE AÇÃO</h3>
             <img src="{{asset('site/img/icone-load.png')}}" alt="" class="icone">
-            <h5 class="desc-icone">CICLOS <br> QUINZENAIS</h5>
+            <h5 class="desc-icone">Ciclos <br> Quizenais</h5>
             <img src="{{asset('site/img/icone-play.png')}}" alt="" class="icone mt-4">
-            <h5 class="desc-icone">ACOMPANHAMENTO <br> DAS INICIATIVAS</h5>
+            <h5 class="desc-icone">Acompanhamento <br>
+das iniciativas</h5>
             <img src="{{asset('site/img/icone-grafico.png')}}" alt="" class="icone mt-4">
-            <h5 class="desc-icone">ATUALIZAÇÃO DE PAÍNEIS DE CONTROLE </h5>
+            <h5 class="desc-icone">Atualização dos <br>
+resultados e <br>
+replanejamento <br>
+das ações  </h5>
          </div>
         </div>
     </div>

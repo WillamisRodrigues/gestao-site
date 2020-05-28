@@ -28,8 +28,9 @@ class ContatoController extends Controller
                   'mensagem' =>   $request->mensagem
               );
       
-        Mail::to('wrodrigues153@gmail.com')
+        Mail::to('c')
         ->cc('antonio.rodrigues@engajacomunicacao.com.br')
+        ->cc('contato@institutovotorantim.org.br')
         ->send(new Contato($data));
         return back()->with('success', 'Email enviado com sucesso !');
       

@@ -10,7 +10,7 @@
       <footer class="blockquote-footer">
           <p> Telefone : <strong> {{ $data['telefone'] }} </strong> </p>
           <p> Email : <strong> {{ $data['email'] }} </strong> </p>
-          <p> Municipio : <strong> {{ $data['email'] }} </strong> </p>
+          <p> Municipio : <strong> {{ $data['municipio'] }} </strong> </p>
           <p> Mensagem : <strong> {{ $data['mensagem'] }} </strong> </p>
       </footer>
     </blockquote>

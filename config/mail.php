@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'wrodrigues153@gmail.com', 'name' => 'Willamis Rodrigues'],//default :'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'antonio.rodrigues@engajacomunicacao.com.br', 'name' => 'Instituto Votorantim'],//default :'from' => ['address' => null, 'name' => null],
 
     /*
     |--------------------------------------------------------------------------

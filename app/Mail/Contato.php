@@ -29,6 +29,6 @@ class Contato extends Mailable
      */
     public function build()
     {
-        return $this->from('wrodrigues153@gmail.com')->subject('Contato do Site Votorantim - Municipios contra o Coronavírus')->view('site.email.index' )->with('data', $this->data);
+        return $this->from('contato@institutovotorantim.org.br')->subject('Contato do Site Votorantim - Municipios contra o Coronavírus')->view('site.email.index' )->with('data', $this->data);
     }
 }

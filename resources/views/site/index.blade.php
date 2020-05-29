@@ -278,24 +278,24 @@ de quem precisa ser cuidado
             <div class="col-lg-8 ml-4 ml-mobile">
                 <div class="row mb-3 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                    <h3 class="data"> 28/05 </h3>
-                    <h3 class="desc-data">Quarta-Feira</h3>
+                    <h3 class="data"> 04/06 </h3>
+                    <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                       <h4 class="card-title tema-webinar text-uppercase">
-                      Adequação de espaços físicos e segurança nos controles de acesso durante pandemias.
+                      Como garantir qualidade assistencial e segurança do paciente 
                       </h4>
                       
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/2ZBNHAC" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                    <a href="https://bit.ly/3clEGhO" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-3  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 04/06 </h3>
+                  <h3 class="data"> 11/06 </h3>
                     <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
@@ -308,17 +308,20 @@ de quem precisa ser cuidado
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2ZBNHAC" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2XcC811" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-2  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 11/06 </h3>
+                  <!-- remover este espaço --><div style="height:30px;" class="espaco-mobile slide-pc"></div> 
+                  <h3 class="data"> 18/06 </h3>
                     <h3 class="desc-data">Quinta-Feira</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar text-uppercase">Como garantir qualidade assistencial e segurança do paciente.</h4>
+                    <h4 class="card-title tema-webinar text-uppercase">
+                    Boas práticas de isolamento: soluções criativas para conscientização das pessoas a respeito da necessidade do isolamento
+                    </h4>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">

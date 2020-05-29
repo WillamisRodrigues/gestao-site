@@ -50,5 +50,6 @@ Route::get('/posts/tecnologia-aliada', ['uses' => 'NoticiaController@post', 'as'
 Route::get('/posts/aspectos-clinicos', ['uses' => 'NoticiaController@post2', 'as' => 'aspecto-clinico']);
 Route::get('/posts/combater-coronavirus', ['uses' => 'NoticiaController@post3', 'as' => 'combater-coronavirus']);
 Route::get('/posts/indicadores-logistica', ['uses' => 'NoticiaController@post4', 'as' => 'indicadores-logistica']);
+Route::get('/posts/espacos-fisicos', ['uses' => 'NoticiaController@post5', 'as' => 'espacos-fisicos']);
 
 Auth::routes();

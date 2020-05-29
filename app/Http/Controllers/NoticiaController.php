@@ -41,4 +41,10 @@ class NoticiaController extends Controller
         $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
         return view('site.posts.noticia-4',compact('noticias'));
     }
+
+    public function post5()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-5',compact('noticias'));
+    }
 }

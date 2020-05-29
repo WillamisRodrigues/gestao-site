@@ -29,6 +29,15 @@
   <script src="{{asset('site/js/mail-script.js')}}"></script>
   <script src="{{asset('site/js/main.js')}}"></script>
   <script src="{{asset('svg/mapa.js')}}"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167899862-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167899862-1');
+</script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
   <script>
 $('.menu_nav a[href^="#"]').on('click', function(e) {

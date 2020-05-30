@@ -27,6 +27,7 @@ Route::get('/play/gestao', ['uses' => 'ConteudoController@playlistgestao', 'as' 
 Route::get('/play/saude', ['uses' => 'ConteudoController@playlistsaude', 'as' => 'playsaude']);
 Route::get('/municipios-selecionados', ['uses' => 'ConteudoController@municipios', 'as' => 'municipios-selecionados']);
 Route::get('/ajax/estados.html', ['uses' => 'ConteudoController@estados', 'as' => 'estados']);
+Route::get('/ajax/regioes.html', ['uses' => 'ConteudoController@regioes', 'as' => 'regioes']);
 
 
 

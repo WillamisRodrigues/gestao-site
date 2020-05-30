@@ -17,6 +17,8 @@
 @media (min-width: 992px){
     .area-btn{
         margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
     }
 }
 

@@ -3,7 +3,7 @@
 @section('conteudo')
 @include('layouts.site.header-noticias')
 <main class="side-main"> 
-<section style="margin-top:200px;" id="metodologia">
+<section style="margin-top:50px;" id="metodologia">
         <div class="container">
         <h2 class="section-intro__title titulo-materiais-apoio">METODOLOGIA E ORGANIZAÇÃO DA MENTORIA </h2>
         <div class="divisao-6"></div>

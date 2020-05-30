@@ -29,8 +29,9 @@
        <p>De acordo com a gerente-executiva de farmácia e logística corporativa da BP - A Beneficiência Portuguesa de São Paulo Ana Paula Melo, a estratégia fundamental para administrar os materiais e medicamentos é a organização. "Estabelecer um fluxograma desde a compra até o uso do produto é fundamental. Isso porque com o devido cadastro de tudo que entra no ambiente hospitalar, as chances de uma otimização no uso daqueles produtos só aumenta. Mas, é necessário lembrar que a equipe precisa ter uma comunicação que flua entre as pessoas, dar o empoderamento para fazer funcionar os processos. Por mais que tenha equipamentos, estruturas e tecnologias, se não tiver as pessoas, nada adianta”, afirma.</p>
        <p>Para o gerente corporativo de engenharia clínica da BP - A Beneficiência Portuguesa de São Paulo Marcos Iadocicco, produzir e realizar um programa de manutenção dos equipamentos e máquinas que funcionam dentro da unidade de saúde é uma das principais alternativas para garantir uma longa vida desses aparelhos. "O controle dos processos para que tudo seja utilizado da melhor forma é fundamental. Exemplo disso é colocar em uma planilha toda a quantidade de máquinas existentes e em uso para assim acompanhar o desempenho desses aparelhos e, se preciso, substituí-lo antes de um problema permanente. Todavia, a peça fundamental desse controle é a relação entre as áreas da saúde. O equipamento isolado sozinho não anda. O conjunto é que faz a tomada de decisões funcionar", conclui. </p>
        <p>O tema do próximo webinar será Achados radiológicos da Covid-19 e acontecerá às 18h da próxima quinta-feira (21). Para participar, basta acessar as redes sociais do Instituto Votorantim e solicitar o link da plataforma para a palestra em questão.</p>
+       <a href="{{route('playgestao')}}" class="btn btn-material mr-4"> <i class="fa fa-play"> </i> Assista o Webinar</a>  
       </div>
-      <div style="height:30px;"></div>
+      <div style="height:100px;"></div>
       <h2 class="section-intro__title titulo-lista-noticias">Mais Notícias: </h2>
     <div class="divisao-6"></div>
       <div style="height:30px;"></div>

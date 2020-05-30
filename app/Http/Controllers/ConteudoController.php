@@ -129,5 +129,9 @@ class ConteudoController extends Controller
     public function estados(){
         return view('site.municipio.ajax.index');
     }
+
+    public function regioes(){
+        return view('site.municipio.ajax.regioes');
+    }
     
 }

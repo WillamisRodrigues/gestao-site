@@ -4,7 +4,7 @@
   @include('layouts.site.header-noticias')
   
   <main class="side-main"> 
-    <section style="margin:200px 0px;" id="todasnoticias">
+    <section style="margin:100px 0px;" id="todasnoticias">
         <div class="container">
         <h2 class="section-intro__title titulo-materiais-apoio">FERRAMENTAS E CONTEÚDOS </h2>
         <div class="divisao-6"></div>
@@ -81,36 +81,7 @@
                     <div class="col-12">
                         <!-- Row -->
                         <div class="row">
-                           <!-- column -->
-                           <div class="col-lg-3 col-md-6 img-fluid">
-                                 <!-- Card -->
-                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{asset('site/img/materiais/5.jpg')}}" alt="Card image cap">
-                                    <div class="card-body">
-                                    <h4 class="card-title titulo-item-noticia"> <strong> ÍNDICE DE VULNERABILIDADE MUNICIPAL (IVM). </strong> </h4>
-                                        <p class="card-text desc-material-down">
-                                        O Índice de Vulnerabilidade Municipal (IVM) já está no ar. Uma ferramenta é uma iniciativa do Instituto Votorantim e aponta como cidades mais vulneráveis em relação à pandemia de coronavírus.        
-                                    </p>
-                                        <a href="{{asset('site/img/materiais/5.jpg')}}" target="_blank" class="btn btn-leia-mais"> > Download </a>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-                            <!-- column -->
-                            <!-- column -->
-                            <div class="col-lg-3 col-md-6 img-fluid">
-                                 <!-- Card -->
-                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{asset('site/img/materiais/6.jpg')}}" alt="Card image cap">
-                                    <div class="card-body">
-                                    <h4 class="card-title titulo-item-noticia"> <strong> ÍNDICE DE VULNERABILIDADE MUNICIPAL (IVM). </strong> </h4>
-                                        <p class="card-text desc-material-down">O Índice de Vulnerabilidade Municipal (IVM) já está no ar. Uma ferramenta é uma iniciativa do Instituto Votorantim e aponta como cidades mais vulneráveis em relação à pandemia de coronavírus. </p>
-                                        <a href="{{asset('site/img/materiais/6.jpg')}}" target="_blank" class="btn btn-leia-mais"> > Download </a>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-                            <!-- column -->
+                           
                             <!-- column -->
                             <div class="col-lg-3 col-md-6 img-fluid">
                                  <!-- Card -->

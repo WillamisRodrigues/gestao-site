@@ -7,7 +7,7 @@
    <div class="row">
        <div class="col-md-12">
        <div>
-                <h2 class="section-intro__title titulo-mapa" style="margin-top:200px;">
+                <h2 class="section-intro__title titulo-mapa" style="margin-top:100px;">
                 MUNICÍPIOS CONTRA O CORONAVÍRUS </h2>
         <div class="divisao-6"></div>
         <p class="desc-mapa-destaque mt-4"> Presença Nacional</p>

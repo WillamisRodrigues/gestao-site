@@ -39,7 +39,7 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <a href="https://bit.ly/2ZBNHAC" target="_blank">
+        <a href="https://bit.ly/3clEGhO" target="_blank">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/2.2.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade2.jpg')}}"
@@ -115,7 +115,7 @@
           <div class="row ml-3">
             <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
              <p class="desc-item-iniciativa-3 ml-2">
-             <span class="destaque"> <a href="{{route('play')}}" class="text-white"> Webinar semanal </a></span>, 
+             <span class="destaque"> <a href="{{route('play')}}" class="text-white"> Webinar </a></span>, 
              em parceria com a BP – Beneficência Portuguesa de São Paulo, 
              com temas relacionadas a Covid-19, como aspectos clínicos da doença; 
              gestão da saúde e liderança na pandemia; e cuidados com a equipe de saúde. </p>
@@ -129,17 +129,18 @@
              </p>
             </div>
           </div>
-          <p class="subtitulo-quem-somos mt-4">
+          <p class="subtitulo-quem-somos mt-2 area-desc-link">
           Além disso, para apoiar essa e outras iniciativas voltadas à contenção 
           da pandemia, o Instituto Votorantim desenvolveu o IVM - 
           Índice de Vulnerabilidade Municipal, uma régua de avaliação sobre as 
-          fragilidades da saúde municipal dos territórios brasileiros. 
+          fragilidades da saúde municipal dos territórios brasileiros. <br>
           Conheça mais sobre o índice acessando  
           <a href="http://institutovotorantim.org.br/municipioscontraocorona/ivm" style="word-wrap: break-word;" target="_blank" class="text-white">
             http://institutovotorantim.org.br/municipioscontraocorona/ivm/
 </span></a>
+</p>
           
-          </p>
+         
            <div style="height:90px;"></div>
         </div>
         </div>
@@ -158,55 +159,77 @@
           por objetivo dar suporte técnico e estratégico na área da saúde pública 
           e gestão, para o planejamento de ações de controle e tratamento da população 
           no enfrentamento da pandemia. O trabalho consiste em apoiar remotamente as 
-          equipes municipais que estão atuando na gestão do covid-19 em 5 eixos:
+          equipes municipais que estão atuando na gestão do covid-19.
           </p>
-          <p class="subtitulo-gestao-publica mt-4 text-center">
-          <span class="destaque"> A atuação oferece suporte em cinco eixos: </span> <br>
-          </p>
-          <div class="row">
-              <div class="col-md-4">
-                <p class="subtitulo-gestao-publica">
-                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-                <span class="destaque">Governança de Crise: </span> 
-                <br> Tomar decisões, montar uma estrutura coordenada e exercer governança durante a crise.
-                </p>
-              </div>
-              <div class="col-md-4">
-                  <p class="subtitulo-gestao-publica">
-                  <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-                  <span class="destaque"> Assistência: </span> <br> Preparar o sistema de saúde 
-                  para prestar assistência durante a epidemia de forma resolutiva.
+          <div class="row mt-4">
+             <div class="col-md-6">
+               <h2 class="atuacao">A ATUAÇÃO <br>  
+               OFERECE SUPORTE <br>  EM CINCO EIXOS: </h2>
+             </div>
+             <div class="col-md-6 top-40">
+                <img src="{{asset('site/img/icones-iniciativa/1.png')}}" alt="" class="icone-inc">
+                <div class="bloco-area-iniciativa">
+                    <h2>COMUNICAÇÃO E <br> DISTANCIAMENTO</h2>
+                    <p> Comunicar de maneira efetiva para
+                    informar, fomentar práticas de prevenção
+                    e orientar a busca pelos serviços de saúde
+                    de forma resolutiva.
                   </p>
-              </div>
-              <div class="col-md-4">
-                <p class="subtitulo-gestao-publica">
-                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-                <span class="destaque"> Vigilância: </span> <br> Construir inteligência para o enfrentamento da crise a 
-                partir do monitoramento de casos e dos dados demográficos e epidemiológicos da população.
-                </p>
-              </div>
+                </div>
+             </div>
           </div>
-          <div class="row">
-              <div class="col-md-2"></div>
-              <div class="col-md-4">
-                <p class="subtitulo-gestao-publica">
-                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-                <span class="destaque"> Comunicação e distanciamento: </span> <br> Comunicar de maneira efetiva para informar, 
-                fomentar práticas de prevenção e orientar a busca pelos serviços de saúde.
-                </p>
-              </div>
-              <div class="col-md-4">
-                <p class="subtitulo-gestao-publica">
-                <img src="{{asset('site/img/check-iniciativa.png')}}" alt="" class="check-iniciativa mt-1">
-                <span class="destaque"> Impactos Fiscais: </span> <br> Análise de impactos fiscais decorrentes da crise e apoio no planejamento de recursos e medidas 
-                para alcance do equilíbrio fiscal e para conter a crise econômico nos municípios.
-                </p>
-              </div>
+          <div class="row mt-4">
+             <div class="col-md-6">
+             <img src="{{asset('site/img/icones-iniciativa/2.png')}}" alt="" class="icone-inc">
+                <div class="bloco-area-iniciativa">
+                    <h2>GONVERNAÇA <br> DE CRISE</h2>
+                    <p> Tomar decisões, montar
+estrutura coordenada e
+exercer durante a crise.
+                  </p>
+                </div>
+             </div>
+             <div class="col-md-6">
+                <img src="{{asset('site/img/icones-iniciativa/3.png')}}" alt="" class="icone-inc">
+                <div class="bloco-area-iniciativa">
+                    <h2>ASSISTÊNCIA</h2>
+                    <p> Preparar o sistema de saúde para
+prestar assistência durante a epidemia
+de forma resolutiva.
+                  </p>
+                </div>
+             </div>
+          </div>
+          <div class="row mt-4">
+             <div class="col-md-6">
+             <img src="{{asset('site/img/icones-iniciativa/4.png')}}" alt="" class="icone-inc">
+                <div class="bloco-area-iniciativa">
+                    <h2>VIGILÂNCIA</h2>
+                    <p> Construir inteligência para o
+enfrentamento da crise a partir
+do monitoramento de casos e dos
+dados demográficos e
+epidemiológicos da população.
+                  </p>
+                </div>
+             </div>
+             <div class="col-md-6">
+                <img src="{{asset('site/img/icones-iniciativa/5.png')}}" alt="" class="icone-inc">
+                <div class="bloco-area-iniciativa">
+                    <h2>IMPACTOS <br>
+FISCAIS</h2>
+                    <p> Análise de impactos fiscais decorrentes
+da crise e apoio no planejamento de recursos
+e medidas para alcance do equilíbrio fiscal e
+para conter a crise econômica no municípios.
+                  </p>
+                </div>
+             </div>
           </div>
          
             <div class="row area-btn mt-4">
              <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/edital" target="_blank" class="btn btn-sobre-votorantim">
-             Confira o edital
+             Confira o 2º edital
            </a>
              
              <a href="{{route('metodologia')}}" class="ml-4 btn btn-sobre-votorantim btn-ajuste">
@@ -439,6 +462,7 @@ Veja os municípios selecionados.
               <img width="100%" src="{{asset('site/img/noticias/'.$noticia->miniatura)}}" alt="">
             </div>
             <ul class="card-pricing__list">
+            <h6 class="card-title data-da-noticia"><i class="fa fa-clock"></i> {{ date('d/m/Y', strtotime($noticia->created_at)) }}</h6>
               <h2 class="section-intro__title titulo-item-noticia">{{$noticia->titulo}}</h2>
               <p class="section-intro__subtitle desc-noticia">
               {{$noticia->descricao}}

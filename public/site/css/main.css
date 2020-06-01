@@ -196,6 +196,17 @@
     text-align: center;
 }
 
+.btn-link2-ivm{
+    font-family: 'VotorantimSansRegular';
+    font-size: 13pt;
+    background-color: #0000be;
+    color: #fff;
+    margin-top: 20px;
+    width: 45%;
+    text-transform: none!important;
+    text-align: center;
+}
+
 .logo-menor{
     width: 50%!important;
 }
@@ -219,7 +230,7 @@
 }
 
 .btn-sobre-votorantim:hover,.btn-inscreva-webinar:hover,
-.btn-edital:hover,.btn-material:hover, .todas-noticias:hover,.btn-leia-mais:hover,.btn-mais-webinar:hover{
+.btn-edital:hover,.btn-material:hover, .btn-link2-ivm ,.todas-noticias:hover,.btn-leia-mais:hover,.btn-mais-webinar:hover{
     color: #fff;
 }
 
@@ -730,7 +741,7 @@
         height: 500px;
     }
     .sem-espaco{
-        height: 350px!important;
+        height: 400px!important;
     }
     .imagem-post-vt{
         width: 100%;
@@ -753,7 +764,7 @@
 
     .img-noticia {
         width: 80%;
-        margin-top: -100px;
+        margin-top: -40px;
     }
     .menu-mobile{
         display: block;
@@ -935,10 +946,18 @@
  .juntos{
     margin: 10% 0;
  }
+
+.btn-link2-ivm{
+    width: 94%;
+    font-size: 13pt;
+}
+
  .btn-material{
      width: 80%;
      font-size: 13pt;
  }
+
+
  .padding-mobile{
      padding-top: 80px!important;
  }

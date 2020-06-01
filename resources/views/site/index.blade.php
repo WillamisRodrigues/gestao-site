@@ -302,7 +302,7 @@ de quem precisa ser cuidado
                 <div class="row mb-3 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
                     <h3 class="data"> 04/06 </h3>
-                    <h3 class="desc-data">Quinta-Feira</h3>
+                    <h3 class="desc-data">Quinta-Feira - 18h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
@@ -319,7 +319,7 @@ de quem precisa ser cuidado
                 <div class="row mb-3  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
                   <h3 class="data"> 11/06 </h3>
-                    <h3 class="desc-data">Quinta-Feira</h3>
+                    <h3 class="desc-data">Quinta-Feira - 18h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
@@ -338,7 +338,7 @@ de quem precisa ser cuidado
                   <div class="col-md-3 data webinar-mobile">
                   <!-- remover este espaço --><div style="height:30px;" class="espaco-mobile slide-pc"></div> 
                   <h3 class="data"> 18/06 </h3>
-                    <h3 class="desc-data">Quinta-Feira</h3>
+                    <h3 class="desc-data">Quinta-Feira - 18h</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
@@ -348,7 +348,7 @@ de quem precisa ser cuidado
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2ZBNHAC" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2XKsDVF" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
               </div>

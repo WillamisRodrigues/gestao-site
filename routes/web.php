@@ -52,5 +52,6 @@ Route::get('/posts/aspectos-clinicos', ['uses' => 'NoticiaController@post2', 'as
 Route::get('/posts/combater-coronavirus', ['uses' => 'NoticiaController@post3', 'as' => 'combater-coronavirus']);
 Route::get('/posts/indicadores-logistica', ['uses' => 'NoticiaController@post4', 'as' => 'indicadores-logistica']);
 Route::get('/posts/espacos-fisicos', ['uses' => 'NoticiaController@post5', 'as' => 'espacos-fisicos']);
+Route::get('/posts/cidades-vuneraveis', ['uses' => 'NoticiaController@post6', 'as' => 'cidades-vuneraveis']);
 
 Auth::routes();

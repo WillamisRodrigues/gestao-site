@@ -37,8 +37,8 @@ Route::get('/ajax/regioes.html', ['uses' => 'ConteudoController@regioes', 'as' =
 
 
 
-Route::get('/materiais-download', ['uses' => 'ConteudoController@todosmateriais', 'as' => 'materiais-download']);
-Route::get('/materiais-download/ferramentas', ['uses' => 'ConteudoController@ferramentas', 'as' => 'ferramentas']);
+Route::get('/materiais-download', ['uses' => 'MaterialController@index', 'as' => 'materiais-download']);
+Route::get('/materiais-download/ferramentas', ['uses' => 'MaterialController@ferramentas', 'as' => 'ferramentas']);
 Route::post('play/cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::post('play/cache/get-cache2.php', ['uses' => 'ConteudoController@cache2', 'as' => 'get-cache2']);
 Route::post('play/cache/get-cache3.php', ['uses' => 'ConteudoController@cache3', 'as' => 'get-cache2']);

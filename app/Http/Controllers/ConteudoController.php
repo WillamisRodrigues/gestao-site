@@ -82,14 +82,6 @@ class ConteudoController extends Controller
         return response()->json(['data' => $data]);
     }
 
-    public function todosmateriais(){
-        return view('site.materiais.index');
-    }
-
-    public function ferramentas(){
-        return view('site.ferramentas.index');
-    }
-
     public function playlist(){
         
         return view('site.playlist.index');

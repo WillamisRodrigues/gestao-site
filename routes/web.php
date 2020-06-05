@@ -53,5 +53,7 @@ Route::get('/posts/combater-coronavirus', ['uses' => 'NoticiaController@post3', 
 Route::get('/posts/indicadores-logistica', ['uses' => 'NoticiaController@post4', 'as' => 'indicadores-logistica']);
 Route::get('/posts/espacos-fisicos', ['uses' => 'NoticiaController@post5', 'as' => 'espacos-fisicos']);
 Route::get('/posts/cidades-vuneraveis', ['uses' => 'NoticiaController@post6', 'as' => 'cidades-vuneraveis']);
+Route::get('/posts/parceria', ['uses' => 'NoticiaController@post7', 'as' => 'parceria']);
+Route::get('/posts/qualidade-seguranca', ['uses' => 'NoticiaController@post8', 'as' => 'qualidade-seguranca']);
 
 Auth::routes();

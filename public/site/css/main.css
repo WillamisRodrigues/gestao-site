@@ -743,6 +743,14 @@
     .sem-espaco{
         height: 400px!important;
     }
+
+    .noticias-logo{
+        height: 650px!important;
+    }
+
+    .logo-noticia-mobile{
+        width: 40%;
+    }
     .imagem-post-vt{
         width: 100%;
     }

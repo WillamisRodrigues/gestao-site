@@ -15,19 +15,18 @@
   </ol>
   <div class="carousel-inner" role="listbox" >
   <div class="carousel-item active">
-      <!--Mask color-->
       <div class="view">
         <a href="http://institutovotorantim.org.br/municipioscontraocorona/edital" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/4.4.jpg')}}"
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/7.7.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade4.jpg')}}"
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade7.jpg')}}"
           alt="First slide">
         </a>
       </div>
-    </div>  
-  <div class="carousel-item" >
+    </div> 
+  <div class="carousel-item">
       <div class="view">
-        <a href="">
+        <a href="{{route('parceria')}}">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.1.jpg')}}"
           alt="First slide">
             <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade.jpg')}}"
@@ -39,10 +38,10 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <a href="https://bit.ly/3clEGhO" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/2.2.jpg')}}"
+        <a href="{{url('play/aspectos')}}" target="_blank">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.3.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade2.jpg')}}"
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade3.jpg')}}"
           alt="First slide">
         </a>
       </div>

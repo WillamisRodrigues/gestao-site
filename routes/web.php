@@ -56,4 +56,11 @@ Route::get('/posts/cidades-vuneraveis', ['uses' => 'NoticiaController@post6', 'a
 Route::get('/posts/parceria', ['uses' => 'NoticiaController@post7', 'as' => 'parceria']);
 Route::get('/posts/qualidade-seguranca', ['uses' => 'NoticiaController@post8', 'as' => 'qualidade-seguranca']);
 
+Route::get('/posts/sistema-telemedicina', ['uses' => 'NoticiaController@post9', 'as' => 'sistema-telemedicina']);
+Route::get('/posts/municipios-vuneraveis', ['uses' => 'NoticiaController@post10', 'as' => 'municipios-vuneraveis']);
+Route::get('/posts/profissionais-saude', ['uses' => 'NoticiaController@post11', 'as' => 'profissionais-saude']);
+Route::get('/posts/kits-profissionais', ['uses' => 'NoticiaController@post12', 'as' => 'kits-profissionais']);
+Route::get('/posts/equipamentos', ['uses' => 'NoticiaController@post13', 'as' => 'equipamentos-protecao']);
+
+
 Auth::routes();

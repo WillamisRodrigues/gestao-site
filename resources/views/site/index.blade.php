@@ -38,10 +38,10 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <a href="{{url('play/aspectos')}}" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.3.jpg')}}"
+        <a href="https://bit.ly/2XcC811" target="_blank">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/6.6.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade3.jpg')}}"
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade6.jpg')}}"
           alt="First slide">
         </a>
       </div>
@@ -300,54 +300,55 @@ de quem precisa ser cuidado
             <div class="col-lg-8 ml-4 ml-mobile">
                 <div class="row mb-3 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                    <h3 class="data"> 04/06 </h3>
+                    <h3 class="data"> 11/06 </h3>
                     <h3 class="desc-data">Quinta-Feira - 18h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                       <h4 class="card-title tema-webinar text-uppercase">
-                      Como garantir qualidade assistencial e segurança do paciente 
+                      Manejo clínico e ventilatório do paciente com covid-19. 
                       </h4>
+                      <!-- remover este espaço --><div style="height:30px;"></div> 
                       
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/3clEGhO" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                    <a href="https://bit.ly/2XcC811" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-3  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 11/06 </h3>
+                  <!-- remover este espaço --><div style="height:30px;" class="espaco-mobile slide-pc"></div> 
+                  <h3 class="data"> 18/06 </h3>
                     <h3 class="desc-data">Quinta-Feira - 18h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                     <h4 class="card-title tema-webinar text-uppercase">
-                    Manejo clínico e ventilatório do paciente com covid-19. 
-                     <!-- remover este espaço --><div style="height:30px;"></div> 
+                    Boas práticas de isolamento: soluções criativas para conscientização das pessoas a respeito da necessidade do isolamento.
+                    
                     </h4>
                       <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2XcC811" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2XKsDVF" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-2  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <!-- remover este espaço --><div style="height:30px;" class="espaco-mobile slide-pc"></div> 
-                  <h3 class="data"> 18/06 </h3>
+                  <h3 class="data"> 25/06 </h3>
                     <h3 class="desc-data">Quinta-Feira - 18h</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                     <h4 class="card-title tema-webinar text-uppercase">
-                    Boas práticas de isolamento: soluções criativas para conscientização das pessoas a respeito da necessidade do isolamento
+                    Abordagem de gestantes com suspeitas ou confirmação de covid-19.
                     </h4>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2XKsDVF" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2znqIhW" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
               </div>

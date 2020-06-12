@@ -17,9 +17,9 @@
   <div class="carousel-item active">
       <div class="view">
         <a href="http://institutovotorantim.org.br/municipioscontraocorona/edital" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/7.7.jpg')}}"
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/8.8.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade7.jpg')}}"
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade8.jpg')}}"
           alt="First slide">
         </a>
       </div>

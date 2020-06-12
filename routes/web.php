@@ -55,12 +55,13 @@ Route::get('/posts/espacos-fisicos', ['uses' => 'NoticiaController@post5', 'as' 
 Route::get('/posts/cidades-vuneraveis', ['uses' => 'NoticiaController@post6', 'as' => 'cidades-vuneraveis']);
 Route::get('/posts/parceria', ['uses' => 'NoticiaController@post7', 'as' => 'parceria']);
 Route::get('/posts/qualidade-seguranca', ['uses' => 'NoticiaController@post8', 'as' => 'qualidade-seguranca']);
-
 Route::get('/posts/sistema-telemedicina', ['uses' => 'NoticiaController@post9', 'as' => 'sistema-telemedicina']);
 Route::get('/posts/municipios-vuneraveis', ['uses' => 'NoticiaController@post10', 'as' => 'municipios-vuneraveis']);
 Route::get('/posts/profissionais-saude', ['uses' => 'NoticiaController@post11', 'as' => 'profissionais-saude']);
 Route::get('/posts/kits-profissionais', ['uses' => 'NoticiaController@post12', 'as' => 'kits-profissionais']);
 Route::get('/posts/equipamentos', ['uses' => 'NoticiaController@post13', 'as' => 'equipamentos-protecao']);
+Route::get('/posts/cidades-apoio-bndes', ['uses' => 'NoticiaController@post14', 'as' => 'cidades-apoio-bndes']);
+Route::get('/posts/manejo-clinico-ventilatorio', ['uses' => 'NoticiaController@post15', 'as' => 'manejo-clínico-ventilatório']);
 
 
 Auth::routes();

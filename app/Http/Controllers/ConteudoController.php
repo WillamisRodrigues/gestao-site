@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Yajra\Datatables\Datatables;
 use Illuminate\Http\Request;
 use App\Banner;
+use App\Noticia;
 
 class ConteudoController extends Controller
 {
@@ -83,18 +84,18 @@ class ConteudoController extends Controller
     }
 
     public function playlist(){
-        
-        return view('site.playlist.index');
+        $noticias = Noticia::orderBy('created_at','desc')->where("categoria_id",1)->limit(3)->get();
+        return view('site.playlist.index',compact('noticias'));
     }
 
     public function playlistgestao(){
-        
-        return view('site.playlist.gestao');
+        $noticias = Noticia::orderBy('created_at','desc')->where("categoria_id",1)->limit(3)->get();
+        return view('site.playlist.gestao',compact('noticias'));
     }
 
     public function playlistsaude(){
-        
-        return view('site.playlist.saude');
+        $noticias = Noticia::orderBy('created_at','desc')->where("categoria_id",1)->limit(3)->get();
+        return view('site.playlist.saude',compact('noticias'));
     }
 
     public function metodologia(){

@@ -1,114 +1,115 @@
 function init() {
-var objEstado = {
-  "ac": [
-    {
-      "nome": "Acre",
-      "capital": "Rio Branco"
-    }],
-    "al": [{
-      "nome": "Alagoas",
-      "capital": "Maceió"
-    }],
-    "ap": [{
-      "nome": "Amapá",
-      "capital": "Macapá"
-    }],
-  	"am": [
-    {
-      "nome": "Amazonas",
-      "capital": "Manaus"
-    }],
-    "ba": [{
-      "nome": "Bahia",
-      "capital": "Salvador"
-    }],
-    "ce": [{
-      "nome": "Ceará",
-    }],
-    "df": [{
-      "nome": "Distrito Federal",
-      "capital": "Brasília"
-    }],
-    "es": [{
-      "nome": "Espírito Santo",
-      "capital": "Vitória"
-    }],
-    "go": [{
-      "nome": "Goiás",
-      "capital": "Goiânia"
-    }],
-    "ma": [{
-      "nome": "Maranhão",
-      "capital": "São Luís"
-    }],
-	"mt": [{
-      "nome": "Mato Grosso",
-      "capital": "Cuiabá"
-    }],
-    "ms": [{
-      "nome": "Mato Grosso do Sul",
-      "capital": "Campo Grande"
-    }],
-    "mg": [{
-      "nome": "Minas Gerais",
-      "capital": "Belo Horizonte"
-    }],
-	"pr": [{
-      "nome": "Paraná",
-      "capital": "Curitiba"
-    }],
-    "pb": [{
-      "nome": "Paraíba",
-      "capital": "João Pessoa"
-    }],
-    "pa": [{
-      "nome": "Pará",
-      "capital": "Belém"
-    }],
-	"pe": [{
-      "nome": "Pernambuco",
-      "capital": "Recife"
-    }],
-    "pi": [{
-      "nome": "Piauí",
-      "capital": "Terezina"
-    }],
-    "rj": [{
-      "nome": "Rio de Janeiro",
-      "capital": "Rio de Janeiro"
-    }],
-	"rn": [{
-      "nome": "Rio Grande do Norte",
-      "capital": "Natal"
-    }],
-    "rs": [{
-      "nome": "Rio Grande do Sul",
-      "capital": "Porto Alegre"
-    }],
-    "ro": [{
-      "nome": "Rondônia",
-      "capital": "Porto Velho"
-    }],
-	"rr": [{
-      "nome": "Roraima",
-      "capital": "Boa Vista"
-    }],
-    "sc": [{
-      "nome": "Santa Catarina",
-      "capital": "Florianópolis"
-    }],
-    "se": [{
-      "nome": "Sergipe",
-      "capital": "Aracaju"
-    }],
-    "sp": [{
-      "nome": "São Paulo",
-      "capital": "São Paulo"
-    }],
-    "to": [{
-      "nome": "Tocantins",
-      "capital": "Palmas"
-    }]
+  var objEstado = {
+    "ac": [
+      {
+        "nome": "Acre",
+        "capital": "Rio Branco"
+      }],
+      "al": [{
+        "nome": "Alagoas",
+        "capital": "Maceió"
+      }],
+      "ap": [{
+        "nome": "Amapá",
+        "capital": "Macapá"
+      }],
+      "am": [
+      {
+        "nome": "Amazonas",
+        "capital": "Manaus"
+      }],
+      "ba": [{
+        "nome": "Bahia",
+        "capital": "Salvador"
+      }],
+      "ce": [{
+        "nome": "Ceará",
+        "capital": "Fortaleza"
+      }],
+      "df": [{
+        "nome": "Distrito Federal",
+        "capital": "Brasília"
+      }],
+      "es": [{
+        "nome": "Espírito Santo",
+        "capital": "Vitória"
+      }],
+      "go": [{
+        "nome": "Goiás",
+        "capital": "Goiânia"
+      }],
+      "ma": [{
+        "nome": "Maranhão",
+        "capital": "São Luís"
+      }],
+    "mt": [{
+        "nome": "Mato Grosso",
+        "capital": "Cuiabá"
+      }],
+      "ms": [{
+        "nome": "Mato Grosso do Sul",
+        "capital": "Campo Grande"
+      }],
+      "mg": [{
+        "nome": "Minas Gerais",
+        "capital": "Belo Horizonte"
+      }],
+    "pr": [{
+        "nome": "Paraná",
+        "capital": "Curitiba"
+      }],
+      "pb": [{
+        "nome": "Paraíba",
+        "capital": "João Pessoa"
+      }],
+      "pa": [{
+        "nome": "Pará",
+        "capital": "Belém"
+      }],
+    "pe": [{
+        "nome": "Pernambuco",
+        "capital": "Recife"
+      }],
+      "pi": [{
+        "nome": "Piauí",
+        "capital": "Terezina"
+      }],
+      "rj": [{
+        "nome": "Rio de Janeiro",
+        "capital": "Rio de Janeiro"
+      }],
+    "rn": [{
+        "nome": "Rio Grande do Norte",
+        "capital": "Natal"
+      }],
+      "rs": [{
+        "nome": "Rio Grande do Sul",
+        "capital": "Porto Alegre"
+      }],
+      "ro": [{
+        "nome": "Rondônia",
+        "capital": "Porto Velho"
+      }],
+    "rr": [{
+        "nome": "Roraima",
+        "capital": "Boa Vista"
+      }],
+      "sc": [{
+        "nome": "Santa Catarina",
+        "capital": "Florianópolis"
+      }],
+      "se": [{
+        "nome": "Sergipe",
+        "capital": "Aracaju"
+      }],
+      "sp": [{
+        "nome": "São Paulo",
+        "capital": "São Paulo"
+      }],
+      "to": [{
+        "nome": "Tocantins",
+        "capital": "Palmas"
+      }]
 }
 
 var i = j = k = l = m = 0;

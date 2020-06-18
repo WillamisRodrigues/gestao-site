@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Yajra\Datatables\Datatables;
 use Illuminate\Http\Request;
 use App\Noticia;
 
@@ -16,6 +16,24 @@ class NoticiaController extends Controller
     {
         $noticias = Noticia::orderBy('created_at','desc')->get();
         return view('site.noticias.index',compact('noticias'));
+    }
+
+    public function listaNoticias(){
+        $noticias = Noticia::all();
+
+        return Datatables::of($noticias)->addColumn('action', function ($noticia) { 
+            $action = '<button type="button"  name="edit_noticia" data-id="' . $noticia->id . '" class="edit_noticia btn btn-primary btn-md"> <i class=""></i> Editar </button>';
+            return $action;
+
+        })->addColumn('status', function ($noticia) {
+            if ($noticia->status == 0) {
+                $status = "Ativo";
+            } else {
+                $status = "Desativado";
+            }
+            return $status;
+
+        })->rawColumns(['action', 'status'])->make(true);
     }
 
     public function post()
@@ -106,5 +124,23 @@ class NoticiaController extends Controller
     {
         $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
         return view('site.posts.noticia-15',compact('noticias'));
+    }
+
+    public function post16()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-16',compact('noticias'));
+    }
+
+    public function post17()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-17',compact('noticias'));
+    }
+
+    public function post18()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-18',compact('noticias'));
     }
 }

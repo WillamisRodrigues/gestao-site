@@ -10,13 +10,19 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('admin/assets/images/favicon-1.png')}}">
     <title> @yield('titulo') </title>
     <link href="{{asset('admin/dist/css/style.css')}}" rel="stylesheet">
+    
 
 </head>
 
 <body>
     @yield('conteudo')
     
-    
+     <script src="https://cdn.tiny.cloud/1/qbqgwmun40rzma00xr3hgboprsxu9v59vmp2m30wmg8v2u3w/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script> 
+      tinymce.init({
+        selector: '#minha-noticia'
+      });
+    </script>
     <script src="{{asset('admin/assets/libs/jquery/dist/jquery.min-1.js')}}"></script>
     <script src="{{asset('admin/assets/js/main.js')}}"></script>
     <script src="{{asset('admin/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js')}}"></script>

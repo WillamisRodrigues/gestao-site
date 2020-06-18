@@ -2,6 +2,10 @@ $(".fechar").click(function () {
     $("#painel-banner").toggle("slow");
 });
 
+$("#addnoticia").click(function () {
+    $("#painel-noticias").toggle("slow");
+});
+
 $(document).on('click', '.edit_banner', function () {
     var id = $(this).attr('data-id');
     $('#form_result').html('');
@@ -20,15 +24,14 @@ $(document).on('click', '.edit_banner', function () {
 
 $(function () {
 
-    var table = $('#banners').DataTable({
+    var table = $('#listanoticia').DataTable({
         processing: true,
         serverSide: true,
-        ajax: "http://www.institutovotorantim.org.br/municipioscontraocorona/teste-site/lista_banner",
+        ajax: "/lista_noticias",
         columns: [
             { data: 'id', name: 'id' },
             { data: 'titulo', name: 'titulo' },
-            { data: 'url', name: 'url' },
-            { data: 'status', name: 'status' },
+            { data: 'descricao', name: 'descricao' },
             { data: 'action', name: 'action' }
 
         ],

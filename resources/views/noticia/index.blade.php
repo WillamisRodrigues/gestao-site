@@ -7,7 +7,7 @@
             <div class="lds-pos"></div>
         </div>
     </div>
-    <div class="card col-md-4" id="painel-banner" style="position:absolute; top:0px; right:0px; z-index:1000; height:100vh;">
+    <div class="card col-md-6" id="painel-noticias" style="position:absolute; top:0px; display:none; bottom:0px; right:0px; z-index:1000; height:100vh;">
         <div class="card-body collapse show">
             <h4 class="card-title">Editar Noticia </h4>
             <p class="card-subtitle">Utilize as opções para editar os banners.</p>
@@ -26,6 +26,10 @@
                 <div class="form-group mt-4">
                     <label class="mr-sm-2">Destino:</label>
                     <input type="text" class="form-control" placeholder="url">
+                </div>
+                <div class="form-group">
+                    <label class="mr-sm-2">Noticia:</label>
+                    <textarea id="minha-noticia"></textarea>
                 </div>
                 <div class="form-group mt-4">
                      <label class="mr-sm-2">Status da Noticia:</label>
@@ -71,7 +75,7 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <button type="button" class="btn btn-primary btn-rounded mb-4 ml-4">
+                    <button type="button" id="addnoticia" class="btn btn-primary btn-rounded mb-4 ml-4">
                     <i data-feather="message-square" class="feather-icon"></i>    
                     Adicionar Noticia</button>
                    
@@ -82,8 +86,8 @@
                                 <h6 class="card-subtitle">Use <code>.table-striped</code> to add zebra-striping to any
                                     table row within the <code>&lt;tbody&gt;</code>.</h6>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table table-striped">
+                            <div>
+                                <table class="table table-striped" id="listanoticia" width="100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
@@ -95,24 +99,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
+                                       
                                     </tbody>
                                 </table>
                             </div>

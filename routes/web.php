@@ -15,6 +15,8 @@ Route::get('/', ['uses' => 'HomeController@site', 'as' => 'site']);
 Route::get('/instituto-votorantim', ['uses' => 'HomeController@site', 'as' => 'site']);
 Route::get('/home', ['uses' => 'HomeController@index', 'as' => 'home']);
 Route::get('/lista_banner', ['uses' => 'ConteudoController@listaBanners', 'as' => 'banner']);
+Route::get('/lista_noticias', ['uses' => 'NoticiaController@listaNoticias', 'as' => 'lista-noticias']);
+
 Route::get('/editar_lead_aluno/{id}/edit', 'ConteudoController@edit_banner')->name('user-edit');
 Route::get('/gestao', ['uses' => 'ConteudoController@gestao', 'as' => 'adm']);
 Route::get('/banner', ['uses' => 'ConteudoController@banner', 'as' => 'banner']);
@@ -62,6 +64,8 @@ Route::get('/posts/kits-profissionais', ['uses' => 'NoticiaController@post12', '
 Route::get('/posts/equipamentos', ['uses' => 'NoticiaController@post13', 'as' => 'equipamentos-protecao']);
 Route::get('/posts/cidades-apoio-bndes', ['uses' => 'NoticiaController@post14', 'as' => 'cidades-apoio-bndes']);
 Route::get('/posts/manejo-clinico-ventilatorio', ['uses' => 'NoticiaController@post15', 'as' => 'manejo-clínico-ventilatório']);
-
+Route::get('/posts/pacientes-araraquara', ['uses' => 'NoticiaController@post16', 'as' => 'pacientes-araraquara']);
+Route::get('/posts/epis-hospitais', ['uses' => 'NoticiaController@post17', 'as' => 'epis-hospitais']);
+Route::get('/posts/conhecimento-covid-19', ['uses' => 'NoticiaController@post18', 'as' => 'conhecimento-covid-19']);
 
 Auth::routes();

@@ -7,24 +7,22 @@
     <div>
       <div class="text-center">
         <h2 class="section-intro__title titulo-post">
-        Prefeitura repassa primeira remessa de EPIs a hospitais em Muriaé
+        Instituto Votorantim e BP - A Beneficiência Portuguesa de São Paulo desenvolvem pesquisa de medicamento para auxiliar os sintomas da infecção por Covid-19
         </h2>
         <div class="divisao-4"></div>
-        <h4 class="text-white subtitulo-post">
-          <i>Os mais de 420 mil itens foram doados pelo Instituto Votorantim, através da CBA.</i> 
-        </h4>
-         <p class="text-white"> 05 de junho de 2020 </p>
+         <p class="text-white"> 06 de julho de 2020 </p>
          <div style="height:260px;"></div>
       </div>
     </div>
   </section>
   <section class="container">
-      <img src="{{asset('site/img/post/18.jpg')}}" alt="" class="img-noticia">
+      <img src="{{asset('site/img/post/29.jpg')}}" alt="" class="img-noticia">
   </section>
   <section class="container">
         <div class="desc-post">
-        <p>A Prefeitura de Muriaé (MG) fez o repasse da primeira remessa de equipamentos de proteção individual (EPIs) a hospitais da cidade. Os mais de 420 mil itens, entre máscaras cirúrgicas e N 95, aventais impermeáveis e de TNT, álcool em gel, luvas e toucas, foram doados pelo Instituto Votorantim, por meio da CBA. As entregas foram feitas ao Hospital São Paulo, Casa de Saúde Santa Lúcia e Prontocor. </p>
-          <p> O assunto foi destaque no portal G1 Zona da Mata. Confira a matéria:    <a href="https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml" style="word-wrap: break-word;" target="_blank">https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml <a></p>
+       <p>Entidades analisam os efeitos da droga Tocilizumabe para os pacientes infectados com o novo coronavírus. Resultados só devem estar prontos em agosto</p>
+       <p>A parceria entre o Instituto Votorantim e BP - A Beneficência Portuguesa de São Paulo iniciou uma pesquisa em relação aos efeitos do medicamento Tocilizumabe no combate à covid-19.  A pesquisa reúne 150 pacientes de 12 hospitais e avalia como a droga, que bloqueia atividades inflamatórias, pode diminuir as lesões em diferentes órgãos causadas pelo novo coronavírus. Os resultados devem estar prontos em agosto.</p>
+         <p> O assunto foi destaque no Valor Econômico hoje. Confira: <a href="https://valor.globo.com/empresas/noticia/2020/07/06/recursos-ajudam-a-acelerar-busca-de-tratamentos.ghtml" style="word-wrap: break-word;" target="_blank">https://valor.globo.com/empresas/noticia/2020/07/06/recursos-ajudam-a-acelerar-busca-de-tratamentos.ghtml<a></p>
         </div>
       <div style="height:30px;"></div>
       <h2 class="section-intro__title titulo-lista-noticias">Mais Notícias: </h2>

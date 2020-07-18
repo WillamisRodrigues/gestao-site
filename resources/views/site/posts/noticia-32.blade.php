@@ -7,24 +7,24 @@
     <div>
       <div class="text-center">
         <h2 class="section-intro__title titulo-post">
-        Prefeitura repassa primeira remessa de EPIs a hospitais em Muriaé
+        Projeto "Municípios contra o Coronavírus" do Instituto Votorantim contempla mais 43 cidades
         </h2>
         <div class="divisao-4"></div>
         <h4 class="text-white subtitulo-post">
-          <i>Os mais de 420 mil itens foram doados pelo Instituto Votorantim, através da CBA.</i> 
+          <i> Primeira fase da iniciativa que visa auxiliar os profissionais ligados a prefeitura das cidades selecionadas a combater a pandemia já vinha apoiando outros 87 municípios  </i> 
         </h4>
-         <p class="text-white"> 05 de junho de 2020 </p>
+         <p class="text-white"> 14 de julho de 2020 </p>
          <div style="height:260px;"></div>
       </div>
     </div>
   </section>
   <section class="container">
-      <img src="{{asset('site/img/post/18.jpg')}}" alt="" class="img-noticia">
+      <img src="{{asset('site/img/post/31.jpg')}}" alt="" class="img-noticia">
   </section>
   <section class="container">
         <div class="desc-post">
-        <p>A Prefeitura de Muriaé (MG) fez o repasse da primeira remessa de equipamentos de proteção individual (EPIs) a hospitais da cidade. Os mais de 420 mil itens, entre máscaras cirúrgicas e N 95, aventais impermeáveis e de TNT, álcool em gel, luvas e toucas, foram doados pelo Instituto Votorantim, por meio da CBA. As entregas foram feitas ao Hospital São Paulo, Casa de Saúde Santa Lúcia e Prontocor. </p>
-          <p> O assunto foi destaque no portal G1 Zona da Mata. Confira a matéria:    <a href="https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml" style="word-wrap: break-word;" target="_blank">https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml <a></p>
+        <p>O Instituto Votorantim e o Banco Nacional de Desenvolvimento Econômico e Social (BNDES) anunciam a seleção de mais 43 municípios que participarão do projeto “Municípios contra o Conoravírus”. A ação visa levar até essas localidades uma assessoria técnica especializada para que as prefeituras e suas equipes possam trabalhar de forma coordenada para o melhor enfrentamento da pandemia, bem como o gerenciamento dos efeitos causados pela Covid-19.</p>
+         <p>Confira mais detalhes acessando: <a href="https://brasil61.com/noticias/instituto-votorantim-presta-assessoria-tecnica-a-municipios-para-o-combate-a-pandemia-bras200827" style="word-wrap: break-word;" target="_blank">https://brasil61.com/noticias/instituto-votorantim-presta-assessoria-tecnica-a-municipios-para-o-combate-a-pandemia-bras200827<a></p>
         </div>
       <div style="height:30px;"></div>
       <h2 class="section-intro__title titulo-lista-noticias">Mais Notícias: </h2>

@@ -5,7 +5,7 @@
   
   <main class="side-main">    
     <section class="banners" id="home">
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
  <!-- Indicators -->
  <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -16,32 +16,10 @@
   <div class="carousel-inner" role="listbox" >
   <div class="carousel-item active">
       <div class="view">
-        <a href="http://institutovotorantim.org.br/municipioscontraocorona/edital" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/8.8.jpg')}}"
+        <a href="{{route('ferramentas')}}">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/11.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade8.jpg')}}"
-          alt="First slide">
-        </a>
-      </div>
-    </div> 
-  <div class="carousel-item">
-      <div class="view">
-        <a href="{{route('parceria')}}">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/1.1.jpg')}}"
-          alt="First slide">
-            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade.jpg')}}"
-          alt="First slide">
-        </a>
-      </div>
-    </div>
-    
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <a href="https://bit.ly/2XKsDVF" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/9.9.jpg')}}"
-          alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade9.jpg')}}"
+            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade11.jpg')}}"
           alt="First slide">
         </a>
       </div>
@@ -56,6 +34,29 @@
           alt="First slide">
         </a>
         <div class="mask rgba-black-slight"></div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <a href="{{route('play')}}">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/3.3.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade3.jpg')}}"
+          alt="First slide">
+        </a>
+        <div class="mask rgba-black-slight"></div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <a href="https://bit.ly/3h9JAC3" target="_blank">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/10.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade10.jpg')}}"
+          alt="First slide">
+        </a>
       </div>
     </div>
   </div>
@@ -299,58 +300,58 @@ de quem precisa ser cuidado
             <div class="col-md-1"></div>
             <div class="col-lg-8 ml-4 ml-mobile">
               
-                <div class="row mb-3  espaco-mobile">
-                  <div class="col-md-3 data webinar-mobile">
-                  <!-- remover este espaço --><div style="height:30px;" class="espaco-mobile slide-pc"></div> 
-                  <h3 class="data"> 18/06 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 18h </h3>
-                   </div>
-                  <div class="col-md-7 bg-data webinar-mobile">
-                    <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar text-uppercase">
-                    Boas práticas de isolamento: soluções criativas para conscientização das pessoas a respeito da necessidade do isolamento.
-                    
-                    </h4>
-                      <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
-                    </div>
-                  </div>
-                  <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2XKsDVF" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
-                  </div>
-                </div>
                 <div class="row mb-2  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 25/06 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 18h</h3>
+                  <h3 class="data"> 27/07 </h3>
+                    <h3 class="desc-data">Quinta-Feira - 16h</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                     <h4 class="card-title tema-webinar text-uppercase">
-                    Abordagem de gestantes com suspeitas ou confirmação de covid-19.
+                    Impactos Fiscais: controle de despesas e receitas durante a crise
                     </h4>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2znqIhW" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/32fijZK" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
-                <div class="row mb-3 espaco-mobile">
+                <div class="row mb-2 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                   <!-- remover este espaço --><div style="height:20px;" class="espaco-mobile slide-pc"></div>
-                    <h3 class="data"> 02/07 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 18h </h3>
+                   <!-- remover este espaço <div style="height:20px;" class="espaco-mobile slide-pc"></div>-->
+                    <h3 class="data"> 30/07 </h3>
+                    <h3 class="desc-data">Quinta-Feira - 16h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                       <h4 class="card-title tema-webinar text-uppercase">
-                      Escolhas bioéticas: como administrar de forma responsável recursos escassos.
+                      Como retomar a rotina dos serviços de saúde pós-pandemia.
                       </h4>
                       <!-- remover este espaço <div style="height:30px;"></div> --> 
                       
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/3h9JAC3" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                    <a href="https://bit.ly/3fpSIRP" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  </div>
+                </div>
+                <div class="row mb-2  espaco-mobile">
+                  <div class="col-md-3 data webinar-mobile">
+                  <!-- remover este espaço <div style="height:20px;" class="espaco-mobile slide-pc"></div> -->
+                  <h3 class="data"> 06/08 </h3>
+                    <h3 class="desc-data">Quinta-Feira - 16h </h3>
+                   </div>
+                  <div class="col-md-7 bg-data webinar-mobile">
+                    <div class="card-block p-2">
+                    <h4 class="card-title tema-webinar text-uppercase">
+                    O papel da liderança em tempos de crise. 
+                    </h4>
+                     <!-- remover este espaço  -->  <div style="height:30px;"></div>
+                      <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
+                    </div>
+                  </div>
+                  <div class="col-md-2 bg-data webinar-mobile">
+                  <a href="https://bit.ly/2CvDX1e" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
               </div>
@@ -373,7 +374,7 @@ de quem precisa ser cuidado
 os materiais técnicos e de divulgação da 
 iniciativa Municípios Contra o Corona.
         </p>
-        <a href="{{route('materiais-download')}}" class="btn btn-material">Acesse e baixe o material</a>
+        <a href="{{route('ferramentas')}}" class="btn btn-material">Acesse e baixe o material</a>
       </div>
     </div>
   </section>

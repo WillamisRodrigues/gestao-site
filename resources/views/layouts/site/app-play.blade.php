@@ -36,6 +36,7 @@
 	<script src="{{asset('playlist/js/jquery.hammer-full.min.js')}}"></script>
 	<script src="{{asset('playlist/js/perfect-scrollbar.jquery.min.js')}}"></script>
 	<script src="{{asset('playlist/js/jquery.vimuse.min.js')}}"></script>
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167899862-1"></script>
 <script>

@@ -7,26 +7,24 @@
     <div>
       <div class="text-center">
         <h2 class="section-intro__title titulo-post">
-        Prefeitura repassa primeira remessa de EPIs a hospitais em Muriaé
+        Instituto Votorantim e BNDES selecionam mais prefeituras para participar do programa Municípios Contra o Novo Coronavírus
         </h2>
         <div class="divisao-4"></div>
-        <h4 class="text-white subtitulo-post">
-          <i>Os mais de 420 mil itens foram doados pelo Instituto Votorantim, através da CBA.</i> 
-        </h4>
-         <p class="text-white"> 05 de junho de 2020 </p>
+         <p class="text-white"> 18 de junho de 2020 </p>
          <div style="height:260px;"></div>
       </div>
     </div>
   </section>
   <section class="container">
-      <img src="{{asset('site/img/post/18.jpg')}}" alt="" class="img-noticia">
+      <img src="{{asset('site/img/post/padrao.jpg')}}" alt="" class="img-noticia">
   </section>
   <section class="container">
         <div class="desc-post">
-        <p>A Prefeitura de Muriaé (MG) fez o repasse da primeira remessa de equipamentos de proteção individual (EPIs) a hospitais da cidade. Os mais de 420 mil itens, entre máscaras cirúrgicas e N 95, aventais impermeáveis e de TNT, álcool em gel, luvas e toucas, foram doados pelo Instituto Votorantim, por meio da CBA. As entregas foram feitas ao Hospital São Paulo, Casa de Saúde Santa Lúcia e Prontocor. </p>
-          <p> O assunto foi destaque no portal G1 Zona da Mata. Confira a matéria:    <a href="https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml" style="word-wrap: break-word;" target="_blank">https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml <a></p>
-        </div>
-      <div style="height:30px;"></div>
+       <p>O Instituto Votorantim e o BNDES anunciam a seleção de 43 novos municípios, dentro da 2ª edição do edital Municípios Contra o Coronavírus, para receber assessoria técnica e especializada para as Prefeituras e para equipes das Secretarias Municipais de Saúde e de Gestão, no apoio para o enfrentamento e no gerenciamento dos efeitos da pandemia de ovid-19. Além dos 43 selecionados, outras 87 cidades já estão participando do programa totalizando 130 municípios apoiados.  </p>
+       <p>O assunto foi destaque no portal Segs. 
+Confira:  <a href="https://www.segs.com.br/demais/236676-instituto-votorantim-e-bndes-selecionam-43-municipios-para-receber-apoio-tecnico-em-gestao-no-enfrentamento-da-covid-19 " style="word-wrap: break-word;" target="_blank">https://www.segs.com.br/demais/236676-instituto-votorantim-e-bndes-selecionam-43-municipios-para-receber-apoio-tecnico-em-gestao-no-enfrentamento-da-covid-19  <a></p>
+       </div>
+      <div style="height:100px;"></div>
       <h2 class="section-intro__title titulo-lista-noticias">Mais Notícias: </h2>
     <div class="divisao-6"></div>
       <div style="height:30px;"></div>

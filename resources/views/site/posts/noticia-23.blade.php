@@ -7,26 +7,23 @@
     <div>
       <div class="text-center">
         <h2 class="section-intro__title titulo-post">
-        Prefeitura repassa primeira remessa de EPIs a hospitais em Muriaé
+        Instituto Votorantim participa de rede voluntária que incentiva a manutenção de respiradores mecânicos em todo o país
         </h2>
         <div class="divisao-4"></div>
-        <h4 class="text-white subtitulo-post">
-          <i>Os mais de 420 mil itens foram doados pelo Instituto Votorantim, através da CBA.</i> 
-        </h4>
-         <p class="text-white"> 05 de junho de 2020 </p>
+         <p class="text-white"> 23 de junho de 2020 </p>
          <div style="height:260px;"></div>
       </div>
     </div>
   </section>
   <section class="container">
-      <img src="{{asset('site/img/post/18.jpg')}}" alt="" class="img-noticia">
+      <img src="{{asset('site/img/post/22.jpg')}}" alt="" class="img-noticia">
   </section>
   <section class="container">
         <div class="desc-post">
-        <p>A Prefeitura de Muriaé (MG) fez o repasse da primeira remessa de equipamentos de proteção individual (EPIs) a hospitais da cidade. Os mais de 420 mil itens, entre máscaras cirúrgicas e N 95, aventais impermeáveis e de TNT, álcool em gel, luvas e toucas, foram doados pelo Instituto Votorantim, por meio da CBA. As entregas foram feitas ao Hospital São Paulo, Casa de Saúde Santa Lúcia e Prontocor. </p>
-          <p> O assunto foi destaque no portal G1 Zona da Mata. Confira a matéria:    <a href="https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml" style="word-wrap: break-word;" target="_blank">https://g1.globo.com/mg/zona-da-mata/noticia/2020/06/05/prefeitura-repassa-primeira-remessa-de-epis-a-hospitais-em-muriae.ghtml <a></p>
-        </div>
-      <div style="height:30px;"></div>
+       <p>A iniciativa é do Senai Cinematec em parceria com o governo do estado da Bahia. No entanto, foi replicada pelo Senai Nacional e já devolveu, até esta terça-feira (23), mais de 1,5 mil de respiradores prontos para o uso a instituições de saúde de todo país. A Bahia lidera a lista, com 209 equipamentos já consertados.</p>
+       <p>O assunto foi destaque no blog Bahia Notícias. Confira:  <a href="https://www.bahianoticias.com.br/noticia/250036-mais-de-15-mil-respiradores-foram-reparados-no-pais-a-partir-de-uma-iniciativa-da-bahia.html" style="word-wrap: break-word;" target="_blank">https://www.bahianoticias.com.br/noticia/250036-mais-de-15-mil-respiradores-foram-reparados-no-pais-a-partir-de-uma-iniciativa-da-bahia.html  <a></p>
+       </div>
+      <div style="height:100px;"></div>
       <h2 class="section-intro__title titulo-lista-noticias">Mais Notícias: </h2>
     <div class="divisao-6"></div>
       <div style="height:30px;"></div>

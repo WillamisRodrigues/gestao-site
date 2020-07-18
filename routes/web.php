@@ -40,7 +40,7 @@ Route::get('/ajax/regioes.html', ['uses' => 'ConteudoController@regioes', 'as' =
 
 
 Route::get('/materiais-download', ['uses' => 'MaterialController@index', 'as' => 'materiais-download']);
-Route::get('/materiais-download/ferramentas', ['uses' => 'MaterialController@ferramentas', 'as' => 'ferramentas']);
+Route::get('/materiais-download/ferramentas/{id?}', ['uses' => 'MaterialController@ferramentas', 'as' => 'ferramentas']);
 Route::post('play/cache/get-cache.php', ['uses' => 'ConteudoController@cache', 'as' => 'get-cache']);
 Route::post('play/cache/get-cache2.php', ['uses' => 'ConteudoController@cache2', 'as' => 'get-cache2']);
 Route::post('play/cache/get-cache3.php', ['uses' => 'ConteudoController@cache3', 'as' => 'get-cache2']);
@@ -67,5 +67,21 @@ Route::get('/posts/manejo-clinico-ventilatorio', ['uses' => 'NoticiaController@p
 Route::get('/posts/pacientes-araraquara', ['uses' => 'NoticiaController@post16', 'as' => 'pacientes-araraquara']);
 Route::get('/posts/epis-hospitais', ['uses' => 'NoticiaController@post17', 'as' => 'epis-hospitais']);
 Route::get('/posts/conhecimento-covid-19', ['uses' => 'NoticiaController@post18', 'as' => 'conhecimento-covid-19']);
+Route::get('/posts/necessidade-isolamento', ['uses' => 'NoticiaController@post19', 'as' => 'necessidade-isolamento']);
+Route::get('/posts/farol-covid', ['uses' => 'NoticiaController@post20', 'as' => 'farol-covid']);
+Route::get('/posts/plataforma-telemedicina', ['uses' => 'NoticiaController@post21', 'as' => 'plataforma-telemedicina']);
+Route::get('/posts/participar-programa', ['uses' => 'NoticiaController@post22', 'as' => 'participar-programa']);
+Route::get('/posts/respiradores-reparados-bahia', ['uses' => 'NoticiaController@post23', 'as' => 'respiradores-reparados-bahia']);
+Route::get('/posts/atendimeno-muriae', ['uses' => 'NoticiaController@post24', 'as' => 'atendimento-muriae']);
+Route::get('/posts/ceara-contemplados', ['uses' => 'NoticiaController@post25', 'as' => 'ceara-contemplados']);
+Route::get('/posts/campanha-doacoes', ['uses' => 'NoticiaController@post26', 'as' => 'campanha-doacoes']);
+Route::get('/posts/pintadas-bahia', ['uses' => 'NoticiaController@post27', 'as' => 'pintadas-bahia']);
+Route::get('/posts/recursos-hospitalares', ['uses' => 'NoticiaController@post28', 'as' => 'recursos-hospitalares']);
+Route::get('/posts/busca-tratamentos', ['uses' => 'NoticiaController@post29', 'as' => 'busca-tratamentos']);
+Route::get('/posts/testes-rapidos', ['uses' => 'NoticiaController@post30', 'as' => 'testes-rapidos']);
+
+Route::get('/posts/cidade-vuneravel-saopaulo', ['uses' => 'NoticiaController@post31', 'as' => 'cidade-vuneravel-saopaulo']);
+Route::get('/posts/contempla-43-cidades', ['uses' => 'NoticiaController@post32', 'as' => 'contempla-43-cidades']);
+Route::get('/posts/estudo-droga-tocilizumabe', ['uses' => 'NoticiaController@post33', 'as' => 'estudo-droga-tocilizumabe']);
 
 Auth::routes();

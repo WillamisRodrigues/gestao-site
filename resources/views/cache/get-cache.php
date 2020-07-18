@@ -2,5 +2,8 @@
     {"title":"Aspectos clínicos e epidemiológicos","type":"youtube","link":"https://www.youtube.com/watch?v=BOhC7RkSbb0","id":1,"duration":"1:07:15","poster":"https://img.youtube.com/vi/BOhC7RkSbb0/hqdefault.jpg"},
     {"title":"Testes disponíveis para diagnóstico de COVID-19 – Indicações e interpretação","type":"youtube","link":"https://www.youtube.com/watch?v=_uj5pn4mEKQ","id":2,"duration":"1:05:10","poster":"https://img.youtube.com/vi/_uj5pn4mEKQ/hqdefault.jpg"},
     {"title":"Como garantir qualidade assistencial e segurança do paciente","type":"youtube","link":"https://www.youtube.com/watch?v=66jEswGxZa4","id":3,"duration":"1:04:57","poster":"https://img.youtube.com/vi/66jEswGxZa4/hqdefault.jpg"},
-    {"title":"Manejo clínico e ventilatório do paciente com covid-19","type":"youtube","link":"https://www.youtube.com/watch?v=gxC-QJRAPjw","id":4,"duration":"1:17:02","poster":"https://img.youtube.com/vi/gxC-QJRAPjw/hqdefault.jpg"}
+    {"title":"Manejo clínico e ventilatório do paciente com covid-19","type":"youtube","link":"https://www.youtube.com/watch?v=gxC-QJRAPjw","id":4,"duration":"1:17:02","poster":"https://img.youtube.com/vi/gxC-QJRAPjw/hqdefault.jpg"},
+    {"title":"Exames de imagem como aliados no diagnóstico e tratamento da covid-19","type":"youtube","link":"https://www.youtube.com/watch?v=BDQugprDczs","id":5,"duration":"1:03:00","poster":"https://img.youtube.com/vi/BDQugprDczs/hqdefault.jpg"},
+    {"title":"Abordagem de gestantes com suspeita ou confirmação de covid-19","type":"youtube","link":"https://www.youtube.com/watch?v=JdRr92KtM_Y","id":6,"duration":"1:03:00","poster":"https://img.youtube.com/vi/JdRr92KtM_Y/hqdefault.jpg"},
+    {"title":"Escolhas Bioéticas","type":"youtube","link":"https://www.youtube.com/watch?v=HaLQB-CDCjI","id":7,"duration":"1:13:06","poster":"https://img.youtube.com/vi/HaLQB-CDCjI/hqdefault.jpg"}
 ]

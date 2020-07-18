@@ -143,4 +143,94 @@ class NoticiaController extends Controller
         $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
         return view('site.posts.noticia-18',compact('noticias'));
     }
+
+    public function post19()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-19',compact('noticias'));
+    }
+
+    public function post20()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-20',compact('noticias'));
+    }
+
+    public function post21()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-21',compact('noticias'));
+    }
+
+    public function post22()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-22',compact('noticias'));
+    }
+
+    public function post23()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-23',compact('noticias'));
+    }
+
+    public function post24()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-24',compact('noticias'));
+    }
+    
+    public function post25()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-25',compact('noticias'));
+    }
+
+    public function post26()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-26',compact('noticias'));
+    }
+
+    public function post27()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-27',compact('noticias'));
+    }
+
+    public function post28()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-28',compact('noticias'));
+    }
+
+    public function post29()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-29',compact('noticias'));
+    }
+
+    public function post30()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-30',compact('noticias'));
+    }
+
+    public function post31()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-31',compact('noticias'));
+    }
+
+    public function post32()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-32',compact('noticias'));
+    }
+
+    public function post33()
+    {
+        $noticias = Noticia::orderBy('created_at','desc')->limit(3)->get();
+        return view('site.posts.noticia-33',compact('noticias'));
+    }
 }

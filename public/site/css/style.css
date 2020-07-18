@@ -1143,7 +1143,8 @@ h3,
 .card-pricing__list {
 	padding: 30px 8px 25px 8px;
     border-bottom: 1px solid #ebebeb;
-    background: #fff;
+	background: #fff;
+	min-height: 325px;
 }
 
 .card-pricing__list li {

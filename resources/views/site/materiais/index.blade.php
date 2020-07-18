@@ -8,6 +8,8 @@
         <div class="container">
         <h2 class="section-intro__title titulo-materiais-apoio">FERRAMENTAS E CONTEÚDOS </h2>
         <div class="divisao-6"></div>
+        <p class="mt-3">Espaço criado para você acessar e baixar todos os materiais 
+         técnicos e de divulgação da iniciativa Municípios Contra o Corona.</p>
         @include('site.materiais.menu.principal')
                <div style="height:100px;"></div>
                <div class="row">

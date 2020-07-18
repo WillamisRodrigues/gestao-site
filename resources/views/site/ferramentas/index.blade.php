@@ -8,9 +8,12 @@
         <div class="container">
         <h2 class="section-intro__title titulo-materiais-apoio">FERRAMENTAS E CONTEÚDOS </h2>
         <div class="divisao-6"></div>
+        <p class="mt-3">Espaço criado para você acessar e baixar todos os materiais 
+         técnicos e de divulgação da iniciativa Municípios Contra o Corona.</p>
         @include('site.materiais.menu.principal')
                <div style="height:100px;"></div>
                <div class="row">
+                 
                    <div class="col-md-3">
                    <ul class="list-group sticky-top mb-4" style="z-index:0!important; padding-top:110px;">
                       <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -43,6 +46,8 @@
                     @if(sizeof($eixos) > 0)
                       <h2>{{$titulo}}</h2>
                       <hr>
+                      <p> Ferramentas de apoio à gestão aos municípios no combate à pandemia, 
+                      dividas em 5 eixos: Governança, Comunicação, Vigilância, Assistência e Impactos Fiscais. </p>
                         <!-- Row -->
                         <div class="row">
                         @foreach($eixos as $eixo)
@@ -53,7 +58,7 @@
                                 <!-- Card -->
                                 <div class="card">
                                     <img class="card-img-top img-fluid" src="{{asset('site/img/materiais/'.$eixo->imagem)}}" alt="Card image cap">
-                                    <div class="card-body">
+                                    <div class="card-body" style="min-height: 400px!important;">
                                     <h4 class="card-title titulo-item-noticia"> <strong> {{$eixo->titulo}} </strong> </h4>
                                         <p class="card-text desc-material-down">{{$eixo->descricao}} </p>
                                         @if($eixo->tipo == 1)

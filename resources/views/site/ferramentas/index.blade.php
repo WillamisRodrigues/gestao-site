@@ -46,8 +46,7 @@
                     @if(sizeof($eixos) > 0)
                       <h2>{{$titulo}}</h2>
                       <hr>
-                      <p> Ferramentas de apoio à gestão aos municípios no combate à pandemia, 
-                      dividas em 5 eixos: Governança, Comunicação, Vigilância, Assistência e Impactos Fiscais. </p>
+                      <p> {{$desc}} </p>
                         <!-- Row -->
                         <div class="row">
                         @foreach($eixos as $eixo)

@@ -83,5 +83,6 @@ Route::get('/posts/testes-rapidos', ['uses' => 'NoticiaController@post30', 'as' 
 Route::get('/posts/cidade-vuneravel-saopaulo', ['uses' => 'NoticiaController@post31', 'as' => 'cidade-vuneravel-saopaulo']);
 Route::get('/posts/contempla-43-cidades', ['uses' => 'NoticiaController@post32', 'as' => 'contempla-43-cidades']);
 Route::get('/posts/estudo-droga-tocilizumabe', ['uses' => 'NoticiaController@post33', 'as' => 'estudo-droga-tocilizumabe']);
+Route::get('/posts/programa-inteligencia-artificial', ['uses' => 'NoticiaController@post34', 'as' => 'programa-inteligencia-artificial']);
 
 Auth::routes();

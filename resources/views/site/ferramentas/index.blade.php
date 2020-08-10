@@ -9,13 +9,13 @@
         <h2 class="section-intro__title titulo-materiais-apoio">FERRAMENTAS E CONTEÚDOS </h2>
         <div class="divisao-6"></div>
         <p class="mt-3">Espaço criado para você acessar e baixar todos os materiais 
-         técnicos e de divulgação da iniciativa Municípios Contra o Corona.</p>
+        técnicos e de divulgação da iniciativa Municípios Contra o Coronavírus.</p>
         @include('site.materiais.menu.principal')
-               <div style="height:100px;"></div>
+               <div style="height:100px;" class="mobile-espaco-2"></div>
                <div class="row">
                  
                    <div class="col-md-3">
-                   <ul class="list-group sticky-top mb-4" style="z-index:0!important; padding-top:110px;">
+                   <ul class="list-group sticky-top mb-4 mobile-espaco" style="z-index:0!important; padding-top:110px;">
                       <li class="list-group-item d-flex justify-content-between align-items-center">
                        <a href="{{route('ferramentas')}}"> Todos </a>
                         <span class="badge badge-primary badge-pill">{{$eixo}}</span>

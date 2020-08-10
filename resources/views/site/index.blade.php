@@ -12,7 +12,6 @@
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner" role="listbox" >
   <div class="carousel-item active">
@@ -20,7 +19,18 @@
         <a href="{{route('ferramentas')}}">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/11.jpg')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade11.jpg')}}"
+            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade12.jpg')}}"
+          alt="First slide">
+        </a>
+      </div>
+    </div>
+     <div class="carousel-item">
+      
+      <div class="view">
+        <a href="https://bit.ly/2CvDX1e" target="_blank">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/12.jpg')}}"
+          alt="First slide">
+            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade13.jpg')}}"
           alt="First slide">
         </a>
       </div>
@@ -47,17 +57,6 @@
           alt="First slide">
         </a>
         <div class="mask rgba-black-slight"></div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <a href="https://bit.ly/3fpSIRP" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/10.jpg')}}"
-          alt="First slide">
-            <img class="d-block w-100 slide-mobile"  src="{{asset('site/img/banner/mobilidade10.jpg')}}"
-          alt="First slide">
-        </a>
       </div>
     </div>
   </div>
@@ -301,58 +300,60 @@ de quem precisa ser cuidado
             <div class="col-md-1"></div>
             <div class="col-lg-8 ml-4 ml-mobile">
               
-                <div class="row mb-2  espaco-mobile">
+                <!-- <div class="row mb-2  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 23/07 </h3>
+                  <h3 class="data"> 06/08 </h3>
                     <h3 class="desc-data">Quinta-Feira - 16h</h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                     <h4 class="card-title tema-webinar text-uppercase">
-                    Impactos Fiscais: controle de despesas e receitas durante a crise
+                    O Papel da Liderança em tempos de crise
                     </h4>
+                    <div style="height:30px;"></div>
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/32fijZK" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/2CvDX1e" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
-                </div>
+                </div> -->
                 <div class="row mb-2 espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
                    <!-- remover este espaço <div style="height:20px;" class="espaco-mobile slide-pc"></div>-->
-                    <h3 class="data"> 30/07 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 16h </h3>
+                    <h3 class="data"> 13/08 </h3>
+                    <h3 class="desc-data">Quinta-Feira - 17h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                       <h4 class="card-title tema-webinar text-uppercase">
-                      Como retomar a rotina dos serviços de saúde pós-pandemia.
+                      O Papel da Liderança 
+em Tempos de Crise
                       </h4>
-                      <!-- remover este espaço <div style="height:30px;"></div> --> 
+                      <div style="height:30px;"></div> 
                       
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/3fpSIRP" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                    <a href="https://bit.ly/2CvDX1e" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
                 <div class="row mb-2  espaco-mobile">
                   <div class="col-md-3 data webinar-mobile">
-                  <!-- remover este espaço <div style="height:20px;" class="espaco-mobile slide-pc"></div> -->
-                  <h3 class="data"> 06/08 </h3>
+                  <div style="height:20px;" class="espaco-mobile slide-pc"></div>
+                  <h3 class="data"> 20/08 </h3>
                     <h3 class="desc-data">Quinta-Feira - 16h </h3>
                    </div>
                   <div class="col-md-7 bg-data webinar-mobile">
                     <div class="card-block p-2">
                     <h4 class="card-title tema-webinar text-uppercase">
-                    O papel da liderança em tempos de crise. 
+                    Retomada econômica: como os municípios podem se adaptar ao novo cenário macro econômico pós covid-19
                     </h4>
                      <!-- remover este espaço  -->  <div style="height:30px;"></div>
                       <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
                     </div>
                   </div>
                   <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2CvDX1e" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
+                  <a href="https://bit.ly/32gcxY6" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
                   </div>
                 </div>
               </div>

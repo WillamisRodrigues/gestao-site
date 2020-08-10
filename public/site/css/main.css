@@ -659,6 +659,12 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .mobile-espaco{
+        padding-top: 0px!important;
+    }
+    .mobile-espaco-2{
+        height: 20px!important;
+    }
     .atuacao{
         font-size: 16pt!important;
     }

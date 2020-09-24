@@ -84,5 +84,10 @@ Route::get('/posts/cidade-vuneravel-saopaulo', ['uses' => 'NoticiaController@pos
 Route::get('/posts/contempla-43-cidades', ['uses' => 'NoticiaController@post32', 'as' => 'contempla-43-cidades']);
 Route::get('/posts/estudo-droga-tocilizumabe', ['uses' => 'NoticiaController@post33', 'as' => 'estudo-droga-tocilizumabe']);
 Route::get('/posts/programa-inteligencia-artificial', ['uses' => 'NoticiaController@post34', 'as' => 'programa-inteligencia-artificial']);
+Route::get('/posts/papel-lideranca', ['uses' => 'NoticiaController@post35', 'as' => 'papel-lideranca']);
+Route::get('/posts/ebook-recursos', ['uses' => 'NoticiaController@post36', 'as' => 'ebook-recursos']);
+Route::get('/posts/retomada-economica', ['uses' => 'NoticiaController@post37', 'as' => 'retomada-economica']);
+Route::get('/posts/ebook-auxiliar', ['uses' => 'NoticiaController@post38', 'as' => 'ebook-auxiliar']);
+Route::get('/teste', ['uses' => 'HomeController@teste', 'as' => 'teste']);
 
 Auth::routes();

@@ -9,6 +9,7 @@
 			<div class="titulo-noticia">
       <h2 class="section-intro__title titulo-lista-noticias">Webinar</h2>
 		<div class="divisao-6"></div>
+    <input type="text" data-item="2">
 		<p class="desc-sobrewebinars">
 		O Instituto Votorantim, em parceria com a BP - 
 		A Beneficência Portuguesa de São Paulo, realiza semanalmente webinars 

@@ -6,5 +6,7 @@
     {"title":"Tecnologia em Saúde: construindo uma estratégia digital de sucesso","type":"youtube","link":"https://www.youtube.com/watch?v=VB84dydclDI","id":5,"duration":"01:10:01","poster":"https://img.youtube.com/vi/VB84dydclDI/hqdefault.jpg"},
     {"title":"Adequação dos espaços físicos e segurança nos controles de acesso durante pandemias","type":"youtube","link":"https://www.youtube.com/watch?v=ot4FdZgngWE","id":6,"duration":"01:10:02","poster":"https://img.youtube.com/vi/ot4FdZgngWE/hqdefault.jpg"},
     {"title":"Controle de despesas e receitas durante a crise","type":"youtube","link":"https://www.youtube.com/watch?v=D6ztGbQT1oU","id":7,"duration":"00:54:23","poster":"https://img.youtube.com/vi/D6ztGbQT1oU/hqdefault.jpg"},
-    {"title":"Como retomar a rotina dos serviços de saúde pós-pandemia","type":"youtube","link":"https://www.youtube.com/watch?v=W9lPVT4TOSM","id":8,"duration":"00:55:29","poster":"https://img.youtube.com/vi/W9lPVT4TOSM/hqdefault.jpg"}
+    {"title":"Como retomar a rotina dos serviços de saúde pós-pandemia","type":"youtube","link":"https://www.youtube.com/watch?v=W9lPVT4TOSM","id":8,"duration":"00:55:29","poster":"https://img.youtube.com/vi/W9lPVT4TOSM/hqdefault.jpg"},
+    {"title":"O papel da liderança em tempos de crise","type":"youtube","link":"https://www.youtube.com/watch?v=7u0P2QCTV_w","id":9,"duration":"01:00:28","poster":"https://img.youtube.com/vi/7u0P2QCTV_w/hqdefault.jpg"},
+    {"title":"Retomada econômica: como os municípios podem se adaptar ao novo cenário macro econômico pós covid-19","type":"youtube","link":"https://www.youtube.com/watch?v=dp4tbEHvst0","id":10,"duration":"01:07:16","poster":"https://img.youtube.com/vi/dp4tbEHvst0/hqdefault.jpg"}
 ]

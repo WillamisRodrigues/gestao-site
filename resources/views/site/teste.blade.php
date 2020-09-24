@@ -11,20 +11,10 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
   </ol>
   <div class="carousel-inner" role="listbox" >
   <div class="carousel-item active">
-      <div class="view">
-        <a href="https://programacidadania.org.br/" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/0.1.jpg')}}"
-          alt="First slide">
-            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobidade0.1.jpg')}}"
-          alt="First slide">
-        </a>
-      </div>
-    </div>
-    <div class="carousel-item">
       <div class="view">
         <a href="{{route('ferramentas')}}">
         <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/11.jpg')}}"
@@ -286,93 +276,65 @@ para conter a crise econômica no municípios.
     </section>
   <section class="webinar" id="webinar">
     <div class="container">
-      <div class="section-intro pb-85px text-center">
-        <h2 class="section-intro__title titulo-webinar">Webinars</h2>
+      <div class="section-intro text-center">
+        <h2 class="section-intro__title titulo-webinar">CONFIRA NOSSOS Webinars</h2>
         <div class="divisao-3"></div>
         <p class="section-intro__subtitle desc-webinar">O Instituto Votorantim, em parceria com a BP - A Beneficência Portuguesa de São Paulo
 realiza semanalmente videoconferências com temas relacionados à gestão da saúde em
 época de crise. Confira a agenda e inscreva-se:</p>
       </div>
-
-      <div class="row">
-        <div class="col-lg-1"></div>
-           <!-- <div class="col-lg-4">
-             <img src="{{asset('site/img/webinar-destaque.png')}}" alt="" class="img-destque">
-              <h3 class="titulo-destaque-webinar mt-2"> 05/05 | terça-feira</h3>
-              <p class="desc-destaque-webinar">Saúde do trabalhador
-cuidando dos profissionais
-da Saúde para que cuidem
-de quem precisa ser cuidado
-              </p>
-              <a href="" class="btn-inscreva-webinar"> Inscrevar-se </a>
-              <div class="mobile"></div>
-            </div> -->
-            <div class="col-md-1"></div>
-            <div class="col-lg-8 ml-4 ml-mobile">
-              
-                <!-- <div class="row mb-2  espaco-mobile">
-                  <div class="col-md-3 data webinar-mobile">
-                  <h3 class="data"> 06/08 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 16h</h3>
-                   </div>
-                  <div class="col-md-7 bg-data webinar-mobile">
-                    <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar text-uppercase">
-                    O Papel da Liderança em tempos de crise
-                    </h4>
-                    <div style="height:30px;"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/2CvDX1e" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
-                  </div>
-                </div> -->
-                <div class="row mb-2 espaco-mobile">
-                  <div class="col-md-3 data webinar-mobile">
-                   <!-- remover este espaço <div style="height:20px;" class="espaco-mobile slide-pc"></div>-->
-                    <h3 class="data"> 13/08 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 17h </h3>
-                   </div>
-                  <div class="col-md-7 bg-data webinar-mobile">
-                    <div class="card-block p-2">
-                      <h4 class="card-title tema-webinar text-uppercase">
-                      O Papel da Liderança 
-em Tempos de Crise
-                      </h4>
-                      <div style="height:30px;"></div> 
-                      
-                    </div>
-                  </div>
-                  <div class="col-md-2 bg-data webinar-mobile">
-                    <a href="https://bit.ly/2CvDX1e" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
-                  </div>
-                </div>
-                <div class="row mb-2  espaco-mobile">
-                  <div class="col-md-3 data webinar-mobile">
-                  <div style="height:20px;" class="espaco-mobile slide-pc"></div>
-                  <h3 class="data"> 20/08 </h3>
-                    <h3 class="desc-data">Quinta-Feira - 16h </h3>
-                   </div>
-                  <div class="col-md-7 bg-data webinar-mobile">
-                    <div class="card-block p-2">
-                    <h4 class="card-title tema-webinar text-uppercase">
-                    Retomada econômica: como os municípios podem se adaptar ao novo cenário macro econômico pós covid-19
-                    </h4>
-                     <!-- remover este espaço  -->  <div style="height:30px;"></div>
-                      <!-- <p class="card-text desc-tema-webinar">DESAFIOS E SOLUÇÕES</p> -->
-                    </div>
-                  </div>
-                  <div class="col-md-2 bg-data webinar-mobile">
-                  <a href="https://bit.ly/32gcxY6" target="_blank" class="btn btn-como-foi">INSCREVA-SE</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4"></div>
-              <div class="col-md-4 mt-4">
-                <a href="{{url('play/aspectos')}}" class="btn btn-mais-webinar">Confira os webinars já realizados</a>
-                  </div>
-              </div>
+      <div class="row area-noticia">
+     
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <img width="100%" src="{{asset('site/img/noticias/33.jpg')}}" alt="">
+            </div>
+            <ul class="card-pricing__list">
+              <h2 class="section-intro__title titulo-item-noticia">Aspectos Clínicos</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nam magnam iusto assumenda ipsa illum, vitae asperiores quis delectus. 
+              Nam inventore fuga dolorem dicta officia voluptatibus dignissimos similique itaque reiciendis.
+                 
+            </p>
+            <a href="{{url('play/aspectos')}}" class="btn btn-leia-mais"> <i class="fa fa-play"></i> Assistir</a>
+            </ul>
+          </div>
         </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <img width="100%" src="{{asset('site/img/noticias/33.jpg')}}" alt="">
+            </div>
+            <ul class="card-pricing__list">
+              <h2 class="section-intro__title titulo-item-noticia">Gestão da saúde e liderança na  Pandemia</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nam magnam iusto assumenda ipsa illum, vitae asperiores quis delectus. 
+              Nam inventore fuga dolorem dicta officia voluptatibus dignissimos similique itaque reiciendis.
+                 
+            </p>
+            <a href="{{url('play/gestao')}}" class="btn btn-leia-mais"> <i class="fa fa-play"></i> Assistir</a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card text-center card-pricing">
+            <div class="card-pricing__header">
+              <img width="100%" src="{{asset('site/img/noticias/33.jpg')}}" alt="">
+            </div>
+            <ul class="card-pricing__list">
+              <h2 class="section-intro__title titulo-item-noticia">Cuidados com a equipe</h2>
+              <p class="section-intro__subtitle desc-noticia">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nam magnam iusto assumenda ipsa illum, vitae asperiores quis delectus. 
+              Nam inventore fuga dolorem dicta officia voluptatibus dignissimos similique itaque reiciendis.
+                 
+            </p>
+            <a href="{{url('play/saude')}}" class="btn btn-leia-mais"> <i class="fa fa-play"></i> Assistir</a>
+            </ul>
+          </div>
+        </div>
+     
+
       </div>
     </div>
   </section>

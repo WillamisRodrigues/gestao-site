@@ -19,8 +19,15 @@
               <li class="nav-item"><a class="nav-link" href="#telemedicina">TELEMEDICINA</a></li> 
               <li class="nav-item"><a class="nav-link" href="#webinar">WEBINARS</a></li> 
               <li class="nav-item"><a class="nav-link" href="#material">FERRAMENTAS E CONTEÚDOS</a></li>
-              <li class="nav-item menu-mobile"><a class="nav-link" href="#ivm">ÍNDICE DE VULNERABILIDADE MUNICIPAL (IVM)</a></li> 
-              <li class="nav-item"><a class="nav-link tooltip-inner" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<p class='titulo-ivm'> ÍNDICE DE VULNERABILIDADE MUNICIPAL</p>" href="#ivm">IVM</a></li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ÍNDICES
+        </a>
+        <div class="dropdown-menu" id="menu-drop">
+          <a class="dropdown-item" href="#ivm" style="font-size:9pt;"> <strong> ÍNDICE DE VULNERABILIDADE MUNICIPAL (IVM) </strong> </a>
+          <a class="dropdown-item" style="font-size:9pt;" href="http://www.institutovotorantim.org.br/municipioscontraocorona/ido/" target="_blank"><strong> ÍNDICE DE DESIGUALDADE DA OFERTA (IDO) </strong> </a>
+        </div>
+      </li>
               <li class="nav-item"><a class="nav-link" href="#noticias">NOTÍCIAS</a></li>
             </ul>
           </div> 

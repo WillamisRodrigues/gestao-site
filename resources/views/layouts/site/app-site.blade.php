@@ -29,6 +29,7 @@
   <script src="{{asset('site/js/mail-script.js')}}"></script>
   <script src="{{asset('site/js/main.js')}}"></script>
   <script src="{{asset('svg/mapa.js')}}"></script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167899862-1"></script>
 <script>
@@ -61,6 +62,15 @@ $('.navegacao').on('click', function(e) {
   }, 500);
 });
 </script>
+
+<script>
+  $(".dropdown").mouseover(function(){
+    $("#menu-drop").addClass("show");
+});
+$(".dropdown").mouseout(function(){
+    $("#menu-drop").removeClass("show");
+});
+  </script>
 <script>
   jQuery("input.telefone")
         .mask("(99) 9999-9999?9")

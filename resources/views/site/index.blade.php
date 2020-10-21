@@ -16,10 +16,10 @@
   <div class="carousel-inner" role="listbox" >
   <div class="carousel-item active">
       <div class="view">
-        <a href="https://programacidadania.org.br/" target="_blank">
-        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/0.1.jpg')}}"
+        <a href="http://www.institutovotorantim.org.br/municipioscontraocorona/ido/" target="_blank">
+        <img class="d-block w-100 slide-pc" src="{{asset('site/img/banner/14.png')}}"
           alt="First slide">
-            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobidade0.1.jpg')}}"
+            <img class="d-block w-100 slide-mobile" src="{{asset('site/img/banner/mobilidade15.png')}}"
           alt="First slide">
         </a>
       </div>

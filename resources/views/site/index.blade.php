@@ -140,13 +140,15 @@
             </div>
           </div>
           <p class="subtitulo-quem-somos mt-2 area-desc-link">
-          Além disso, para apoiar essa e outras iniciativas voltadas à contenção 
-          da pandemia, o Instituto Votorantim desenvolveu o IVM - 
-          Índice de Vulnerabilidade Municipal, uma régua de avaliação sobre as 
-          fragilidades da saúde municipal dos territórios brasileiros. <br>
-          Conheça mais sobre o índice acessando  
+          Além disso, para apoiar essa e outras iniciativas voltadas à contenção da pandemia, o Instituto Votorantim desenvolveu índices que contribuem para o acompanhamento dos municípios:
+  <br> IVM – Índice de Vulnerabilidade Municipal, uma régua de avaliação sobre as fragilidades da saúde municipal dos territórios brasileiros.  
           <a href="http://institutovotorantim.org.br/municipioscontraocorona/ivm" style="word-wrap: break-word;" target="_blank" class="text-white">
-            http://institutovotorantim.org.br/municipioscontraocorona/ivm/
+          <span style="font-weight:900!important;"> Clique aqui e conheça. </span>
+</span></a> <br>
+IDO – Índice de Desigualdade da Oferta, uma ferramenta de dados para 
+apoiar os municípios na gestão de equipamentos de saúde. Para saber mais,
+<a href="http://institutovotorantim.org.br/municipioscontraocorona/ido" style="word-wrap: break-word;" target="_blank" class="text-white">
+          Clique aqui
 </span></a>
 </p>
           

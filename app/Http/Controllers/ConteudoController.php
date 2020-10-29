@@ -120,7 +120,8 @@ class ConteudoController extends Controller
     }
 
     public function estados(){
-        return view('site.municipio.ajax.index');
+        $teste = "Will";
+        return view('site.municipio.ajax.index',compact("teste"));
     }
 
     public function regioes(){
